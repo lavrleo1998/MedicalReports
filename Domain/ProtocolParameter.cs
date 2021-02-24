@@ -12,6 +12,5 @@ namespace Domain
         {
             Templates = new HashSet<Template>(); 
         }
-
     }
 }

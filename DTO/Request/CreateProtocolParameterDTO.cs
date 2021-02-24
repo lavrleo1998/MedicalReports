@@ -6,5 +6,6 @@ namespace DTO.Request
 {
     public class CreateProtocolParameterDTO
     {
+        public string Name { get; set; }
     }
 }
