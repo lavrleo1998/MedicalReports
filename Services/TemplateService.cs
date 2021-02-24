@@ -72,7 +72,6 @@ namespace Services
                 .FirstOrDefault();
             templ.Text = TemplateText;
             TemplateProvider.Update(templ);
-
         }
     }
 }

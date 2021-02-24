@@ -16,14 +16,24 @@ namespace WindowsFormsApp1
         public Form1()
         {
             InitializeComponent();
+            Controller.FillIn(comboBox1, 1);
+            Controller.FillIn(comboBox2, 2);
+            Controller.FillIn(comboBox3, 3);
+            Controller.FillIn(comboBox4, 4);
+            Controller.FillIn(comboBox5, 5);
 
 
+        }
 
-            List<string> list = new List<string>();
-            front.FillIn(combox1, 2);
+        private void comboBox1_SelectedValueChanged(object sender, EventArgs e)
+        {
+            richTextBox1.Text = comboBox1.Text;
+        }
 
-
-
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Controller.newTempl(richTextBox1.Text, 1);
+            Controller.FillIn(comboBox1, 1);
         }
     }
 }

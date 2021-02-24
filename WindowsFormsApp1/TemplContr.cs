@@ -1,10 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Services;
-using System;
 using System.Collections.Generic;
-using System.Text;
-
-namespace Controller
+namespace WindowsFormsApp1
 {
     public static class TemplContr
     {

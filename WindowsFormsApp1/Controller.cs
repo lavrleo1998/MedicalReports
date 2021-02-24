@@ -1,5 +1,4 @@
-﻿using Controller;
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
 using Services;
 using System;
 using System.Collections.Generic;
@@ -8,7 +7,7 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public static class front
+    public static class Controller
     {
         
         public static void FillIn(ComboBox combobox, long protParmId)
@@ -18,5 +17,15 @@ namespace WindowsFormsApp1
             combobox.DisplayMember = "Name";
             combobox.ValueMember = "";
         }
+
+        public static void newTempl (string text, long protParmId)
+        {
+            TemplContr.Add(text, protParmId);
+        }
+
+
+
+
+
     }
 }
