@@ -66,7 +66,13 @@ namespace Services
 
         public void UpdateById(string TemplateText, long TemplateId)
         {
-            throw new System.NotImplementedException();
+            var templ = TemplateProvider
+                .GetAll()
+                .Where(x => x.Id == TemplateId)
+                .FirstOrDefault();
+            templ.Text = TemplateText;
+            TemplateProvider.Update(templ);
+
         }
     }
 }

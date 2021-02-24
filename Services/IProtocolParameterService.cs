@@ -10,6 +10,6 @@ namespace Services
         ProtocolParameter GetById(long ProtParamId);
         List<Template> GetWhisTemplate(long ProtParamId);
         void RemoveById(long ProtParamId);
-        void UpdateById(long ProtParamId);
+        void UpdateById(long ProtParamId, string NewName);
     }
 }

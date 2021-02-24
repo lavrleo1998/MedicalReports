@@ -1,5 +1,4 @@
-﻿
-using Domain;
+﻿using Domain;
 using DTO.Request;
 using Microsoft.EntityFrameworkCore;
 using Repository.ProtocolParameterProvider;
@@ -33,8 +32,8 @@ namespace Services
 
         public ProtocolParameter GetById(long ProtParamId)
         {
-            var protocolParameter = ProtocolParameterProvider.
-                GetAll()
+            var protocolParameter = ProtocolParameterProvider
+                .GetAll()
                 .Where(x => x.Id == ProtParamId)
                 .FirstOrDefault();
             return protocolParameter;
@@ -42,8 +41,8 @@ namespace Services
         public List<Template> GetWhisTemplate(long ProtParamId)
         {
             var templates = new List<Template>();
-            var templatesICollection = ProtocolParameterProvider.
-               GetAll()
+            var templatesICollection = ProtocolParameterProvider
+               .GetAll()
                .Include(x => x.Templates)
                .Where(x => x.Id == ProtParamId)
                .Select(x => x.Templates).ToList();
@@ -56,13 +55,13 @@ namespace Services
             return templates;
 
         }
-        public void UpdateById(long ProtParamId)
+        public void UpdateById(long ProtParamId, string NewName)
         {
-            var protocolParameter = ProtocolParameterProvider.
-               GetAll()
+            var protocolParameter = ProtocolParameterProvider
+               .GetAll()
                .Where(x => x.Id == ProtParamId)
                .FirstOrDefault();
-            protocolParameter.Name = "";
+            protocolParameter.Name = NewName;
             ProtocolParameterProvider.Update(protocolParameter);
         }
     }
