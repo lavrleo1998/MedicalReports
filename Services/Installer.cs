@@ -1,5 +1,5 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using Repository.ProtocolParameterProvider;
+using Repository.ParamProvider;
 using Repository.TemplateProvider;
 using Repository.Repository;
 using Storage;
@@ -13,8 +13,8 @@ namespace Services
         {
             var serviceConllection = new ServiceCollection()
                 .AddDbContext<AppDbContext>()
-                .AddScoped<IProtocolParameterService, ProtocolParameterService>()
-                .AddScoped<IProtocolParameterProvider, ProtocolParameterProvider>()
+                .AddScoped<IParamService, ParamService>()
+                .AddScoped<IParamProvider, ParamProvider>()
                 .AddScoped<ITemplateService, TemplateService>()
                 .AddScoped<ITemplateProvider, TemplateProvider>();
             return serviceConllection.BuildServiceProvider();

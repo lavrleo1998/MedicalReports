@@ -21,8 +21,6 @@ namespace WindowsFormsApp1
             Controller.FillIn(comboBox3, 3);
             Controller.FillIn(comboBox4, 4);
             Controller.FillIn(comboBox5, 5);
-
-
         }
 
         private void comboBox1_SelectedValueChanged(object sender, EventArgs e)

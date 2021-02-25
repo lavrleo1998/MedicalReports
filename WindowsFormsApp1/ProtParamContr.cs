@@ -8,7 +8,7 @@ namespace WindowsFormsApp1
         private void Init()
         {
             var scope = Installer.Init();
-            var protParamService = scope.GetRequiredService<IProtocolParameterService>();
+            var protParamService = scope.GetRequiredService<IParamService>();
         }
         public void Add(string text)
         {
