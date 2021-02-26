@@ -1,8 +1,8 @@
 ﻿using Domain;
-using Repository.Repository;
+using Repository;
 
 
-namespace Repository.TemplateProvider
+namespace Repository
 {
     public interface ITemplateProvider : IRepository<Template>
     {

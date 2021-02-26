@@ -1,8 +1,8 @@
 ﻿using Domain;
-using Repository.Repository;
+using Repository;
 using Storage;
 
-namespace Repository.ParamProvider
+namespace Repository
 {
     public class ParamProvider : Repository<Param>, IParamProvider
     {
