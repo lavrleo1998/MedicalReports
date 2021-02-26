@@ -22,7 +22,7 @@ namespace WindowsFormsApp1
         public static List<string> GiveMeTemplTexts(long protParmId)
         {
             var templateService = Init();
-            var templates = templateService.GetAllByPPId(protParmId);
+            var templates = templateService.GetAll(protParmId);
             var texts = new List<string>();
             foreach (var template in templates)
             {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Services
 {
-    interface IParamService
+    public interface IParamService
     {
         void Create(string name);
         Param GetById(long paramId);
