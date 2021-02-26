@@ -1,7 +1,7 @@
 ﻿using Domain;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using Repository.ParamProvider;
+using Repository;
 using System.Collections.Generic;
 using System.Linq;
 

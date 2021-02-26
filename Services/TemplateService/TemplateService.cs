@@ -1,6 +1,6 @@
 ﻿using Domain;
 using Microsoft.Extensions.DependencyInjection;
-using Repository.TemplateProvider;
+using Repository;
 using System.Collections.Generic;
 using System.Linq;
 

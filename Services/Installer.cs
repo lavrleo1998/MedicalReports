@@ -1,7 +1,5 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using Repository.ParamProvider;
-using Repository.TemplateProvider;
-using Repository.Repository;
+using Repository;
 using Storage;
 using Services;
 
