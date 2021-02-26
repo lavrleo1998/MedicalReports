@@ -4,7 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 
-namespace Repository.Repository
+namespace Repository
 {
     public interface IRepository<T>
     {

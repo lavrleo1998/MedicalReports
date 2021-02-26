@@ -1,8 +1,8 @@
 ﻿using Domain;
-using Repository.Repository;
+using Repository;
 using Storage;
 
-namespace Repository.TemplateProvider
+namespace Repository
 {
     public class TemplateProvider : Repository<Template>, ITemplateProvider
     {

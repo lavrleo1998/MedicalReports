@@ -16,7 +16,7 @@ namespace WindowsFormsApp1
         {
             var scope = Installer.Init();
             var templService = scope.GetRequiredService<ITemplateService>();
-            templService.CreateById(text, protParmId);
+            templService.Create(text, protParmId);
 
         }
         public static List<string> GiveMeTemplTexts(long protParmId)

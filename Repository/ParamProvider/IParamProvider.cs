@@ -1,8 +1,8 @@
 ﻿using Domain;
-using Repository.Repository;
+using Repository;
 
 
-namespace Repository.ParamProvider
+namespace Repository
 {
     public interface IParamProvider : IRepository<Param>
     {
