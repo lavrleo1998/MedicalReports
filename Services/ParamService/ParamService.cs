@@ -18,7 +18,7 @@ namespace Services
         /// Глобальные переменные
         /// </summary>
         private static ServiceProvider scope = Installer.Init();
-        private ITemplateService TemplateService = scope.GetRequiredService<ITemplateService>();
+        private static ITemplateService TemplateService = scope.GetRequiredService<ITemplateService>();
 
 
         /// <summary>
@@ -47,7 +47,7 @@ namespace Services
                 .GetAll()
                 .Where(x => x.Id == paramId)
                 .FirstOrDefault()
-                ?? throw new System.Exception("Параметр не найдет");
+                ;
 
             TemplateService.RemoveAll(paramId);
             ParamProvider.Remove(protocolParameter);
@@ -65,7 +65,7 @@ namespace Services
                 .GetAll()
                 .Where(x => x.Id == paramId)
                 .FirstOrDefault()
-                ?? throw new System.Exception("Параметр не найдет");
+                ;
             return param;
         }
 
@@ -80,7 +80,7 @@ namespace Services
                 .GetAll()
                 .Where(x => x.Name == Name)
                 .FirstOrDefault()
-                ?? throw new System.Exception("Параметр не найдет");
+                ;
             return param;
         }
 
@@ -97,7 +97,7 @@ namespace Services
                .Include(x => x.Templates)
                .Where(x => x.Id == paramId)
                .Select(x => x.Templates).ToList()
-               ?? throw new System.Exception("Параметр не найдет");
+               ;
 
             foreach (var item in templatesICollection)
             {
@@ -118,7 +118,7 @@ namespace Services
                .GetAll()
                .Where(x => x.Id == paramId)
                .FirstOrDefault()
-               ?? throw new System.Exception("Параметр не найдет");
+               ;
             param.Name = NewName;
             ParamProvider.Update(param);
             ParamProvider.SaveChanges();

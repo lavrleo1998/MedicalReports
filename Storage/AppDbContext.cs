@@ -1,5 +1,6 @@
 ﻿using Domain;
 using Microsoft.EntityFrameworkCore;
+using System.IO;
 
 namespace Storage
 {
@@ -7,10 +8,20 @@ namespace Storage
     {
         public DbSet<Param> Params { get; set; }
         public DbSet<Template> Templates { get; set; }
-        
-            protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=LAVRLEO-HP\\SQLEXPRESS;Database=MedicalReportsBD;Trusted_Connection=True;");
+            string path = @"ConnectionString.txt";
+            //string connectionString = "Server=LAVRLEO-HP\\SQLEXPRESS;Database=MedicalReportsBD;Trusted_Connection=True;";
+            string connectionString = "";
+
+            using (StreamReader sr = new StreamReader(path))
+            {
+
+                connectionString = sr.ReadToEnd();
+            }
+
+            optionsBuilder.UseSqlServer(connectionString);
         }
     }
-} 
+}

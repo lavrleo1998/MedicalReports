@@ -5,24 +5,19 @@ namespace WindowsFormsApp1
 {
     public static class TemplContr
     {
-        private static ITemplateService Init()
-        {
-            var scope = Installer.Init();
-            var templService = scope.GetRequiredService<ITemplateService>();
-            return templService;
-        }
+
+        private static ServiceProvider scope = Installer.Init();
+        private static ITemplateService TemplateService = scope.GetRequiredService<ITemplateService>();
 
         public static void Add(string text, long protParmId)
         {
-            var scope = Installer.Init();
-            var templService = scope.GetRequiredService<ITemplateService>();
-            templService.Create(text, protParmId);
+
+            TemplateService.Create(text, protParmId);
 
         }
         public static List<string> GiveMeTemplTexts(long protParmId)
         {
-            var templateService = Init();
-            var templates = templateService.GetAll(protParmId);
+            var templates = TemplateService.GetAll(protParmId);
             var texts = new List<string>();
             foreach (var template in templates)
             {
@@ -30,5 +25,6 @@ namespace WindowsFormsApp1
             }
             return texts;
         }
+
     }
 }
