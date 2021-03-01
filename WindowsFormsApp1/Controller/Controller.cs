@@ -10,16 +10,18 @@ namespace WindowsFormsApp1
     public static class Controller
     {
         
-        public static void FillIn(ComboBox combobox, long protParmId)
+        public static void FillIn(ComboBox combobox, Label label)
         {
+            var protParmId = ProtParamContr.FindParamByName(label);
             var texts = TemplContr.GiveMeTemplTexts(protParmId);
             combobox.DataSource = texts;
             combobox.DisplayMember = "Name";
             combobox.ValueMember = "";
         }
 
-        public static void newTempl (string text, long protParmId)
+        public static void newTempl (string text, Label label)
         {
+            var protParmId = ProtParamContr.FindParamByName(label);
             TemplContr.Add(text, protParmId);
         }
 
