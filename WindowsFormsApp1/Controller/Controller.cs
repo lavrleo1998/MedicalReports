@@ -9,46 +9,19 @@ namespace WindowsFormsApp1
 {
     public static class Controller
     {
-
-        public static void FillIn(ComboBox combobox, long paramId)
+        
+        public static void FillIn(ComboBox combobox, long protParmId)
         {
-            var texts = TemplContr.GiveMeTemplTexts(paramId);
+            var texts = TemplContr.GiveMeTemplTexts(protParmId);
             combobox.DataSource = texts;
             combobox.DisplayMember = "Name";
             combobox.ValueMember = "";
-            combobox.AutoCompleteMode = AutoCompleteMode.Suggest;
-            combobox.AutoCompleteSource = AutoCompleteSource.ListItems;
         }
-        public static void newTempl(string text, long paramId)
+
+        public static void newTempl (string text, long protParmId)
         {
-            TemplContr.Add(text, paramId);
+            TemplContr.Add(text, protParmId);
         }
-
-        public static void Fill(ListView listView, long paramId)
-        {
-            var texts = TemplContr.GiveMeTemplTexts(paramId);
-            Binding binding = new Binding("text1234", texts, "gjhk");
-            foreach (var item in texts)
-            {
-                listView.Items.Add(item);
-            }
-        }
-
-        public static void FillTextBox(TextBox textBox, long paramID)
-        {
-            
-
-        }
-
-        public static void FillUpDown(DomainUpDown domainUpDown, long paramId)
-        {
-            var texts = TemplContr.GiveMeTemplTexts(paramId);
-            foreach (var item in texts)
-            {
-                domainUpDown.Items.Add(item);
-            }
-        }
-
 
 
 
