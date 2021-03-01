@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 
 namespace Storage
 {
@@ -8,11 +9,19 @@ namespace Storage
         {
             string path = @"ConnectionString.txt";
             string conectionString = "";
-
-            using (StreamReader sr = new StreamReader(path))
+            try
             {
-                conectionString = sr.ReadToEnd();
+                using (StreamReader sr = new StreamReader(path))
+                {
+                    conectionString = sr.ReadToEnd();
+                }
             }
+            catch
+            {
+
+                throw new Exception("НЕТ СТРОКИ ПОДКЛЮЧЕНИЯ К СЕРВЕРУ!");
+            }
+            
             return conectionString;
         }
     }

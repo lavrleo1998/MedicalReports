@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Repository;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -47,7 +48,7 @@ namespace Services
                 .GetAll()
                 .Where(x => x.Id == paramId)
                 .FirstOrDefault()
-                ?? throw new System.Exception("Параметр не найдет");
+                ?? throw new Exception("Параметр не найдет");
 
             TemplateService.RemoveAll(paramId);
             ParamProvider.Remove(protocolParameter);
@@ -65,7 +66,7 @@ namespace Services
                 .GetAll()
                 .Where(x => x.Id == paramId)
                 .FirstOrDefault()
-                ?? throw new System.Exception("Параметр не найдет");
+                ?? throw new Exception("Параметр не найдет");
             return param;
         }
 
@@ -80,7 +81,7 @@ namespace Services
                 .GetAll()
                 .Where(x => x.Name == Name)
                 .FirstOrDefault()
-                ?? throw new System.Exception("Параметр не найдет");
+                ?? throw new Exception("Параметр не найдет");
             return param;
         }
 
@@ -93,11 +94,11 @@ namespace Services
         {
             var templates = new List<Template>();
             var templatesICollection = ParamProvider
-               .GetAll()
-               .Include(x => x.Templates)
-               .Where(x => x.Id == paramId)
-               .Select(x => x.Templates).ToList()
-               ?? throw new System.Exception("Параметр не найдет");
+                .GetAll()
+                .Include(x => x.Templates)
+                .Where(x => x.Id == paramId)
+                .Select(x => x.Templates).ToList()
+                ?? throw new Exception("Параметр не найдет");
 
             foreach (var item in templatesICollection)
             {
@@ -118,7 +119,7 @@ namespace Services
                .GetAll()
                .Where(x => x.Id == paramId)
                .FirstOrDefault()
-               ?? throw new System.Exception("Параметр не найдет");
+               ?? throw new Exception("Параметр не найдет");
             param.Name = NewName;
             ParamProvider.Update(param);
             ParamProvider.SaveChanges();
