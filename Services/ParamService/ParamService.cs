@@ -18,7 +18,7 @@ namespace Services
         /// Глобальные переменные
         /// </summary>
         private static ServiceProvider scope = Installer.Init();
-        private ITemplateService TemplateService = scope.GetRequiredService<ITemplateService>();
+        private static ITemplateService TemplateService = scope.GetRequiredService<ITemplateService>();
 
 
         /// <summary>
