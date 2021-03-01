@@ -7,10 +7,12 @@ namespace Storage
     {
         public DbSet<Param> Params { get; set; }
         public DbSet<Template> Templates { get; set; }
-        
-            protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=LAVRLEO-HP\\SQLEXPRESS;Database=MedicalReportsBD;Trusted_Connection=True;");
+            optionsBuilder.UseSqlServer(ConectionStringKOSTIL.NewConectionString());
+            //optionsBuilder.UseSqlServer("Server=LAVRLEO-HP\\SQLEXPRESS;Database=MedicalReportsBD;Trusted_Connection=True;");
+            
         }
     }
-} 
+}

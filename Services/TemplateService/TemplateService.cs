@@ -17,7 +17,7 @@ namespace Services
         /// Глобальные переменные
         /// </summary>
         private static ServiceProvider scope = Installer.Init();
-        private IParamService ParamService = scope.GetRequiredService<IParamService>();
+        private static IParamService ParamService = scope.GetRequiredService<IParamService>();
 
 
         /// <summary>
