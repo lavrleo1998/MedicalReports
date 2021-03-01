@@ -3,20 +3,16 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp1
+namespace WindowsFormsApp1.Forms
 {
-    public partial class Form1 : Form
+    public partial class BryPol : Form
     {
-
-        public Form1()
+        public BryPol()
         {
             InitializeComponent();
-            
         }
 
         private void comboBox1_SelectedValueChanged(object sender, EventArgs e)
@@ -32,8 +28,8 @@ namespace WindowsFormsApp1
 
         private void button6_Click(object sender, EventArgs e)
         {
-           Controller.FillIn(comboBox1, label1);
-           // Controller.FillIn(comboBox2, label2);
+            Controller.FillIn(comboBox1, label1);
+            // Controller.FillIn(comboBox2, label2);
             //Controller.FillIn(comboBox3, label3);
             //Controller.FillIn(comboBox4, label4);
             //Controller.FillIn(comboBox5, 5);
