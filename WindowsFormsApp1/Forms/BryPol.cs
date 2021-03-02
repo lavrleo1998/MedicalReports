@@ -15,19 +15,16 @@ namespace WindowsFormsApp1.Forms
             InitializeComponent();
         }
 
-        private void comboBox1_SelectedValueChanged(object sender, EventArgs e)
-        {
-            richTextBox1.Text = comboBox1.Text;
-        }
+        
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Controller.newTempl(richTextBox1.Text, label1);
-            Controller.FillIn(comboBox1, label1);
-        }
+        
 
-        private void button6_Click(object sender, EventArgs e)
+        private void button6_Click_1(object sender, EventArgs e)
         {
+            int a=3;
+            int b=4;
+            int c;
+            c = a + b;
             Controller.FillIn(comboBox1, label1);
             // Controller.FillIn(comboBox2, label2);
             //Controller.FillIn(comboBox3, label3);
@@ -35,5 +32,15 @@ namespace WindowsFormsApp1.Forms
             //Controller.FillIn(comboBox5, 5);
         }
 
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Controller.newTempl(richTextBox1.Text, label1);
+            Controller.FillIn(comboBox1, label1);
+        }
+
+        private void comboBox1_SelectedValueChanged_1(object sender, EventArgs e)
+        {
+            richTextBox1.Text = comboBox1.Text;
+        }
     }
 }
