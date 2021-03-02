@@ -42,5 +42,10 @@ namespace WindowsFormsApp1.Forms
         {
             richTextBox1.Text = comboBox1.Text;
         }
+
+        private void BryPol_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -18,10 +18,6 @@ namespace Storage
 
             //метод для другого компа
             optionsBuilder.UseSqlServer("Server=DESKTOP-F54VIOJ\\SQLEXPRESS;Database=MedicalReportsBD;Trusted_Connection=True;");
-
-
-
-
         }
     }
 }
