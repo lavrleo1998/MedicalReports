@@ -10,8 +10,8 @@ namespace Storage
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(ConectionStringKOSTIL.NewConectionString());
-            //optionsBuilder.UseSqlServer("Server=LAVRLEO-HP\\SQLEXPRESS;Database=MedicalReportsBD;Trusted_Connection=True;");
+           optionsBuilder.UseSqlServer(ConectionStringKOSTIL.NewConectionString());
+           // optionsBuilder.UseSqlServer("Server=LAVRLEO-HP\\SQLEXPRESS;Database=MedicalReportsBD;Trusted_Connection=True;");
             
         }
     }

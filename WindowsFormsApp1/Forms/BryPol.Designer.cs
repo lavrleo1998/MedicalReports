@@ -117,6 +117,7 @@ namespace WindowsFormsApp1.Forms
             this.button6.TabIndex = 33;
             this.button6.Text = "bu";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click_1);
             // 
             // richTextBox1
             // 
@@ -263,6 +264,7 @@ namespace WindowsFormsApp1.Forms
             this.button1.TabIndex = 18;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // comboBox1
             // 
@@ -273,6 +275,7 @@ namespace WindowsFormsApp1.Forms
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(853, 29);
             this.comboBox1.TabIndex = 17;
+            this.comboBox1.SelectedValueChanged += new System.EventHandler(this.comboBox1_SelectedValueChanged_1);
             // 
             // label5
             // 
@@ -865,7 +868,7 @@ namespace WindowsFormsApp1.Forms
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1215, 1061);
+            this.ClientSize = new System.Drawing.Size(1266, 1061);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.button19);
@@ -945,7 +948,7 @@ namespace WindowsFormsApp1.Forms
             this.Controls.Add(this.button1);
             this.Controls.Add(this.comboBox1);
             this.Name = "BryPol";
-            this.Text = "Form1";
+            this.Text = "УЗи брюшной полости";
             this.ResumeLayout(false);
             this.PerformLayout();
 
