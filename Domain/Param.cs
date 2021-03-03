@@ -13,6 +13,9 @@ namespace Domain
     public class Param : PersistentObject
     {
         public string Name { get; set; }
+        public long OrganId { get; set; }
+        public Organ Organ { get; set; }
+
         public virtual ICollection<Template> Templates { get; set; }
         public Param()
         {
