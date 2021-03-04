@@ -84,15 +84,16 @@ namespace Services
         }
 
         /// <summary>
-        /// Получение параметра по его имени
+        /// Получение параметра по его имени и Id органа, к которому параметр принадлежит.
         /// </summary>
         /// <param name="name"></param>
+        /// <param name="organId"></param>
         /// <returns></returns>
-        public Param GetByName(string name)
+        public Param GetByNameAndOrganId(string name, long organId)
         {
             var param = ParamProvider
                 .GetAll()
-                .Where(x => x.Name == name)
+                .Where(x => x.Name == name & x.OrganId == organId)
                 .FirstOrDefault()
                 ?? throw new Exception("Параметр не найдет");
             return param;

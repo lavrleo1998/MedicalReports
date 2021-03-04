@@ -8,8 +8,8 @@ namespace WindowsFormsApp1
         /// <summary>
         /// Глобальные переменные
         /// </summary>
-        private static ServiceProvider scope = Installer.Init();
-        private static ITemplateService templateService = scope.GetRequiredService<ITemplateService>();
+        private static readonly ServiceProvider scope = Installer.Init();
+        private static readonly ITemplateService templateService = scope.GetRequiredService<ITemplateService>();
 
         
         public static void Add(string text, long protParmId)

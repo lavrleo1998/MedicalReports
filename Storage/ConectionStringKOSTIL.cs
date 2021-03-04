@@ -30,22 +30,17 @@ namespace Storage
         */
         public static string NewConectionString()
         {
-
             string path = @"ConnectionString.txt";
-            string conectionString = "";
+            string conectionString;
             try
             {
-                using (StreamReader sr = new StreamReader(path))
-                {
-                    conectionString = sr.ReadToEnd();
-                }
+                var sr = new StreamReader(path);
+                conectionString = sr.ReadToEnd();
             }
             catch
             {
-
                 throw new Exception("НЕТ СТРОКИ ПОДКЛЮЧЕНИЯ К СЕРВЕРУ!");
             }
-
             return conectionString;
         }
     }

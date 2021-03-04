@@ -7,7 +7,7 @@ namespace Services
     {
         void Create(string name);
         Param GetById(long paramId);
-        Param GetByName(string Name);
+        Param GetByNameAndOrganId(string name, long organId);
         List<Template> GetWhisTemplate(long paramId);
         void Remove(long paramId);
         void RemoveAll(long organIdd);

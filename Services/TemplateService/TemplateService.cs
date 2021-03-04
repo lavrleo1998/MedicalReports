@@ -80,8 +80,8 @@ namespace Services
             var template = TemplateProvider
                 .GetAll()
                 .Where(x => x.Id == TemplateId)
-                .FirstOrDefault()
-                ?? throw new Exception("Шаблон не найдет");
+                .FirstOrDefault();
+                //?? throw new Exception("Шаблон не найдет");
             return template;
         }
 
@@ -93,8 +93,8 @@ namespace Services
         /// <returns></returns>
         public List<Template> GetAll(long paramId)
         {
-            List<Template> templates = ParamService.GetWhisTemplate(paramId)
-                ?? throw new Exception("Шаблон не найдет");
+            List<Template> templates = ParamService.GetWhisTemplate(paramId);
+                //?? throw new Exception("Шаблон не найдет");
             return templates;
         }
 

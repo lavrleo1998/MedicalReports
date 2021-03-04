@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Services
 {
-    interface IOrganService
+    public interface IOrganService
     {
         void Create(string name);
         Organ GetById(long organId);

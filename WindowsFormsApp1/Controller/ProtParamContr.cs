@@ -9,12 +9,20 @@ namespace WindowsFormsApp1
         /// <summary>
         /// Глобальные переменные
         /// </summary>
-        private static ServiceProvider scope = Installer.Init();
-        private static IParamService ParamService = scope.GetRequiredService<IParamService>();
-
-        public static long FindParamByName(Label label)
+        private static readonly ServiceProvider scope = Installer.Init();
+        private static readonly IParamService ParamService = scope.GetRequiredService<IParamService>();
+        private static readonly IOrganService OrganService = scope.GetRequiredService<IOrganService>();
+        /// <summary>
+        /// Получение строк для объектов формы.
+        /// 
+        /// </summary>
+        /// <param name="organName"></param>
+        /// <param name="label"></param>
+        /// <returns></returns>
+        public static long FindParamByName(Label organName, Label param)
         {
-            long paramId = ParamService.GetByName(label.Text).Id;
+            long organId = OrganService.GetByName(organName.Text).Id;
+            long paramId = ParamService.GetByNameAndOrganId(param.Text, organId).Id;
             return paramId;
         }
     }
