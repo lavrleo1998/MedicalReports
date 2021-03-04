@@ -32,7 +32,7 @@ namespace WindowsFormsApp1.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var abdominal = new AbdominalCavity(SurnameValue.Text, NameValue.Text, PatronymValue.Text, BirthdayValue.Text, GenderValue.Text);
+            var abdominal = new Abdominal(SurnameValue.Text, NameValue.Text, PatronymValue.Text, BirthdayValue.Text, GenderValue.Text);
             abdominal.Show();
         }
 
