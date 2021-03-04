@@ -10,6 +10,7 @@ namespace Services
         Param GetByName(string Name);
         List<Template> GetWhisTemplate(long paramId);
         void Remove(long paramId);
+        void RemoveAll(long organIdd);
         void Update(long paramId, string NewName);
     }
 }
