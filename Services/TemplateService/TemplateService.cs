@@ -1,6 +1,7 @@
 ﻿using Domain;
 using Microsoft.Extensions.DependencyInjection;
 using Repository;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -48,7 +49,7 @@ namespace Services
                 .GetAll()
                 .Where(x => x.Id == templateId)
                 .FirstOrDefault()
-                 ?? throw new System.Exception("Шаблон не найдет");
+                 ?? throw new Exception("Шаблон не найдет");
 
             TemplateProvider.Remove(template);
             TemplateProvider.SaveChanges();
@@ -61,10 +62,10 @@ namespace Services
         public void RemoveAll(long paramId)
         {
             List<Template> templates = ParamService.GetWhisTemplate(paramId)
-                ?? throw new System.Exception("Шаблон не найдет");
+                ?? throw new Exception("Шаблон не найдет");
             foreach (var templ in templates)
             {
-                TemplateProvider.Remove(templ);
+                this.Remove(templ.Id);
             }
             TemplateProvider.SaveChanges();
         }
@@ -80,7 +81,7 @@ namespace Services
                 .GetAll()
                 .Where(x => x.Id == TemplateId)
                 .FirstOrDefault()
-                ?? throw new System.Exception("Шаблон не найдет");
+                ?? throw new Exception("Шаблон не найдет");
             return template;
         }
 
@@ -93,7 +94,7 @@ namespace Services
         public List<Template> GetAll(long paramId)
         {
             List<Template> templates = ParamService.GetWhisTemplate(paramId)
-                ?? throw new System.Exception("Шаблон не найдет");
+                ?? throw new Exception("Шаблон не найдет");
             return templates;
         }
 
@@ -108,7 +109,7 @@ namespace Services
                 .GetAll()
                 .Where(x => x.Id == TemplateId)
                 .FirstOrDefault()
-                ?? throw new System.Exception("Шаблон не найдет");
+                ?? throw new Exception("Шаблон не найдет");
             templ.Text = TemplateText;
             TemplateProvider.Update(templ);
             TemplateProvider.SaveChanges();

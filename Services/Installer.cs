@@ -1,7 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Repository;
 using Storage;
-using Services;
 
 namespace Services
 {
@@ -14,7 +13,9 @@ namespace Services
                 .AddScoped<IParamService, ParamService>()
                 .AddScoped<IParamProvider, ParamProvider>()
                 .AddScoped<ITemplateService, TemplateService>()
-                .AddScoped<ITemplateProvider, TemplateProvider>();
+                .AddScoped<ITemplateProvider, TemplateProvider>()
+                .AddScoped<IOrganService, OrganService>()
+                .AddScoped<IOrganProvider, OrganProvider>();
             return serviceConllection.BuildServiceProvider();
         }
 
