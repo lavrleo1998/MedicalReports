@@ -17,8 +17,7 @@ namespace WindowsFormsApp1.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var bryPol = new BryPol();
-            bryPol.Show();
+           
         }
     }
 }
