@@ -8,11 +8,17 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1.Forms
 {
-    public partial class BryPol : Form
+    public partial class AbdominalCavity : Form
     {
-        public BryPol()
+        public AbdominalCavity(string surname, string name, string patronym, string birthday, string gender)
         {
             InitializeComponent();
+            this.Text = surname + " " + name + " " + patronym;
+            SurnameValue.Text = surname;
+            NameValue.Text = name;
+            PatronymValue.Text = patronym;
+            BirthdayValue.Text = birthday;
+            GenderValue.Text = gender;
         }
 
         

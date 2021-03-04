@@ -1,7 +1,7 @@
 ﻿
 namespace WindowsFormsApp1.Forms
 {
-    partial class Bladder
+    partial class JustUzi
     {
         /// <summary>
         /// Required designer variable.
@@ -131,7 +131,7 @@ namespace WindowsFormsApp1.Forms
             this.Surname.TabIndex = 28;
             this.Surname.Text = "Фамилия:";
             // 
-            // Bladder
+            // JustUzi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -146,8 +146,8 @@ namespace WindowsFormsApp1.Forms
             this.Controls.Add(this.Patronym);
             this.Controls.Add(this.NameL);
             this.Controls.Add(this.Surname);
-            this.Name = "Bladder";
-            this.Text = "Bladder";
+            this.Name = "JustUzi";
+            this.Text = "SelectionWindow";
             this.ResumeLayout(false);
             this.PerformLayout();
 

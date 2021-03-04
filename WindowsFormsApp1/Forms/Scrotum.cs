@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1.Forms
 {
-    public partial class Thyroid : Form
+    public partial class Scrotum : Form
     {
-        public Thyroid(string surname, string name, string patronym, string birthday, string gender)
+        public Scrotum(string surname, string name, string patronym, string birthday, string gender)
         {
             InitializeComponent();
             this.Text = surname + " " + name + " " + patronym;

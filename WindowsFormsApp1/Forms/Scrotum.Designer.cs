@@ -1,7 +1,7 @@
 ﻿
 namespace WindowsFormsApp1.Forms
 {
-    partial class Bladder
+    partial class Scrotum
     {
         /// <summary>
         /// Required designer variable.
@@ -44,7 +44,7 @@ namespace WindowsFormsApp1.Forms
             // GenderValue
             // 
             this.GenderValue.AutoSize = true;
-            this.GenderValue.Location = new System.Drawing.Point(364, 260);
+            this.GenderValue.Location = new System.Drawing.Point(59, 94);
             this.GenderValue.Name = "GenderValue";
             this.GenderValue.Size = new System.Drawing.Size(38, 15);
             this.GenderValue.TabIndex = 37;
@@ -53,7 +53,7 @@ namespace WindowsFormsApp1.Forms
             // BirthdayValue
             // 
             this.BirthdayValue.AutoSize = true;
-            this.BirthdayValue.Location = new System.Drawing.Point(445, 239);
+            this.BirthdayValue.Location = new System.Drawing.Point(140, 73);
             this.BirthdayValue.Name = "BirthdayValue";
             this.BirthdayValue.Size = new System.Drawing.Size(38, 15);
             this.BirthdayValue.TabIndex = 36;
@@ -62,7 +62,7 @@ namespace WindowsFormsApp1.Forms
             // PatronymValue
             // 
             this.PatronymValue.AutoSize = true;
-            this.PatronymValue.Location = new System.Drawing.Point(404, 218);
+            this.PatronymValue.Location = new System.Drawing.Point(99, 52);
             this.PatronymValue.Name = "PatronymValue";
             this.PatronymValue.Size = new System.Drawing.Size(38, 15);
             this.PatronymValue.TabIndex = 35;
@@ -71,7 +71,7 @@ namespace WindowsFormsApp1.Forms
             // NameValue
             // 
             this.NameValue.AutoSize = true;
-            this.NameValue.Location = new System.Drawing.Point(366, 197);
+            this.NameValue.Location = new System.Drawing.Point(61, 31);
             this.NameValue.Name = "NameValue";
             this.NameValue.Size = new System.Drawing.Size(38, 15);
             this.NameValue.TabIndex = 34;
@@ -80,7 +80,7 @@ namespace WindowsFormsApp1.Forms
             // SurnameValue
             // 
             this.SurnameValue.AutoSize = true;
-            this.SurnameValue.Location = new System.Drawing.Point(404, 175);
+            this.SurnameValue.Location = new System.Drawing.Point(99, 9);
             this.SurnameValue.Name = "SurnameValue";
             this.SurnameValue.Size = new System.Drawing.Size(44, 15);
             this.SurnameValue.TabIndex = 33;
@@ -89,7 +89,7 @@ namespace WindowsFormsApp1.Forms
             // Gender
             // 
             this.Gender.AutoSize = true;
-            this.Gender.Location = new System.Drawing.Point(317, 260);
+            this.Gender.Location = new System.Drawing.Point(12, 94);
             this.Gender.Name = "Gender";
             this.Gender.Size = new System.Drawing.Size(33, 15);
             this.Gender.TabIndex = 32;
@@ -98,7 +98,7 @@ namespace WindowsFormsApp1.Forms
             // Birthday
             // 
             this.Birthday.AutoSize = true;
-            this.Birthday.Location = new System.Drawing.Point(317, 239);
+            this.Birthday.Location = new System.Drawing.Point(12, 73);
             this.Birthday.Name = "Birthday";
             this.Birthday.Size = new System.Drawing.Size(93, 15);
             this.Birthday.TabIndex = 31;
@@ -107,7 +107,7 @@ namespace WindowsFormsApp1.Forms
             // Patronym
             // 
             this.Patronym.AutoSize = true;
-            this.Patronym.Location = new System.Drawing.Point(317, 218);
+            this.Patronym.Location = new System.Drawing.Point(12, 52);
             this.Patronym.Name = "Patronym";
             this.Patronym.Size = new System.Drawing.Size(61, 15);
             this.Patronym.TabIndex = 30;
@@ -116,7 +116,7 @@ namespace WindowsFormsApp1.Forms
             // NameL
             // 
             this.NameL.AutoSize = true;
-            this.NameL.Location = new System.Drawing.Point(317, 197);
+            this.NameL.Location = new System.Drawing.Point(12, 31);
             this.NameL.Name = "NameL";
             this.NameL.Size = new System.Drawing.Size(34, 15);
             this.NameL.TabIndex = 29;
@@ -125,13 +125,13 @@ namespace WindowsFormsApp1.Forms
             // Surname
             // 
             this.Surname.AutoSize = true;
-            this.Surname.Location = new System.Drawing.Point(317, 175);
+            this.Surname.Location = new System.Drawing.Point(12, 9);
             this.Surname.Name = "Surname";
             this.Surname.Size = new System.Drawing.Size(61, 15);
             this.Surname.TabIndex = 28;
             this.Surname.Text = "Фамилия:";
             // 
-            // Bladder
+            // Scrotum
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -146,8 +146,8 @@ namespace WindowsFormsApp1.Forms
             this.Controls.Add(this.Patronym);
             this.Controls.Add(this.NameL);
             this.Controls.Add(this.Surname);
-            this.Name = "Bladder";
-            this.Text = "Bladder";
+            this.Name = "Scrotum";
+            this.Text = "Scrotum";
             this.ResumeLayout(false);
             this.PerformLayout();
 
