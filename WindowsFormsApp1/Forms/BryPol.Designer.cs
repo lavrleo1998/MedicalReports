@@ -898,7 +898,7 @@ namespace WindowsFormsApp1.Forms
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel1.Location = new System.Drawing.Point(0, 1408);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1350, 53);
+            this.panel1.Size = new System.Drawing.Size(1367, 53);
             this.panel1.TabIndex = 94;
             // 
             // label25
@@ -1488,40 +1488,7 @@ namespace WindowsFormsApp1.Forms
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1367, 886);
-            this.Controls.Add(this.button46);
-            this.Controls.Add(this.button47);
-            this.Controls.Add(this.button48);
-            this.Controls.Add(this.button49);
-            this.Controls.Add(this.button50);
-            this.Controls.Add(this.button51);
-            this.Controls.Add(this.button52);
-            this.Controls.Add(this.button53);
-            this.Controls.Add(this.button54);
-            this.Controls.Add(this.button55);
-            this.Controls.Add(this.button56);
-            this.Controls.Add(this.button57);
-            this.Controls.Add(this.button58);
-            this.Controls.Add(this.button59);
-            this.Controls.Add(this.button60);
-            this.Controls.Add(this.button61);
-            this.Controls.Add(this.button62);
-            this.Controls.Add(this.button63);
-            this.Controls.Add(this.button64);
-            this.Controls.Add(this.label31);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button33);
-            this.Controls.Add(this.button34);
-            this.Controls.Add(this.button35);
-            this.Controls.Add(this.button36);
-            this.Controls.Add(this.button37);
-            this.Controls.Add(this.button39);
-            this.Controls.Add(this.button40);
-            this.Controls.Add(this.button41);
-            this.Controls.Add(this.button42);
-            this.Controls.Add(this.button43);
-            this.Controls.Add(this.button44);
-            this.Controls.Add(this.button45);
+            this.ClientSize = new System.Drawing.Size(1384, 661);
             this.Controls.Add(this.label47);
             this.Controls.Add(this.label46);
             this.Controls.Add(this.label45);
