@@ -22,12 +22,72 @@ namespace WindowsFormsApp1.Forms
             Filling();
         }
 
+        private void butSave_Click(object sender, EventArgs e)
+        {
+            string TestText = "";
+
+            TestText += $"{Surname.Text}: {SurnameValue.Text}\n";
+            TestText += $"{NameL.Text}: {NameValue.Text}\n";
+            TestText += $"{Patronym.Text}: {PatronymValue.Text}\n";
+            TestText += $"{Birthday.Text}: {BirthdayValue.Text}\n";
+            TestText += $"{Gender.Text}: {GenderValue.Text}\n";
+
+            TestText += Liver.Text + "\n";
+            TestText += $"{labLiver1.Text}: {comLiver1.Text}\n";
+            TestText += $"{labLiver2.Text}: {comLiver2.Text}\n";
+            TestText += $"{labLiver3.Text}: {comLiver3.Text}\n";
+            //TestText += $"{labLiver4.Text}: {comLiver4.Text}\n";
+            TestText += $"{labLiver5.Text}: {comLiver5.Text}\n";
+            TestText += $"{labLiver6.Text}: {comLiver6.Text}\n";
+            TestText += $"{labLiver7.Text}: {comLiver7.Text}\n";
+            TestText += $"{labLiver8.Text}: {comLiver8.Text}\n";
+            TestText += $"{labLiver9.Text}: {comLiver9.Text}\n";
+            TestText += $"{labLiver10.Text}: {comLiver10.Text}\n";
+            TestText += $"{labLiver11.Text}: {comLiver11.Text}\n";
+            TestText += $"{labLiver12.Text}: {comLiver12.Text}\n";
+            TestText += $"{labLiver13.Text}: {comLiver13.Text}\n";
+
+            TestText += Gallbladder.Text + "\n";
+            TestText += $"{labGallbladder1.Text}: {comGallbladder1.Text}\n";
+            TestText += $"{labGallbladder2.Text}: {comGallbladder2.Text}\n";
+            //TestText += $"{labGallbladder3.Text}: {comGallbladder3.Text}\n";
+            TestText += $"{labGallbladder4.Text}: {comGallbladder4.Text}\n";
+            TestText += $"{labGallbladder5.Text}: {comGallbladder5.Text}\n";
+            TestText += $"{labGallbladder6.Text}: {comGallbladder6.Text}\n";
+
+            TestText += Pancreas.Text + "\n";
+            TestText += $"{labPancreas1.Text}: {comPancreas1.Text}\n";
+            //TestText += $"{labPancreas2.Text}: {comPancreas2.Text}\n";
+            TestText += $"{labPancreas3.Text}: {comPancreas3.Text}\n";
+            TestText += $"{labPancreas4.Text}: {comPancreas4.Text}\n";
+            TestText += $"{labPancreas5.Text}: {comPancreas5.Text}\n";
+            TestText += $"{labPancreas6.Text}: {comPancreas6.Text}\n";
+
+            TestText += Spleen.Text + "\n";
+            TestText += $"{labSpleen1.Text}: {comSpleen1.Text}\n";
+            TestText += $"{labSpleen2.Text}: {comSpleen2.Text}\n";
+            TestText += $"{labSpleen3.Text}: {comSpleen3.Text}\n";
+            TestText += $"{labSpleen4.Text}: {comSpleen4.Text}\n";
+
+            TestText += LymphNode.Text + "\n";
+            TestText += $"{labLymphNode1.Text}: {comLymphNode1.Text}\n";
+
+            TestText += Additionally.Text + "\n";
+            TestText += $"{labAdditionally.Text}: {comAdditionally.Text}\n";
+
+            TestText += Conclusion.Text + "\n";
+            TestText += $"{labConclusion.Text}: {comConclusion.Text}\n";
+
+            WordSave.WriteFile(TestText);
+            MessageBox.Show("Файл добавлен.");
+
+        }
         private void Filling()
         {
             Controller.FillIn(Liver, labLiver1, comLiver1);
             Controller.FillIn(Liver, labLiver2, comLiver2);
             Controller.FillIn(Liver, labLiver3, comLiver3);
-            Controller.FillIn(Liver, labLiver4, comLiver4);
+            //////////////////////////////////////////////
             Controller.FillIn(Liver, labLiver5, comLiver5);
             Controller.FillIn(Liver, labLiver6, comLiver6);
             Controller.FillIn(Liver, labLiver7, comLiver7);
@@ -40,13 +100,13 @@ namespace WindowsFormsApp1.Forms
 
             Controller.FillIn(Gallbladder, labGallbladder1, comGallbladder1);
             Controller.FillIn(Gallbladder, labGallbladder2, comGallbladder2);
-            Controller.FillIn(Gallbladder, labGallbladder3, comGallbladder3);
+            //Controller.FillIn(Gallbladder, labGallbladder3, comGallbladder3);
             Controller.FillIn(Gallbladder, labGallbladder4, comGallbladder4);
             Controller.FillIn(Gallbladder, labGallbladder5, comGallbladder5);
             Controller.FillIn(Gallbladder, labGallbladder6, comGallbladder6);
 
             Controller.FillIn(Pancreas, labPancreas1, comPancreas1);
-            Controller.FillIn(Pancreas, labPancreas2, comPancreas2);
+            ///////////////////////////////////////////////////////
             Controller.FillIn(Pancreas, labPancreas3, comPancreas3);
             Controller.FillIn(Pancreas, labPancreas4, comPancreas4);
             Controller.FillIn(Pancreas, labPancreas5, comPancreas5);
@@ -58,6 +118,9 @@ namespace WindowsFormsApp1.Forms
             Controller.FillIn(Spleen, labSpleen4, comSpleen4);
 
             Controller.FillIn(LymphNode, labLymphNode1, comLymphNode1);
+
+            Controller.FillIn(Additionally, labAdditionally, comAdditionally);
+            Controller.FillIn(Conclusion, labConclusion, comConclusion);
         }
 
         private void butLiver1_Click(object sender, EventArgs e)
@@ -76,12 +139,6 @@ namespace WindowsFormsApp1.Forms
         {
             Controller.NewTempl(Liver, comLiver3.Text, labLiver3);
             Controller.FillIn(Liver, labLiver3, comLiver3);
-        }
-
-        private void butLiver4_Click(object sender, EventArgs e)
-        {
-            Controller.NewTempl(Liver, comLiver4.Text, labLiver4);
-            Controller.FillIn(Liver, labLiver4, comLiver4);
         }
 
         private void butLiver5_Click(object sender, EventArgs e)
@@ -148,12 +205,6 @@ namespace WindowsFormsApp1.Forms
             Controller.FillIn(Gallbladder, labGallbladder2, comGallbladder2);
         }
 
-        private void butGallbladder3_Click(object sender, EventArgs e)
-        {
-            Controller.NewTempl(Gallbladder, comGallbladder3.Text, labGallbladder3);
-            Controller.FillIn(Gallbladder, labGallbladder3, comGallbladder3);
-        }
-
         private void butGallbladder4_Click(object sender, EventArgs e)
         {
             Controller.NewTempl(Gallbladder, comGallbladder4.Text, labGallbladder4);
@@ -178,11 +229,6 @@ namespace WindowsFormsApp1.Forms
             Controller.FillIn(Pancreas, labPancreas1, comPancreas1);
         }
 
-        private void butPancreas2_Click(object sender, EventArgs e)
-        {
-            Controller.NewTempl(Pancreas, comPancreas2.Text, labPancreas2);
-            Controller.FillIn(Pancreas, labPancreas2, comPancreas2);
-        }
 
         private void butPancreas3_Click(object sender, EventArgs e)
         {
@@ -247,5 +293,7 @@ namespace WindowsFormsApp1.Forms
         {
             Controller.NewTempl(labConclusion, comConclusion.Text, labConclusion);
         }
+
+        
     }
 }

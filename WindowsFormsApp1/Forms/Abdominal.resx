@@ -57,4 +57,3608 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="butSave.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <assembly alias="System.Drawing.Primitives" name="System.Drawing.Primitives, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="butSave.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>0, 2032</value>
+  </data>
+  <data name="butSave.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>1350, 50</value>
+  </data>
+  <assembly alias="System.Private.CoreLib" name="System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" />
+  <data name="butSave.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>282</value>
+  </data>
+  <data name="butSave.Text" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="&gt;&gt;butSave.Name" xml:space="preserve">
+    <value>butSave</value>
+  </data>
+  <data name="&gt;&gt;butSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butSave.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butSave.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 1683</value>
+  </data>
+  <data name="textBox1.Multiline" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>1164, 140</value>
+  </data>
+  <data name="textBox1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>281</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
+    <value>textBox1</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <assembly alias="System.Drawing.Common" name="System.Drawing.Common, Version=4.0.2.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
+  <data name="label31.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 48pt</value>
+  </data>
+  <data name="label31.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 1842</value>
+  </data>
+  <data name="label31.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>1164, 190</value>
+  </data>
+  <data name="label31.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>280</value>
+  </data>
+  <data name="label31.Text" xml:space="preserve">
+    <value>label31</value>
+  </data>
+  <data name="&gt;&gt;label31.Name" xml:space="preserve">
+    <value>label31</value>
+  </data>
+  <data name="&gt;&gt;label31.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label31.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label31.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="GenderValue.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="GenderValue.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="GenderValue.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>56, 95</value>
+  </data>
+  <data name="GenderValue.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>52, 21</value>
+  </data>
+  <data name="GenderValue.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>279</value>
+  </data>
+  <data name="GenderValue.Text" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;GenderValue.Name" xml:space="preserve">
+    <value>GenderValue</value>
+  </data>
+  <data name="&gt;&gt;GenderValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GenderValue.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GenderValue.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="BirthdayValue.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="BirthdayValue.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="BirthdayValue.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>139, 74</value>
+  </data>
+  <data name="BirthdayValue.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>52, 21</value>
+  </data>
+  <data name="BirthdayValue.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>278</value>
+  </data>
+  <data name="BirthdayValue.Text" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;BirthdayValue.Name" xml:space="preserve">
+    <value>BirthdayValue</value>
+  </data>
+  <data name="&gt;&gt;BirthdayValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BirthdayValue.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BirthdayValue.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="PatronymValue.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="PatronymValue.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="PatronymValue.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>95, 53</value>
+  </data>
+  <data name="PatronymValue.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>52, 21</value>
+  </data>
+  <data name="PatronymValue.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>277</value>
+  </data>
+  <data name="PatronymValue.Text" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;PatronymValue.Name" xml:space="preserve">
+    <value>PatronymValue</value>
+  </data>
+  <data name="&gt;&gt;PatronymValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PatronymValue.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PatronymValue.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="NameValue.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="NameValue.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="NameValue.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>59, 32</value>
+  </data>
+  <data name="NameValue.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>52, 21</value>
+  </data>
+  <data name="NameValue.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>276</value>
+  </data>
+  <data name="NameValue.Text" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="&gt;&gt;NameValue.Name" xml:space="preserve">
+    <value>NameValue</value>
+  </data>
+  <data name="&gt;&gt;NameValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NameValue.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;NameValue.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="SurnameValue.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="SurnameValue.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="SurnameValue.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>93, 11</value>
+  </data>
+  <data name="SurnameValue.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>61, 21</value>
+  </data>
+  <data name="SurnameValue.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>275</value>
+  </data>
+  <data name="SurnameValue.Text" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="&gt;&gt;SurnameValue.Name" xml:space="preserve">
+    <value>SurnameValue</value>
+  </data>
+  <data name="&gt;&gt;SurnameValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SurnameValue.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SurnameValue.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="Gender.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="Gender.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="Gender.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>9, 95</value>
+  </data>
+  <data name="Gender.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>41, 21</value>
+  </data>
+  <data name="Gender.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>274</value>
+  </data>
+  <data name="Gender.Text" xml:space="preserve">
+    <value>Пол:</value>
+  </data>
+  <data name="&gt;&gt;Gender.Name" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="&gt;&gt;Gender.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Gender.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Gender.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="Birthday.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="Birthday.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="Birthday.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>9, 74</value>
+  </data>
+  <data name="Birthday.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>124, 21</value>
+  </data>
+  <data name="Birthday.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>273</value>
+  </data>
+  <data name="Birthday.Text" xml:space="preserve">
+    <value>Дата рождения:</value>
+  </data>
+  <data name="&gt;&gt;Birthday.Name" xml:space="preserve">
+    <value>Birthday</value>
+  </data>
+  <data name="&gt;&gt;Birthday.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Birthday.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Birthday.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="Patronym.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="Patronym.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="Patronym.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>9, 53</value>
+  </data>
+  <data name="Patronym.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>80, 21</value>
+  </data>
+  <data name="Patronym.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>272</value>
+  </data>
+  <data name="Patronym.Text" xml:space="preserve">
+    <value>Отчество:</value>
+  </data>
+  <data name="&gt;&gt;Patronym.Name" xml:space="preserve">
+    <value>Patronym</value>
+  </data>
+  <data name="&gt;&gt;Patronym.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Patronym.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Patronym.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="NameL.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="NameL.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="NameL.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>9, 32</value>
+  </data>
+  <data name="NameL.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>44, 21</value>
+  </data>
+  <data name="NameL.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>271</value>
+  </data>
+  <data name="NameL.Text" xml:space="preserve">
+    <value>Имя:</value>
+  </data>
+  <data name="&gt;&gt;NameL.Name" xml:space="preserve">
+    <value>NameL</value>
+  </data>
+  <data name="&gt;&gt;NameL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NameL.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;NameL.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="Surname.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="Surname.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="Surname.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>9, 11</value>
+  </data>
+  <data name="Surname.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>78, 21</value>
+  </data>
+  <data name="Surname.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>270</value>
+  </data>
+  <data name="Surname.Text" xml:space="preserve">
+    <value>Фамилия:</value>
+  </data>
+  <data name="&gt;&gt;Surname.Name" xml:space="preserve">
+    <value>Surname</value>
+  </data>
+  <data name="&gt;&gt;Surname.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Surname.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Surname.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="LymphNode.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="LymphNode.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI Semibold, 12pt, style=Bold</value>
+  </data>
+  <data name="LymphNode.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 1412</value>
+  </data>
+  <data name="LymphNode.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>101, 21</value>
+  </data>
+  <data name="LymphNode.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>269</value>
+  </data>
+  <data name="LymphNode.Text" xml:space="preserve">
+    <value>Лимфоузлы</value>
+  </data>
+  <data name="&gt;&gt;LymphNode.Name" xml:space="preserve">
+    <value>LymphNode</value>
+  </data>
+  <data name="&gt;&gt;LymphNode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LymphNode.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LymphNode.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="Spleen.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="Spleen.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI Semibold, 12pt, style=Bold</value>
+  </data>
+  <data name="Spleen.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 1232</value>
+  </data>
+  <data name="Spleen.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>88, 21</value>
+  </data>
+  <data name="Spleen.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>268</value>
+  </data>
+  <data name="Spleen.Text" xml:space="preserve">
+    <value>Селезенка</value>
+  </data>
+  <data name="&gt;&gt;Spleen.Name" xml:space="preserve">
+    <value>Spleen</value>
+  </data>
+  <data name="&gt;&gt;Spleen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Spleen.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Spleen.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="Pancreas.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="Pancreas.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI Semibold, 12pt, style=Bold</value>
+  </data>
+  <data name="Pancreas.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 985</value>
+  </data>
+  <data name="Pancreas.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>192, 21</value>
+  </data>
+  <data name="Pancreas.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>267</value>
+  </data>
+  <data name="Pancreas.Text" xml:space="preserve">
+    <value>Поджелудочная железа</value>
+  </data>
+  <data name="&gt;&gt;Pancreas.Name" xml:space="preserve">
+    <value>Pancreas</value>
+  </data>
+  <data name="&gt;&gt;Pancreas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pancreas.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Pancreas.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="Gallbladder.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="Gallbladder.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI Semibold, 12pt, style=Bold</value>
+  </data>
+  <data name="Gallbladder.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 722</value>
+  </data>
+  <data name="Gallbladder.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>141, 21</value>
+  </data>
+  <data name="Gallbladder.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>266</value>
+  </data>
+  <data name="Gallbladder.Text" xml:space="preserve">
+    <value>Желчный пузырь</value>
+  </data>
+  <data name="&gt;&gt;Gallbladder.Name" xml:space="preserve">
+    <value>Gallbladder</value>
+  </data>
+  <data name="&gt;&gt;Gallbladder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Gallbladder.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Gallbladder.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="Liver.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="Liver.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI Semibold, 12pt, style=Bold</value>
+  </data>
+  <data name="Liver.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 229</value>
+  </data>
+  <data name="Liver.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>66, 21</value>
+  </data>
+  <data name="Liver.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>265</value>
+  </data>
+  <data name="Liver.Text" xml:space="preserve">
+    <value>Печень</value>
+  </data>
+  <data name="&gt;&gt;Liver.Name" xml:space="preserve">
+    <value>Liver</value>
+  </data>
+  <data name="&gt;&gt;Liver.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Liver.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Liver.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="labConclusion.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="labConclusion.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="labConclusion.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 1628</value>
+  </data>
+  <data name="labConclusion.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>99, 21</value>
+  </data>
+  <data name="labConclusion.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>264</value>
+  </data>
+  <data name="labConclusion.Text" xml:space="preserve">
+    <value>Заключение</value>
+  </data>
+  <data name="&gt;&gt;labConclusion.Name" xml:space="preserve">
+    <value>labConclusion</value>
+  </data>
+  <data name="&gt;&gt;labConclusion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labConclusion.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labConclusion.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="butConclusion.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="butConclusion.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>1103, 1625</value>
+  </data>
+  <data name="butConclusion.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>88, 29</value>
+  </data>
+  <data name="butConclusion.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>263</value>
+  </data>
+  <data name="butConclusion.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="&gt;&gt;butConclusion.Name" xml:space="preserve">
+    <value>butConclusion</value>
+  </data>
+  <data name="&gt;&gt;butConclusion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butConclusion.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butConclusion.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="comConclusion.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="comConclusion.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>132, 1625</value>
+  </data>
+  <data name="comConclusion.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>965, 29</value>
+  </data>
+  <data name="comConclusion.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>262</value>
+  </data>
+  <data name="&gt;&gt;comConclusion.Name" xml:space="preserve">
+    <value>comConclusion</value>
+  </data>
+  <data name="&gt;&gt;comConclusion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comConclusion.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comConclusion.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="labAdditionally.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="labAdditionally.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="labAdditionally.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 1546</value>
+  </data>
+  <data name="labAdditionally.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>123, 21</value>
+  </data>
+  <data name="labAdditionally.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>261</value>
+  </data>
+  <data name="labAdditionally.Text" xml:space="preserve">
+    <value>Дополнительно</value>
+  </data>
+  <data name="&gt;&gt;labAdditionally.Name" xml:space="preserve">
+    <value>labAdditionally</value>
+  </data>
+  <data name="&gt;&gt;labAdditionally.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labAdditionally.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labAdditionally.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="butAdditionally.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="butAdditionally.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>1103, 1542</value>
+  </data>
+  <data name="butAdditionally.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>88, 29</value>
+  </data>
+  <data name="butAdditionally.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>260</value>
+  </data>
+  <data name="butAdditionally.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="&gt;&gt;butAdditionally.Name" xml:space="preserve">
+    <value>butAdditionally</value>
+  </data>
+  <data name="&gt;&gt;butAdditionally.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butAdditionally.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butAdditionally.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="comAdditionally.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="comAdditionally.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>156, 1542</value>
+  </data>
+  <data name="comAdditionally.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>941, 29</value>
+  </data>
+  <data name="comAdditionally.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>259</value>
+  </data>
+  <data name="&gt;&gt;comAdditionally.Name" xml:space="preserve">
+    <value>comAdditionally</value>
+  </data>
+  <data name="&gt;&gt;comAdditionally.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comAdditionally.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comAdditionally.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="labLymphNode1.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="labLymphNode1.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="labLymphNode1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 1448</value>
+  </data>
+  <data name="labLymphNode1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>95, 21</value>
+  </data>
+  <data name="labLymphNode1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>258</value>
+  </data>
+  <data name="labLymphNode1.Text" xml:space="preserve">
+    <value>Лимфоузлы</value>
+  </data>
+  <data name="&gt;&gt;labLymphNode1.Name" xml:space="preserve">
+    <value>labLymphNode1</value>
+  </data>
+  <data name="&gt;&gt;labLymphNode1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labLymphNode1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labLymphNode1.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="butLymphNode1.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="butLymphNode1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>1103, 1445</value>
+  </data>
+  <data name="butLymphNode1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>88, 29</value>
+  </data>
+  <data name="butLymphNode1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>257</value>
+  </data>
+  <data name="butLymphNode1.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="&gt;&gt;butLymphNode1.Name" xml:space="preserve">
+    <value>butLymphNode1</value>
+  </data>
+  <data name="&gt;&gt;butLymphNode1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butLymphNode1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butLymphNode1.ZOrder" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="comLymphNode1.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="comLymphNode1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>128, 1445</value>
+  </data>
+  <data name="comLymphNode1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>969, 29</value>
+  </data>
+  <data name="comLymphNode1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>256</value>
+  </data>
+  <data name="&gt;&gt;comLymphNode1.Name" xml:space="preserve">
+    <value>comLymphNode1</value>
+  </data>
+  <data name="&gt;&gt;comLymphNode1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comLymphNode1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comLymphNode1.ZOrder" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="labSpleen4.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="labSpleen4.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="labSpleen4.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 1370</value>
+  </data>
+  <data name="labSpleen4.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>99, 21</value>
+  </data>
+  <data name="labSpleen4.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>255</value>
+  </data>
+  <data name="labSpleen4.Text" xml:space="preserve">
+    <value>Эхогенность</value>
+  </data>
+  <data name="&gt;&gt;labSpleen4.Name" xml:space="preserve">
+    <value>labSpleen4</value>
+  </data>
+  <data name="&gt;&gt;labSpleen4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labSpleen4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labSpleen4.ZOrder" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="butSpleen4.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="butSpleen4.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>1103, 1367</value>
+  </data>
+  <data name="butSpleen4.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>88, 29</value>
+  </data>
+  <data name="butSpleen4.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>254</value>
+  </data>
+  <data name="butSpleen4.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="&gt;&gt;butSpleen4.Name" xml:space="preserve">
+    <value>butSpleen4</value>
+  </data>
+  <data name="&gt;&gt;butSpleen4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butSpleen4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butSpleen4.ZOrder" xml:space="preserve">
+    <value>51</value>
+  </data>
+  <data name="comSpleen4.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="comSpleen4.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>132, 1367</value>
+  </data>
+  <data name="comSpleen4.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>965, 29</value>
+  </data>
+  <data name="comSpleen4.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>253</value>
+  </data>
+  <data name="&gt;&gt;comSpleen4.Name" xml:space="preserve">
+    <value>comSpleen4</value>
+  </data>
+  <data name="&gt;&gt;comSpleen4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comSpleen4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comSpleen4.ZOrder" xml:space="preserve">
+    <value>52</value>
+  </data>
+  <data name="labSpleen3.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="labSpleen3.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="labSpleen3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 1335</value>
+  </data>
+  <data name="labSpleen3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>107, 21</value>
+  </data>
+  <data name="labSpleen3.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>252</value>
+  </data>
+  <data name="labSpleen3.Text" xml:space="preserve">
+    <value>Эхоструктура</value>
+  </data>
+  <data name="&gt;&gt;labSpleen3.Name" xml:space="preserve">
+    <value>labSpleen3</value>
+  </data>
+  <data name="&gt;&gt;labSpleen3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labSpleen3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labSpleen3.ZOrder" xml:space="preserve">
+    <value>53</value>
+  </data>
+  <data name="butSpleen3.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="butSpleen3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>1103, 1332</value>
+  </data>
+  <data name="butSpleen3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>88, 29</value>
+  </data>
+  <data name="butSpleen3.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>251</value>
+  </data>
+  <data name="butSpleen3.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="&gt;&gt;butSpleen3.Name" xml:space="preserve">
+    <value>butSpleen3</value>
+  </data>
+  <data name="&gt;&gt;butSpleen3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butSpleen3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butSpleen3.ZOrder" xml:space="preserve">
+    <value>54</value>
+  </data>
+  <data name="comSpleen3.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="comSpleen3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>140, 1332</value>
+  </data>
+  <data name="comSpleen3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>957, 29</value>
+  </data>
+  <data name="comSpleen3.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>250</value>
+  </data>
+  <data name="&gt;&gt;comSpleen3.Name" xml:space="preserve">
+    <value>comSpleen3</value>
+  </data>
+  <data name="&gt;&gt;comSpleen3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comSpleen3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comSpleen3.ZOrder" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="labSpleen2.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="labSpleen2.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="labSpleen2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 1300</value>
+  </data>
+  <data name="labSpleen2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>73, 21</value>
+  </data>
+  <data name="labSpleen2.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>249</value>
+  </data>
+  <data name="labSpleen2.Text" xml:space="preserve">
+    <value>Размеры</value>
+  </data>
+  <data name="&gt;&gt;labSpleen2.Name" xml:space="preserve">
+    <value>labSpleen2</value>
+  </data>
+  <data name="&gt;&gt;labSpleen2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labSpleen2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labSpleen2.ZOrder" xml:space="preserve">
+    <value>56</value>
+  </data>
+  <data name="butSpleen2.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="butSpleen2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>1103, 1297</value>
+  </data>
+  <data name="butSpleen2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>88, 29</value>
+  </data>
+  <data name="butSpleen2.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>248</value>
+  </data>
+  <data name="butSpleen2.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="&gt;&gt;butSpleen2.Name" xml:space="preserve">
+    <value>butSpleen2</value>
+  </data>
+  <data name="&gt;&gt;butSpleen2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butSpleen2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butSpleen2.ZOrder" xml:space="preserve">
+    <value>57</value>
+  </data>
+  <data name="comSpleen2.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="comSpleen2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>106, 1297</value>
+  </data>
+  <data name="comSpleen2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>991, 29</value>
+  </data>
+  <data name="comSpleen2.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>247</value>
+  </data>
+  <data name="&gt;&gt;comSpleen2.Name" xml:space="preserve">
+    <value>comSpleen2</value>
+  </data>
+  <data name="&gt;&gt;comSpleen2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comSpleen2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comSpleen2.ZOrder" xml:space="preserve">
+    <value>58</value>
+  </data>
+  <data name="labSpleen1.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="labSpleen1.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="labSpleen1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 1265</value>
+  </data>
+  <data name="labSpleen1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>72, 21</value>
+  </data>
+  <data name="labSpleen1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>246</value>
+  </data>
+  <data name="labSpleen1.Text" xml:space="preserve">
+    <value>Контуры</value>
+  </data>
+  <data name="&gt;&gt;labSpleen1.Name" xml:space="preserve">
+    <value>labSpleen1</value>
+  </data>
+  <data name="&gt;&gt;labSpleen1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labSpleen1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labSpleen1.ZOrder" xml:space="preserve">
+    <value>59</value>
+  </data>
+  <data name="butSpleen1.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="butSpleen1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>1103, 1262</value>
+  </data>
+  <data name="butSpleen1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>88, 29</value>
+  </data>
+  <data name="butSpleen1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>245</value>
+  </data>
+  <data name="butSpleen1.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="&gt;&gt;butSpleen1.Name" xml:space="preserve">
+    <value>butSpleen1</value>
+  </data>
+  <data name="&gt;&gt;butSpleen1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butSpleen1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butSpleen1.ZOrder" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="comSpleen1.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="comSpleen1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>105, 1262</value>
+  </data>
+  <data name="comSpleen1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>992, 29</value>
+  </data>
+  <data name="comSpleen1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>244</value>
+  </data>
+  <data name="&gt;&gt;comSpleen1.Name" xml:space="preserve">
+    <value>comSpleen1</value>
+  </data>
+  <data name="&gt;&gt;comSpleen1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comSpleen1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comSpleen1.ZOrder" xml:space="preserve">
+    <value>61</value>
+  </data>
+  <data name="labPancreas6.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="labPancreas6.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="labPancreas6.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 1190</value>
+  </data>
+  <data name="labPancreas6.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>148, 21</value>
+  </data>
+  <data name="labPancreas6.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>243</value>
+  </data>
+  <data name="labPancreas6.Text" xml:space="preserve">
+    <value>Селезеночная вена</value>
+  </data>
+  <data name="&gt;&gt;labPancreas6.Name" xml:space="preserve">
+    <value>labPancreas6</value>
+  </data>
+  <data name="&gt;&gt;labPancreas6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labPancreas6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labPancreas6.ZOrder" xml:space="preserve">
+    <value>62</value>
+  </data>
+  <data name="butPancreas6.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="butPancreas6.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>1103, 1187</value>
+  </data>
+  <data name="butPancreas6.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>88, 29</value>
+  </data>
+  <data name="butPancreas6.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>242</value>
+  </data>
+  <data name="butPancreas6.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="&gt;&gt;butPancreas6.Name" xml:space="preserve">
+    <value>butPancreas6</value>
+  </data>
+  <data name="&gt;&gt;butPancreas6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butPancreas6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butPancreas6.ZOrder" xml:space="preserve">
+    <value>63</value>
+  </data>
+  <data name="comPancreas6.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="comPancreas6.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>181, 1187</value>
+  </data>
+  <data name="comPancreas6.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>916, 29</value>
+  </data>
+  <data name="comPancreas6.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>241</value>
+  </data>
+  <data name="&gt;&gt;comPancreas6.Name" xml:space="preserve">
+    <value>comPancreas6</value>
+  </data>
+  <data name="&gt;&gt;comPancreas6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comPancreas6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comPancreas6.ZOrder" xml:space="preserve">
+    <value>64</value>
+  </data>
+  <data name="labPancreas5.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="labPancreas5.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="labPancreas5.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 1155</value>
+  </data>
+  <data name="labPancreas5.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>184, 21</value>
+  </data>
+  <data name="labPancreas5.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>240</value>
+  </data>
+  <data name="labPancreas5.Text" xml:space="preserve">
+    <value>Объемные образования</value>
+  </data>
+  <data name="&gt;&gt;labPancreas5.Name" xml:space="preserve">
+    <value>labPancreas5</value>
+  </data>
+  <data name="&gt;&gt;labPancreas5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labPancreas5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labPancreas5.ZOrder" xml:space="preserve">
+    <value>65</value>
+  </data>
+  <data name="butPancreas5.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="butPancreas5.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>1103, 1152</value>
+  </data>
+  <data name="butPancreas5.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>88, 29</value>
+  </data>
+  <data name="butPancreas5.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>239</value>
+  </data>
+  <data name="butPancreas5.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="&gt;&gt;butPancreas5.Name" xml:space="preserve">
+    <value>butPancreas5</value>
+  </data>
+  <data name="&gt;&gt;butPancreas5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butPancreas5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butPancreas5.ZOrder" xml:space="preserve">
+    <value>66</value>
+  </data>
+  <data name="comPancreas5.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="comPancreas5.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>217, 1152</value>
+  </data>
+  <data name="comPancreas5.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>880, 29</value>
+  </data>
+  <data name="comPancreas5.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>238</value>
+  </data>
+  <data name="&gt;&gt;comPancreas5.Name" xml:space="preserve">
+    <value>comPancreas5</value>
+  </data>
+  <data name="&gt;&gt;comPancreas5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comPancreas5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comPancreas5.ZOrder" xml:space="preserve">
+    <value>67</value>
+  </data>
+  <data name="labPancreas4.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="labPancreas4.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="labPancreas4.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 1120</value>
+  </data>
+  <data name="labPancreas4.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>99, 21</value>
+  </data>
+  <data name="labPancreas4.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>237</value>
+  </data>
+  <data name="labPancreas4.Text" xml:space="preserve">
+    <value>Эхогенность</value>
+  </data>
+  <data name="&gt;&gt;labPancreas4.Name" xml:space="preserve">
+    <value>labPancreas4</value>
+  </data>
+  <data name="&gt;&gt;labPancreas4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labPancreas4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labPancreas4.ZOrder" xml:space="preserve">
+    <value>68</value>
+  </data>
+  <data name="butPancreas4.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="butPancreas4.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>1103, 1117</value>
+  </data>
+  <data name="butPancreas4.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>88, 29</value>
+  </data>
+  <data name="butPancreas4.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>236</value>
+  </data>
+  <data name="butPancreas4.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="&gt;&gt;butPancreas4.Name" xml:space="preserve">
+    <value>butPancreas4</value>
+  </data>
+  <data name="&gt;&gt;butPancreas4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butPancreas4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butPancreas4.ZOrder" xml:space="preserve">
+    <value>69</value>
+  </data>
+  <data name="comPancreas4.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="comPancreas4.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>132, 1117</value>
+  </data>
+  <data name="comPancreas4.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>965, 29</value>
+  </data>
+  <data name="comPancreas4.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>235</value>
+  </data>
+  <data name="&gt;&gt;comPancreas4.Name" xml:space="preserve">
+    <value>comPancreas4</value>
+  </data>
+  <data name="&gt;&gt;comPancreas4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comPancreas4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comPancreas4.ZOrder" xml:space="preserve">
+    <value>70</value>
+  </data>
+  <data name="labPancreas3.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="labPancreas3.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="labPancreas3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 1085</value>
+  </data>
+  <data name="labPancreas3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>107, 21</value>
+  </data>
+  <data name="labPancreas3.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>234</value>
+  </data>
+  <data name="labPancreas3.Text" xml:space="preserve">
+    <value>Эхоструктура</value>
+  </data>
+  <data name="&gt;&gt;labPancreas3.Name" xml:space="preserve">
+    <value>labPancreas3</value>
+  </data>
+  <data name="&gt;&gt;labPancreas3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labPancreas3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labPancreas3.ZOrder" xml:space="preserve">
+    <value>71</value>
+  </data>
+  <data name="butPancreas3.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="butPancreas3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>1103, 1082</value>
+  </data>
+  <data name="butPancreas3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>88, 29</value>
+  </data>
+  <data name="butPancreas3.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>233</value>
+  </data>
+  <data name="butPancreas3.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="&gt;&gt;butPancreas3.Name" xml:space="preserve">
+    <value>butPancreas3</value>
+  </data>
+  <data name="&gt;&gt;butPancreas3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butPancreas3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butPancreas3.ZOrder" xml:space="preserve">
+    <value>72</value>
+  </data>
+  <data name="comPancreas3.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="comPancreas3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>140, 1082</value>
+  </data>
+  <data name="comPancreas3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>957, 29</value>
+  </data>
+  <data name="comPancreas3.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>232</value>
+  </data>
+  <data name="&gt;&gt;comPancreas3.Name" xml:space="preserve">
+    <value>comPancreas3</value>
+  </data>
+  <data name="&gt;&gt;comPancreas3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comPancreas3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comPancreas3.ZOrder" xml:space="preserve">
+    <value>73</value>
+  </data>
+  <data name="labPancreas2.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="labPancreas2.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="labPancreas2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 1050</value>
+  </data>
+  <data name="labPancreas2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>73, 21</value>
+  </data>
+  <data name="labPancreas2.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>231</value>
+  </data>
+  <data name="labPancreas2.Text" xml:space="preserve">
+    <value>Размеры</value>
+  </data>
+  <data name="&gt;&gt;labPancreas2.Name" xml:space="preserve">
+    <value>labPancreas2</value>
+  </data>
+  <data name="&gt;&gt;labPancreas2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labPancreas2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labPancreas2.ZOrder" xml:space="preserve">
+    <value>74</value>
+  </data>
+  <data name="labPancreas1.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="labPancreas1.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="labPancreas1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 1015</value>
+  </data>
+  <data name="labPancreas1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>72, 21</value>
+  </data>
+  <data name="labPancreas1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>228</value>
+  </data>
+  <data name="labPancreas1.Text" xml:space="preserve">
+    <value>Контуры</value>
+  </data>
+  <data name="&gt;&gt;labPancreas1.Name" xml:space="preserve">
+    <value>labPancreas1</value>
+  </data>
+  <data name="&gt;&gt;labPancreas1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labPancreas1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labPancreas1.ZOrder" xml:space="preserve">
+    <value>75</value>
+  </data>
+  <data name="butPancreas1.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="butPancreas1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>1103, 1012</value>
+  </data>
+  <data name="butPancreas1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>88, 29</value>
+  </data>
+  <data name="butPancreas1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>227</value>
+  </data>
+  <data name="butPancreas1.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="&gt;&gt;butPancreas1.Name" xml:space="preserve">
+    <value>butPancreas1</value>
+  </data>
+  <data name="&gt;&gt;butPancreas1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butPancreas1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butPancreas1.ZOrder" xml:space="preserve">
+    <value>76</value>
+  </data>
+  <data name="comPancreas1.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="comPancreas1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>105, 1012</value>
+  </data>
+  <data name="comPancreas1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>992, 29</value>
+  </data>
+  <data name="comPancreas1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>226</value>
+  </data>
+  <data name="&gt;&gt;comPancreas1.Name" xml:space="preserve">
+    <value>comPancreas1</value>
+  </data>
+  <data name="&gt;&gt;comPancreas1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comPancreas1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comPancreas1.ZOrder" xml:space="preserve">
+    <value>77</value>
+  </data>
+  <data name="labGallbladder6.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="labGallbladder6.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="labGallbladder6.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 933</value>
+  </data>
+  <data name="labGallbladder6.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>187, 21</value>
+  </data>
+  <data name="labGallbladder6.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>225</value>
+  </data>
+  <data name="labGallbladder6.Text" xml:space="preserve">
+    <value>Общий желчный проток</value>
+  </data>
+  <data name="&gt;&gt;labGallbladder6.Name" xml:space="preserve">
+    <value>labGallbladder6</value>
+  </data>
+  <data name="&gt;&gt;labGallbladder6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labGallbladder6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labGallbladder6.ZOrder" xml:space="preserve">
+    <value>78</value>
+  </data>
+  <data name="butGallbladder6.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="butGallbladder6.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>1103, 930</value>
+  </data>
+  <data name="butGallbladder6.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>88, 29</value>
+  </data>
+  <data name="butGallbladder6.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>224</value>
+  </data>
+  <data name="butGallbladder6.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="&gt;&gt;butGallbladder6.Name" xml:space="preserve">
+    <value>butGallbladder6</value>
+  </data>
+  <data name="&gt;&gt;butGallbladder6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butGallbladder6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butGallbladder6.ZOrder" xml:space="preserve">
+    <value>79</value>
+  </data>
+  <data name="comGallbladder6.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="comGallbladder6.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>220, 930</value>
+  </data>
+  <data name="comGallbladder6.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>877, 29</value>
+  </data>
+  <data name="comGallbladder6.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>223</value>
+  </data>
+  <data name="&gt;&gt;comGallbladder6.Name" xml:space="preserve">
+    <value>comGallbladder6</value>
+  </data>
+  <data name="&gt;&gt;comGallbladder6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comGallbladder6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comGallbladder6.ZOrder" xml:space="preserve">
+    <value>80</value>
+  </data>
+  <data name="labGallbladder5.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="labGallbladder5.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="labGallbladder5.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 898</value>
+  </data>
+  <data name="labGallbladder5.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>104, 21</value>
+  </data>
+  <data name="labGallbladder5.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>222</value>
+  </data>
+  <data name="labGallbladder5.Text" xml:space="preserve">
+    <value>Содержимое</value>
+  </data>
+  <data name="&gt;&gt;labGallbladder5.Name" xml:space="preserve">
+    <value>labGallbladder5</value>
+  </data>
+  <data name="&gt;&gt;labGallbladder5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labGallbladder5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labGallbladder5.ZOrder" xml:space="preserve">
+    <value>81</value>
+  </data>
+  <data name="butGallbladder5.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="butGallbladder5.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>1103, 895</value>
+  </data>
+  <data name="butGallbladder5.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>88, 29</value>
+  </data>
+  <data name="butGallbladder5.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>221</value>
+  </data>
+  <data name="butGallbladder5.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="&gt;&gt;butGallbladder5.Name" xml:space="preserve">
+    <value>butGallbladder5</value>
+  </data>
+  <data name="&gt;&gt;butGallbladder5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butGallbladder5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butGallbladder5.ZOrder" xml:space="preserve">
+    <value>82</value>
+  </data>
+  <data name="comGallbladder5.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="comGallbladder5.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>137, 895</value>
+  </data>
+  <data name="comGallbladder5.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>960, 29</value>
+  </data>
+  <data name="comGallbladder5.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>220</value>
+  </data>
+  <data name="&gt;&gt;comGallbladder5.Name" xml:space="preserve">
+    <value>comGallbladder5</value>
+  </data>
+  <data name="&gt;&gt;comGallbladder5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comGallbladder5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comGallbladder5.ZOrder" xml:space="preserve">
+    <value>83</value>
+  </data>
+  <data name="labGallbladder4.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="labGallbladder4.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="labGallbladder4.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 863</value>
+  </data>
+  <data name="labGallbladder4.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>60, 21</value>
+  </data>
+  <data name="labGallbladder4.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>219</value>
+  </data>
+  <data name="labGallbladder4.Text" xml:space="preserve">
+    <value>Стенка</value>
+  </data>
+  <data name="&gt;&gt;labGallbladder4.Name" xml:space="preserve">
+    <value>labGallbladder4</value>
+  </data>
+  <data name="&gt;&gt;labGallbladder4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labGallbladder4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labGallbladder4.ZOrder" xml:space="preserve">
+    <value>84</value>
+  </data>
+  <data name="butGallbladder4.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="butGallbladder4.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>1103, 860</value>
+  </data>
+  <data name="butGallbladder4.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>88, 29</value>
+  </data>
+  <data name="butGallbladder4.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>218</value>
+  </data>
+  <data name="butGallbladder4.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="&gt;&gt;butGallbladder4.Name" xml:space="preserve">
+    <value>butGallbladder4</value>
+  </data>
+  <data name="&gt;&gt;butGallbladder4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butGallbladder4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butGallbladder4.ZOrder" xml:space="preserve">
+    <value>85</value>
+  </data>
+  <data name="comGallbladder4.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="comGallbladder4.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>93, 860</value>
+  </data>
+  <data name="comGallbladder4.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>1004, 29</value>
+  </data>
+  <data name="comGallbladder4.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>217</value>
+  </data>
+  <data name="&gt;&gt;comGallbladder4.Name" xml:space="preserve">
+    <value>comGallbladder4</value>
+  </data>
+  <data name="&gt;&gt;comGallbladder4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comGallbladder4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comGallbladder4.ZOrder" xml:space="preserve">
+    <value>86</value>
+  </data>
+  <data name="labGallbladder3.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="labGallbladder3.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="labGallbladder3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 828</value>
+  </data>
+  <data name="labGallbladder3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>73, 21</value>
+  </data>
+  <data name="labGallbladder3.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>216</value>
+  </data>
+  <data name="labGallbladder3.Text" xml:space="preserve">
+    <value>Размеры</value>
+  </data>
+  <data name="&gt;&gt;labGallbladder3.Name" xml:space="preserve">
+    <value>labGallbladder3</value>
+  </data>
+  <data name="&gt;&gt;labGallbladder3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labGallbladder3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labGallbladder3.ZOrder" xml:space="preserve">
+    <value>87</value>
+  </data>
+  <data name="labGallbladder2.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="labGallbladder2.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="labGallbladder2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 793</value>
+  </data>
+  <data name="labGallbladder2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>59, 21</value>
+  </data>
+  <data name="labGallbladder2.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>213</value>
+  </data>
+  <data name="labGallbladder2.Text" xml:space="preserve">
+    <value>Форма</value>
+  </data>
+  <data name="&gt;&gt;labGallbladder2.Name" xml:space="preserve">
+    <value>labGallbladder2</value>
+  </data>
+  <data name="&gt;&gt;labGallbladder2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labGallbladder2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labGallbladder2.ZOrder" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="butGallbladder2.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="butGallbladder2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>1103, 790</value>
+  </data>
+  <data name="butGallbladder2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>88, 29</value>
+  </data>
+  <data name="butGallbladder2.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>212</value>
+  </data>
+  <data name="butGallbladder2.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="&gt;&gt;butGallbladder2.Name" xml:space="preserve">
+    <value>butGallbladder2</value>
+  </data>
+  <data name="&gt;&gt;butGallbladder2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butGallbladder2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butGallbladder2.ZOrder" xml:space="preserve">
+    <value>89</value>
+  </data>
+  <data name="comGallbladder2.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="comGallbladder2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>92, 790</value>
+  </data>
+  <data name="comGallbladder2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>1005, 29</value>
+  </data>
+  <data name="comGallbladder2.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>211</value>
+  </data>
+  <data name="&gt;&gt;comGallbladder2.Name" xml:space="preserve">
+    <value>comGallbladder2</value>
+  </data>
+  <data name="&gt;&gt;comGallbladder2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comGallbladder2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comGallbladder2.ZOrder" xml:space="preserve">
+    <value>90</value>
+  </data>
+  <data name="labGallbladder1.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="labGallbladder1.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="labGallbladder1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 758</value>
+  </data>
+  <data name="labGallbladder1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>115, 21</value>
+  </data>
+  <data name="labGallbladder1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>210</value>
+  </data>
+  <data name="labGallbladder1.Text" xml:space="preserve">
+    <value>Расположение</value>
+  </data>
+  <data name="&gt;&gt;labGallbladder1.Name" xml:space="preserve">
+    <value>labGallbladder1</value>
+  </data>
+  <data name="&gt;&gt;labGallbladder1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labGallbladder1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labGallbladder1.ZOrder" xml:space="preserve">
+    <value>91</value>
+  </data>
+  <data name="butGallbladder1.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="butGallbladder1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>1103, 755</value>
+  </data>
+  <data name="butGallbladder1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>88, 29</value>
+  </data>
+  <data name="butGallbladder1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>209</value>
+  </data>
+  <data name="butGallbladder1.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="&gt;&gt;butGallbladder1.Name" xml:space="preserve">
+    <value>butGallbladder1</value>
+  </data>
+  <data name="&gt;&gt;butGallbladder1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butGallbladder1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butGallbladder1.ZOrder" xml:space="preserve">
+    <value>92</value>
+  </data>
+  <data name="comGallbladder1.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="comGallbladder1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>148, 755</value>
+  </data>
+  <data name="comGallbladder1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>949, 29</value>
+  </data>
+  <data name="comGallbladder1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>208</value>
+  </data>
+  <data name="&gt;&gt;comGallbladder1.Name" xml:space="preserve">
+    <value>comGallbladder1</value>
+  </data>
+  <data name="&gt;&gt;comGallbladder1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comGallbladder1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comGallbladder1.ZOrder" xml:space="preserve">
+    <value>93</value>
+  </data>
+  <data name="labLiver13.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="labLiver13.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="labLiver13.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 673</value>
+  </data>
+  <data name="labLiver13.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>194, 21</value>
+  </data>
+  <data name="labLiver13.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>207</value>
+  </data>
+  <data name="labLiver13.Text" xml:space="preserve">
+    <value>Диаметр печеночных вен</value>
+  </data>
+  <data name="&gt;&gt;labLiver13.Name" xml:space="preserve">
+    <value>labLiver13</value>
+  </data>
+  <data name="&gt;&gt;labLiver13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labLiver13.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labLiver13.ZOrder" xml:space="preserve">
+    <value>94</value>
+  </data>
+  <data name="butLiver13.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="butLiver13.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>1103, 670</value>
+  </data>
+  <data name="butLiver13.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>88, 29</value>
+  </data>
+  <data name="butLiver13.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>206</value>
+  </data>
+  <data name="butLiver13.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="&gt;&gt;butLiver13.Name" xml:space="preserve">
+    <value>butLiver13</value>
+  </data>
+  <data name="&gt;&gt;butLiver13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butLiver13.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butLiver13.ZOrder" xml:space="preserve">
+    <value>95</value>
+  </data>
+  <data name="comLiver13.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="comLiver13.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>227, 673</value>
+  </data>
+  <data name="comLiver13.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>870, 29</value>
+  </data>
+  <data name="comLiver13.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>205</value>
+  </data>
+  <data name="&gt;&gt;comLiver13.Name" xml:space="preserve">
+    <value>comLiver13</value>
+  </data>
+  <data name="&gt;&gt;comLiver13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comLiver13.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comLiver13.ZOrder" xml:space="preserve">
+    <value>96</value>
+  </data>
+  <data name="labLiver12.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="labLiver12.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="labLiver12.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 638</value>
+  </data>
+  <data name="labLiver12.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>198, 21</value>
+  </data>
+  <data name="labLiver12.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>204</value>
+  </data>
+  <data name="labLiver12.Text" xml:space="preserve">
+    <value>Просвет портальной вены</value>
+  </data>
+  <data name="&gt;&gt;labLiver12.Name" xml:space="preserve">
+    <value>labLiver12</value>
+  </data>
+  <data name="&gt;&gt;labLiver12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labLiver12.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labLiver12.ZOrder" xml:space="preserve">
+    <value>97</value>
+  </data>
+  <data name="butLiver12.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="butLiver12.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>1103, 635</value>
+  </data>
+  <data name="butLiver12.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>88, 29</value>
+  </data>
+  <data name="butLiver12.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>203</value>
+  </data>
+  <data name="butLiver12.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="&gt;&gt;butLiver12.Name" xml:space="preserve">
+    <value>butLiver12</value>
+  </data>
+  <data name="&gt;&gt;butLiver12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butLiver12.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butLiver12.ZOrder" xml:space="preserve">
+    <value>98</value>
+  </data>
+  <data name="comLiver12.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="comLiver12.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>231, 635</value>
+  </data>
+  <data name="comLiver12.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>866, 29</value>
+  </data>
+  <data name="comLiver12.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>202</value>
+  </data>
+  <data name="&gt;&gt;comLiver12.Name" xml:space="preserve">
+    <value>comLiver12</value>
+  </data>
+  <data name="&gt;&gt;comLiver12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comLiver12.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comLiver12.ZOrder" xml:space="preserve">
+    <value>99</value>
+  </data>
+  <data name="labLiver11.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="labLiver11.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="labLiver11.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 603</value>
+  </data>
+  <data name="labLiver11.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>159, 21</value>
+  </data>
+  <data name="labLiver11.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>201</value>
+  </data>
+  <data name="labLiver11.Text" xml:space="preserve">
+    <value>Сосудистый рисунок</value>
+  </data>
+  <data name="&gt;&gt;labLiver11.Name" xml:space="preserve">
+    <value>labLiver11</value>
+  </data>
+  <data name="&gt;&gt;labLiver11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labLiver11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labLiver11.ZOrder" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="butLiver11.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="butLiver11.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>1103, 600</value>
+  </data>
+  <data name="butLiver11.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>88, 29</value>
+  </data>
+  <data name="butLiver11.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>200</value>
+  </data>
+  <data name="butLiver11.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="&gt;&gt;butLiver11.Name" xml:space="preserve">
+    <value>butLiver11</value>
+  </data>
+  <data name="&gt;&gt;butLiver11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butLiver11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butLiver11.ZOrder" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="comLiver11.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="comLiver11.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>192, 600</value>
+  </data>
+  <data name="comLiver11.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>905, 29</value>
+  </data>
+  <data name="comLiver11.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>199</value>
+  </data>
+  <data name="&gt;&gt;comLiver11.Name" xml:space="preserve">
+    <value>comLiver11</value>
+  </data>
+  <data name="&gt;&gt;comLiver11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comLiver11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comLiver11.ZOrder" xml:space="preserve">
+    <value>102</value>
+  </data>
+  <data name="labLiver10.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="labLiver10.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="labLiver10.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 568</value>
+  </data>
+  <data name="labLiver10.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>264, 21</value>
+  </data>
+  <data name="labLiver10.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>198</value>
+  </data>
+  <data name="labLiver10.Text" xml:space="preserve">
+    <value>Просвет общего желчного протока</value>
+  </data>
+  <data name="&gt;&gt;labLiver10.Name" xml:space="preserve">
+    <value>labLiver10</value>
+  </data>
+  <data name="&gt;&gt;labLiver10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labLiver10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labLiver10.ZOrder" xml:space="preserve">
+    <value>103</value>
+  </data>
+  <data name="butLiver10.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="butLiver10.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>1103, 565</value>
+  </data>
+  <data name="butLiver10.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>88, 29</value>
+  </data>
+  <data name="butLiver10.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>197</value>
+  </data>
+  <data name="butLiver10.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="&gt;&gt;butLiver10.Name" xml:space="preserve">
+    <value>butLiver10</value>
+  </data>
+  <data name="&gt;&gt;butLiver10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butLiver10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butLiver10.ZOrder" xml:space="preserve">
+    <value>104</value>
+  </data>
+  <data name="comLiver10.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="comLiver10.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>297, 565</value>
+  </data>
+  <data name="comLiver10.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>800, 29</value>
+  </data>
+  <data name="comLiver10.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>196</value>
+  </data>
+  <data name="&gt;&gt;comLiver10.Name" xml:space="preserve">
+    <value>comLiver10</value>
+  </data>
+  <data name="&gt;&gt;comLiver10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comLiver10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comLiver10.ZOrder" xml:space="preserve">
+    <value>105</value>
+  </data>
+  <data name="labLiver9.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="labLiver9.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 530</value>
+  </data>
+  <data name="labLiver9.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>289, 35</value>
+  </data>
+  <data name="labLiver9.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>195</value>
+  </data>
+  <data name="labLiver9.Text" xml:space="preserve">
+    <value>Внутрипеченочные желчные протоки</value>
+  </data>
+  <data name="&gt;&gt;labLiver9.Name" xml:space="preserve">
+    <value>labLiver9</value>
+  </data>
+  <data name="&gt;&gt;labLiver9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labLiver9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labLiver9.ZOrder" xml:space="preserve">
+    <value>106</value>
+  </data>
+  <data name="butLiver9.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="butLiver9.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>1103, 530</value>
+  </data>
+  <data name="butLiver9.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>88, 29</value>
+  </data>
+  <data name="butLiver9.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>194</value>
+  </data>
+  <data name="butLiver9.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="&gt;&gt;butLiver9.Name" xml:space="preserve">
+    <value>butLiver9</value>
+  </data>
+  <data name="&gt;&gt;butLiver9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butLiver9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butLiver9.ZOrder" xml:space="preserve">
+    <value>107</value>
+  </data>
+  <data name="comLiver9.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="comLiver9.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>322, 530</value>
+  </data>
+  <data name="comLiver9.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>775, 29</value>
+  </data>
+  <data name="comLiver9.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>193</value>
+  </data>
+  <data name="&gt;&gt;comLiver9.Name" xml:space="preserve">
+    <value>comLiver9</value>
+  </data>
+  <data name="&gt;&gt;comLiver9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comLiver9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comLiver9.ZOrder" xml:space="preserve">
+    <value>108</value>
+  </data>
+  <data name="labLiver8.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="labLiver8.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="labLiver8.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 498</value>
+  </data>
+  <data name="labLiver8.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>156, 21</value>
+  </data>
+  <data name="labLiver8.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>192</value>
+  </data>
+  <data name="labLiver8.Text" xml:space="preserve">
+    <value>Звукопроводимость</value>
+  </data>
+  <data name="&gt;&gt;labLiver8.Name" xml:space="preserve">
+    <value>labLiver8</value>
+  </data>
+  <data name="&gt;&gt;labLiver8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labLiver8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labLiver8.ZOrder" xml:space="preserve">
+    <value>109</value>
+  </data>
+  <data name="butLiver8.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="butLiver8.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>1103, 495</value>
+  </data>
+  <data name="butLiver8.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>88, 29</value>
+  </data>
+  <data name="butLiver8.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>191</value>
+  </data>
+  <data name="butLiver8.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="&gt;&gt;butLiver8.Name" xml:space="preserve">
+    <value>butLiver8</value>
+  </data>
+  <data name="&gt;&gt;butLiver8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butLiver8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butLiver8.ZOrder" xml:space="preserve">
+    <value>110</value>
+  </data>
+  <data name="comLiver8.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="comLiver8.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>189, 495</value>
+  </data>
+  <data name="comLiver8.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>908, 29</value>
+  </data>
+  <data name="comLiver8.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>190</value>
+  </data>
+  <data name="&gt;&gt;comLiver8.Name" xml:space="preserve">
+    <value>comLiver8</value>
+  </data>
+  <data name="&gt;&gt;comLiver8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comLiver8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comLiver8.ZOrder" xml:space="preserve">
+    <value>111</value>
+  </data>
+  <data name="labLiver7.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="labLiver7.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="labLiver7.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 463</value>
+  </data>
+  <data name="labLiver7.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>99, 21</value>
+  </data>
+  <data name="labLiver7.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>189</value>
+  </data>
+  <data name="labLiver7.Text" xml:space="preserve">
+    <value>Эхогенность</value>
+  </data>
+  <data name="&gt;&gt;labLiver7.Name" xml:space="preserve">
+    <value>labLiver7</value>
+  </data>
+  <data name="&gt;&gt;labLiver7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labLiver7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labLiver7.ZOrder" xml:space="preserve">
+    <value>112</value>
+  </data>
+  <data name="butLiver7.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="butLiver7.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>1103, 460</value>
+  </data>
+  <data name="butLiver7.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>88, 29</value>
+  </data>
+  <data name="butLiver7.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>188</value>
+  </data>
+  <data name="butLiver7.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="&gt;&gt;butLiver7.Name" xml:space="preserve">
+    <value>butLiver7</value>
+  </data>
+  <data name="&gt;&gt;butLiver7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butLiver7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butLiver7.ZOrder" xml:space="preserve">
+    <value>113</value>
+  </data>
+  <data name="comLiver7.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="comLiver7.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>132, 460</value>
+  </data>
+  <data name="comLiver7.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>965, 29</value>
+  </data>
+  <data name="comLiver7.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>187</value>
+  </data>
+  <data name="&gt;&gt;comLiver7.Name" xml:space="preserve">
+    <value>comLiver7</value>
+  </data>
+  <data name="&gt;&gt;comLiver7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comLiver7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comLiver7.ZOrder" xml:space="preserve">
+    <value>114</value>
+  </data>
+  <data name="labLiver6.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="labLiver6.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="labLiver6.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 428</value>
+  </data>
+  <data name="labLiver6.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>184, 21</value>
+  </data>
+  <data name="labLiver6.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>186</value>
+  </data>
+  <data name="labLiver6.Text" xml:space="preserve">
+    <value>Объемные образования</value>
+  </data>
+  <data name="&gt;&gt;labLiver6.Name" xml:space="preserve">
+    <value>labLiver6</value>
+  </data>
+  <data name="&gt;&gt;labLiver6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labLiver6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labLiver6.ZOrder" xml:space="preserve">
+    <value>115</value>
+  </data>
+  <data name="butLiver6.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="butLiver6.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>1103, 425</value>
+  </data>
+  <data name="butLiver6.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>88, 29</value>
+  </data>
+  <data name="butLiver6.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>185</value>
+  </data>
+  <data name="butLiver6.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="&gt;&gt;butLiver6.Name" xml:space="preserve">
+    <value>butLiver6</value>
+  </data>
+  <data name="&gt;&gt;butLiver6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butLiver6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butLiver6.ZOrder" xml:space="preserve">
+    <value>116</value>
+  </data>
+  <data name="comLiver6.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="comLiver6.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>217, 425</value>
+  </data>
+  <data name="comLiver6.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>880, 29</value>
+  </data>
+  <data name="comLiver6.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>184</value>
+  </data>
+  <data name="&gt;&gt;comLiver6.Name" xml:space="preserve">
+    <value>comLiver6</value>
+  </data>
+  <data name="&gt;&gt;comLiver6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comLiver6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comLiver6.ZOrder" xml:space="preserve">
+    <value>117</value>
+  </data>
+  <data name="labLiver5.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="labLiver5.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="labLiver5.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 393</value>
+  </data>
+  <data name="labLiver5.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>107, 21</value>
+  </data>
+  <data name="labLiver5.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>181</value>
+  </data>
+  <data name="labLiver5.Text" xml:space="preserve">
+    <value>Эхоструктура</value>
+  </data>
+  <data name="&gt;&gt;labLiver5.Name" xml:space="preserve">
+    <value>labLiver5</value>
+  </data>
+  <data name="&gt;&gt;labLiver5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labLiver5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labLiver5.ZOrder" xml:space="preserve">
+    <value>118</value>
+  </data>
+  <data name="butLiver5.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="butLiver5.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>1103, 390</value>
+  </data>
+  <data name="butLiver5.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>88, 29</value>
+  </data>
+  <data name="butLiver5.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>180</value>
+  </data>
+  <data name="butLiver5.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="&gt;&gt;butLiver5.Name" xml:space="preserve">
+    <value>butLiver5</value>
+  </data>
+  <data name="&gt;&gt;butLiver5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butLiver5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butLiver5.ZOrder" xml:space="preserve">
+    <value>119</value>
+  </data>
+  <data name="comLiver5.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="comLiver5.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>140, 390</value>
+  </data>
+  <data name="comLiver5.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>957, 29</value>
+  </data>
+  <data name="comLiver5.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>179</value>
+  </data>
+  <data name="&gt;&gt;comLiver5.Name" xml:space="preserve">
+    <value>comLiver5</value>
+  </data>
+  <data name="&gt;&gt;comLiver5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comLiver5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comLiver5.ZOrder" xml:space="preserve">
+    <value>120</value>
+  </data>
+  <data name="labLiver4.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="labLiver4.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="labLiver4.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 359</value>
+  </data>
+  <data name="labLiver4.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>73, 21</value>
+  </data>
+  <data name="labLiver4.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>178</value>
+  </data>
+  <data name="labLiver4.Text" xml:space="preserve">
+    <value>Размеры</value>
+  </data>
+  <data name="&gt;&gt;labLiver4.Name" xml:space="preserve">
+    <value>labLiver4</value>
+  </data>
+  <data name="&gt;&gt;labLiver4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labLiver4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labLiver4.ZOrder" xml:space="preserve">
+    <value>121</value>
+  </data>
+  <data name="labLiver3.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="labLiver3.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="labLiver3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 330</value>
+  </data>
+  <data name="labLiver3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>59, 21</value>
+  </data>
+  <data name="labLiver3.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>175</value>
+  </data>
+  <data name="labLiver3.Text" xml:space="preserve">
+    <value>Форма</value>
+  </data>
+  <data name="&gt;&gt;labLiver3.Name" xml:space="preserve">
+    <value>labLiver3</value>
+  </data>
+  <data name="&gt;&gt;labLiver3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labLiver3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labLiver3.ZOrder" xml:space="preserve">
+    <value>122</value>
+  </data>
+  <data name="butLiver3.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="butLiver3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>1103, 327</value>
+  </data>
+  <data name="butLiver3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>88, 29</value>
+  </data>
+  <data name="butLiver3.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>174</value>
+  </data>
+  <data name="butLiver3.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="&gt;&gt;butLiver3.Name" xml:space="preserve">
+    <value>butLiver3</value>
+  </data>
+  <data name="&gt;&gt;butLiver3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butLiver3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butLiver3.ZOrder" xml:space="preserve">
+    <value>123</value>
+  </data>
+  <data name="comLiver3.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="comLiver3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>92, 327</value>
+  </data>
+  <data name="comLiver3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>1005, 29</value>
+  </data>
+  <data name="comLiver3.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>173</value>
+  </data>
+  <data name="&gt;&gt;comLiver3.Name" xml:space="preserve">
+    <value>comLiver3</value>
+  </data>
+  <data name="&gt;&gt;comLiver3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comLiver3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comLiver3.ZOrder" xml:space="preserve">
+    <value>124</value>
+  </data>
+  <data name="labLiver2.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="labLiver2.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="labLiver2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 296</value>
+  </data>
+  <data name="labLiver2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>93, 21</value>
+  </data>
+  <data name="labLiver2.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>172</value>
+  </data>
+  <data name="labLiver2.Text" xml:space="preserve">
+    <value>Положение</value>
+  </data>
+  <data name="&gt;&gt;labLiver2.Name" xml:space="preserve">
+    <value>labLiver2</value>
+  </data>
+  <data name="&gt;&gt;labLiver2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labLiver2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labLiver2.ZOrder" xml:space="preserve">
+    <value>125</value>
+  </data>
+  <data name="butLiver2.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="butLiver2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>1103, 292</value>
+  </data>
+  <data name="butLiver2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>88, 29</value>
+  </data>
+  <data name="butLiver2.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>171</value>
+  </data>
+  <data name="butLiver2.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="&gt;&gt;butLiver2.Name" xml:space="preserve">
+    <value>butLiver2</value>
+  </data>
+  <data name="&gt;&gt;butLiver2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butLiver2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butLiver2.ZOrder" xml:space="preserve">
+    <value>126</value>
+  </data>
+  <data name="comLiver2.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="comLiver2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>126, 292</value>
+  </data>
+  <data name="comLiver2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>971, 29</value>
+  </data>
+  <data name="comLiver2.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>170</value>
+  </data>
+  <data name="&gt;&gt;comLiver2.Name" xml:space="preserve">
+    <value>comLiver2</value>
+  </data>
+  <data name="&gt;&gt;comLiver2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comLiver2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comLiver2.ZOrder" xml:space="preserve">
+    <value>127</value>
+  </data>
+  <data name="labLiver1.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="labLiver1.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="labLiver1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 260</value>
+  </data>
+  <data name="labLiver1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>72, 21</value>
+  </data>
+  <data name="labLiver1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>169</value>
+  </data>
+  <data name="labLiver1.Text" xml:space="preserve">
+    <value>Контуры</value>
+  </data>
+  <data name="&gt;&gt;labLiver1.Name" xml:space="preserve">
+    <value>labLiver1</value>
+  </data>
+  <data name="&gt;&gt;labLiver1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labLiver1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labLiver1.ZOrder" xml:space="preserve">
+    <value>128</value>
+  </data>
+  <data name="butLiver1.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="butLiver1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>1103, 255</value>
+  </data>
+  <data name="butLiver1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>88, 30</value>
+  </data>
+  <data name="butLiver1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>168</value>
+  </data>
+  <data name="butLiver1.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="&gt;&gt;butLiver1.Name" xml:space="preserve">
+    <value>butLiver1</value>
+  </data>
+  <data name="&gt;&gt;butLiver1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butLiver1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butLiver1.ZOrder" xml:space="preserve">
+    <value>129</value>
+  </data>
+  <data name="comLiver1.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="comLiver1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>105, 257</value>
+  </data>
+  <data name="comLiver1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>992, 29</value>
+  </data>
+  <data name="comLiver1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>167</value>
+  </data>
+  <data name="&gt;&gt;comLiver1.Name" xml:space="preserve">
+    <value>comLiver1</value>
+  </data>
+  <data name="&gt;&gt;comLiver1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comLiver1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comLiver1.ZOrder" xml:space="preserve">
+    <value>130</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>106, 359</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>168, 21</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>283</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>толщина правой доли</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>363, 359</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>137, 21</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>284</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>см, толщина доли</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>589, 359</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>142, 21</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>285</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>см, хвостатая доля</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>820, 359</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>31, 21</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>286</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>см.</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>280, 361</value>
+  </data>
+  <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>77, 23</value>
+  </data>
+  <data name="textBox2.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>287</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Name" xml:space="preserve">
+    <value>textBox2</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="textBox3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>506, 361</value>
+  </data>
+  <data name="textBox3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>77, 23</value>
+  </data>
+  <data name="textBox3.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>288</value>
+  </data>
+  <data name="&gt;&gt;textBox3.Name" xml:space="preserve">
+    <value>textBox3</value>
+  </data>
+  <data name="&gt;&gt;textBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox3.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="textBox4.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>737, 361</value>
+  </data>
+  <data name="textBox4.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>77, 23</value>
+  </data>
+  <data name="textBox4.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>289</value>
+  </data>
+  <data name="&gt;&gt;textBox4.Name" xml:space="preserve">
+    <value>textBox4</value>
+  </data>
+  <data name="&gt;&gt;textBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox4.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 197</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>110, 21</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>292</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Визуализация</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="button1.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>1103, 192</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>88, 30</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>291</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="comboBox1.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>363, 194</value>
+  </data>
+  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>734, 29</value>
+  </data>
+  <data name="comboBox1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>290</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
+    <value>comboBox1</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="Additionally.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="Additionally.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI Semibold, 12pt, style=Bold</value>
+  </data>
+  <data name="Additionally.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 1514</value>
+  </data>
+  <data name="Additionally.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>308, 21</value>
+  </data>
+  <data name="Additionally.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>293</value>
+  </data>
+  <data name="Additionally.Text" xml:space="preserve">
+    <value>Дополнительно для брюшной полости</value>
+  </data>
+  <data name="&gt;&gt;Additionally.Name" xml:space="preserve">
+    <value>Additionally</value>
+  </data>
+  <data name="&gt;&gt;Additionally.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Additionally.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Additionally.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="Conclusion.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="Conclusion.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI Semibold, 12pt, style=Bold</value>
+  </data>
+  <data name="Conclusion.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 1592</value>
+  </data>
+  <data name="Conclusion.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>281, 21</value>
+  </data>
+  <data name="Conclusion.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>294</value>
+  </data>
+  <data name="Conclusion.Text" xml:space="preserve">
+    <value>Заключение для брюшной полости</value>
+  </data>
+  <data name="&gt;&gt;Conclusion.Name" xml:space="preserve">
+    <value>Conclusion</value>
+  </data>
+  <data name="&gt;&gt;Conclusion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Conclusion.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Conclusion.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="textBox5.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>737, 1052</value>
+  </data>
+  <data name="textBox5.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>77, 23</value>
+  </data>
+  <data name="textBox5.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>302</value>
+  </data>
+  <data name="&gt;&gt;textBox5.Name" xml:space="preserve">
+    <value>textBox5</value>
+  </data>
+  <data name="&gt;&gt;textBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox5.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="textBox6.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>506, 1052</value>
+  </data>
+  <data name="textBox6.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>77, 23</value>
+  </data>
+  <data name="textBox6.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>301</value>
+  </data>
+  <data name="&gt;&gt;textBox6.Name" xml:space="preserve">
+    <value>textBox6</value>
+  </data>
+  <data name="&gt;&gt;textBox6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox6.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="textBox7.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>280, 1052</value>
+  </data>
+  <data name="textBox7.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>77, 23</value>
+  </data>
+  <data name="textBox7.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>300</value>
+  </data>
+  <data name="&gt;&gt;textBox7.Name" xml:space="preserve">
+    <value>textBox7</value>
+  </data>
+  <data name="&gt;&gt;textBox7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox7.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>820, 1050</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>31, 21</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>299</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>см.</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>589, 1050</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>142, 21</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>298</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>см, хвостатая доля</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>363, 1050</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>137, 21</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>297</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>см, толщина доли</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>106, 1050</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>168, 21</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>296</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>толщина правой доли</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="textBox8.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>268, 830</value>
+  </data>
+  <data name="textBox8.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>77, 23</value>
+  </data>
+  <data name="textBox8.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>304</value>
+  </data>
+  <data name="&gt;&gt;textBox8.Name" xml:space="preserve">
+    <value>textBox8</value>
+  </data>
+  <data name="&gt;&gt;textBox8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox8.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>351, 828</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>31, 21</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>303</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>см.</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="checkBox1.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="checkBox1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>118, 832</value>
+  </data>
+  <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>83, 19</value>
+  </data>
+  <data name="checkBox1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>305</value>
+  </data>
+  <data name="checkBox1.Text" xml:space="preserve">
+    <value>checkBox1</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.Name" xml:space="preserve">
+    <value>checkBox1</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="checkBox2.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="checkBox2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>179, 201</value>
+  </data>
+  <data name="checkBox2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>83, 19</value>
+  </data>
+  <data name="checkBox2.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>306</value>
+  </data>
+  <data name="checkBox2.Text" xml:space="preserve">
+    <value>checkBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBox2.Name" xml:space="preserve">
+    <value>checkBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing.Primitives">
+    <value>7, 15</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>1367, 711</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Abdominal</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Abdominal</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

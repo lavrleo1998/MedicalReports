@@ -29,6 +29,7 @@ namespace WindowsFormsApp1.Forms
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Abdominal));
             this.butSave = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label31 = new System.Windows.Forms.Label();
@@ -81,8 +82,6 @@ namespace WindowsFormsApp1.Forms
             this.butPancreas3 = new System.Windows.Forms.Button();
             this.comPancreas3 = new System.Windows.Forms.ComboBox();
             this.labPancreas2 = new System.Windows.Forms.Label();
-            this.butPancreas2 = new System.Windows.Forms.Button();
-            this.comPancreas2 = new System.Windows.Forms.ComboBox();
             this.labPancreas1 = new System.Windows.Forms.Label();
             this.butPancreas1 = new System.Windows.Forms.Button();
             this.comPancreas1 = new System.Windows.Forms.ComboBox();
@@ -96,8 +95,6 @@ namespace WindowsFormsApp1.Forms
             this.butGallbladder4 = new System.Windows.Forms.Button();
             this.comGallbladder4 = new System.Windows.Forms.ComboBox();
             this.labGallbladder3 = new System.Windows.Forms.Label();
-            this.butGallbladder3 = new System.Windows.Forms.Button();
-            this.comGallbladder3 = new System.Windows.Forms.ComboBox();
             this.labGallbladder2 = new System.Windows.Forms.Label();
             this.butGallbladder2 = new System.Windows.Forms.Button();
             this.comGallbladder2 = new System.Windows.Forms.ComboBox();
@@ -132,8 +129,6 @@ namespace WindowsFormsApp1.Forms
             this.butLiver5 = new System.Windows.Forms.Button();
             this.comLiver5 = new System.Windows.Forms.ComboBox();
             this.labLiver4 = new System.Windows.Forms.Label();
-            this.butLiver4 = new System.Windows.Forms.Button();
-            this.comLiver4 = new System.Windows.Forms.ComboBox();
             this.labLiver3 = new System.Windows.Forms.Label();
             this.butLiver3 = new System.Windows.Forms.Button();
             this.comLiver3 = new System.Windows.Forms.ComboBox();
@@ -143,1150 +138,808 @@ namespace WindowsFormsApp1.Forms
             this.labLiver1 = new System.Windows.Forms.Label();
             this.butLiver1 = new System.Windows.Forms.Button();
             this.comLiver1 = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.Additionally = new System.Windows.Forms.Label();
+            this.Conclusion = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // butSave
             // 
-            this.butSave.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.butSave.Location = new System.Drawing.Point(0, 2003);
+            resources.ApplyResources(this.butSave, "butSave");
             this.butSave.Name = "butSave";
-            this.butSave.Size = new System.Drawing.Size(1259, 50);
-            this.butSave.TabIndex = 282;
-            this.butSave.Text = "Сохранить";
             this.butSave.UseVisualStyleBackColor = true;
+            this.butSave.Click += new System.EventHandler(this.butSave_Click);
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(27, 1654);
-            this.textBox1.Multiline = true;
+            resources.ApplyResources(this.textBox1, "textBox1");
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(1232, 140);
-            this.textBox1.TabIndex = 281;
             // 
             // label31
             // 
-            this.label31.Location = new System.Drawing.Point(27, 1813);
+            resources.ApplyResources(this.label31, "label31");
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(941, 190);
-            this.label31.TabIndex = 280;
-            this.label31.Text = "label31";
             // 
             // GenderValue
             // 
-            this.GenderValue.AutoSize = true;
-            this.GenderValue.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.GenderValue.Location = new System.Drawing.Point(56, 95);
+            resources.ApplyResources(this.GenderValue, "GenderValue");
             this.GenderValue.Name = "GenderValue";
-            this.GenderValue.Size = new System.Drawing.Size(52, 21);
-            this.GenderValue.TabIndex = 279;
-            this.GenderValue.Text = "label6";
             // 
             // BirthdayValue
             // 
-            this.BirthdayValue.AutoSize = true;
-            this.BirthdayValue.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.BirthdayValue.Location = new System.Drawing.Point(139, 74);
+            resources.ApplyResources(this.BirthdayValue, "BirthdayValue");
             this.BirthdayValue.Name = "BirthdayValue";
-            this.BirthdayValue.Size = new System.Drawing.Size(52, 21);
-            this.BirthdayValue.TabIndex = 278;
-            this.BirthdayValue.Text = "label7";
             // 
             // PatronymValue
             // 
-            this.PatronymValue.AutoSize = true;
-            this.PatronymValue.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.PatronymValue.Location = new System.Drawing.Point(95, 53);
+            resources.ApplyResources(this.PatronymValue, "PatronymValue");
             this.PatronymValue.Name = "PatronymValue";
-            this.PatronymValue.Size = new System.Drawing.Size(52, 21);
-            this.PatronymValue.TabIndex = 277;
-            this.PatronymValue.Text = "label8";
             // 
             // NameValue
             // 
-            this.NameValue.AutoSize = true;
-            this.NameValue.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.NameValue.Location = new System.Drawing.Point(59, 32);
+            resources.ApplyResources(this.NameValue, "NameValue");
             this.NameValue.Name = "NameValue";
-            this.NameValue.Size = new System.Drawing.Size(52, 21);
-            this.NameValue.TabIndex = 276;
-            this.NameValue.Text = "label9";
             // 
             // SurnameValue
             // 
-            this.SurnameValue.AutoSize = true;
-            this.SurnameValue.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.SurnameValue.Location = new System.Drawing.Point(93, 11);
+            resources.ApplyResources(this.SurnameValue, "SurnameValue");
             this.SurnameValue.Name = "SurnameValue";
-            this.SurnameValue.Size = new System.Drawing.Size(61, 21);
-            this.SurnameValue.TabIndex = 275;
-            this.SurnameValue.Text = "label10";
             // 
             // Gender
             // 
-            this.Gender.AutoSize = true;
-            this.Gender.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Gender.Location = new System.Drawing.Point(9, 95);
+            resources.ApplyResources(this.Gender, "Gender");
             this.Gender.Name = "Gender";
-            this.Gender.Size = new System.Drawing.Size(41, 21);
-            this.Gender.TabIndex = 274;
-            this.Gender.Text = "Пол:";
             // 
             // Birthday
             // 
-            this.Birthday.AutoSize = true;
-            this.Birthday.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Birthday.Location = new System.Drawing.Point(9, 74);
+            resources.ApplyResources(this.Birthday, "Birthday");
             this.Birthday.Name = "Birthday";
-            this.Birthday.Size = new System.Drawing.Size(124, 21);
-            this.Birthday.TabIndex = 273;
-            this.Birthday.Text = "Дата рождения:";
             // 
             // Patronym
             // 
-            this.Patronym.AutoSize = true;
-            this.Patronym.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Patronym.Location = new System.Drawing.Point(9, 53);
+            resources.ApplyResources(this.Patronym, "Patronym");
             this.Patronym.Name = "Patronym";
-            this.Patronym.Size = new System.Drawing.Size(80, 21);
-            this.Patronym.TabIndex = 272;
-            this.Patronym.Text = "Отчество:";
             // 
             // NameL
             // 
-            this.NameL.AutoSize = true;
-            this.NameL.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.NameL.Location = new System.Drawing.Point(9, 32);
+            resources.ApplyResources(this.NameL, "NameL");
             this.NameL.Name = "NameL";
-            this.NameL.Size = new System.Drawing.Size(44, 21);
-            this.NameL.TabIndex = 271;
-            this.NameL.Text = "Имя:";
             // 
             // Surname
             // 
-            this.Surname.AutoSize = true;
-            this.Surname.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Surname.Location = new System.Drawing.Point(9, 11);
+            resources.ApplyResources(this.Surname, "Surname");
             this.Surname.Name = "Surname";
-            this.Surname.Size = new System.Drawing.Size(78, 21);
-            this.Surname.TabIndex = 270;
-            this.Surname.Text = "Фамилия:";
             // 
             // LymphNode
             // 
-            this.LymphNode.AutoSize = true;
-            this.LymphNode.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.LymphNode.Location = new System.Drawing.Point(27, 1493);
+            resources.ApplyResources(this.LymphNode, "LymphNode");
             this.LymphNode.Name = "LymphNode";
-            this.LymphNode.Size = new System.Drawing.Size(101, 21);
-            this.LymphNode.TabIndex = 269;
-            this.LymphNode.Text = "Лимфоузлы";
             // 
             // Spleen
             // 
-            this.Spleen.AutoSize = true;
-            this.Spleen.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Spleen.Location = new System.Drawing.Point(27, 1322);
+            resources.ApplyResources(this.Spleen, "Spleen");
             this.Spleen.Name = "Spleen";
-            this.Spleen.Size = new System.Drawing.Size(88, 21);
-            this.Spleen.TabIndex = 268;
-            this.Spleen.Text = "Селезенка";
             // 
             // Pancreas
             // 
-            this.Pancreas.AutoSize = true;
-            this.Pancreas.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Pancreas.Location = new System.Drawing.Point(27, 1075);
+            resources.ApplyResources(this.Pancreas, "Pancreas");
             this.Pancreas.Name = "Pancreas";
-            this.Pancreas.Size = new System.Drawing.Size(192, 21);
-            this.Pancreas.TabIndex = 267;
-            this.Pancreas.Text = "Поджелудочная железа";
             // 
             // Gallbladder
             // 
-            this.Gallbladder.AutoSize = true;
-            this.Gallbladder.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Gallbladder.Location = new System.Drawing.Point(27, 827);
+            resources.ApplyResources(this.Gallbladder, "Gallbladder");
             this.Gallbladder.Name = "Gallbladder";
-            this.Gallbladder.Size = new System.Drawing.Size(141, 21);
-            this.Gallbladder.TabIndex = 266;
-            this.Gallbladder.Text = "Желчный пузырь";
             // 
             // Liver
             // 
-            this.Liver.AutoSize = true;
-            this.Liver.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Liver.Location = new System.Drawing.Point(27, 197);
+            resources.ApplyResources(this.Liver, "Liver");
             this.Liver.Name = "Liver";
-            this.Liver.Size = new System.Drawing.Size(66, 21);
-            this.Liver.TabIndex = 265;
-            this.Liver.Text = "Печень";
             // 
             // labConclusion
             // 
-            this.labConclusion.AutoSize = true;
-            this.labConclusion.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labConclusion.Location = new System.Drawing.Point(27, 1599);
+            resources.ApplyResources(this.labConclusion, "labConclusion");
             this.labConclusion.Name = "labConclusion";
-            this.labConclusion.Size = new System.Drawing.Size(99, 21);
-            this.labConclusion.TabIndex = 264;
-            this.labConclusion.Text = "Заключение";
             // 
             // butConclusion
             // 
-            this.butConclusion.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.butConclusion.Location = new System.Drawing.Point(1103, 1596);
+            resources.ApplyResources(this.butConclusion, "butConclusion");
             this.butConclusion.Name = "butConclusion";
-            this.butConclusion.Size = new System.Drawing.Size(156, 29);
-            this.butConclusion.TabIndex = 263;
-            this.butConclusion.Text = "Добавить";
             this.butConclusion.UseVisualStyleBackColor = true;
             this.butConclusion.Click += new System.EventHandler(this.butConclusion_Click);
             // 
             // comConclusion
             // 
-            this.comConclusion.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            resources.ApplyResources(this.comConclusion, "comConclusion");
             this.comConclusion.FormattingEnabled = true;
-            this.comConclusion.Location = new System.Drawing.Point(244, 1596);
             this.comConclusion.Name = "comConclusion";
-            this.comConclusion.Size = new System.Drawing.Size(853, 29);
-            this.comConclusion.TabIndex = 262;
             // 
             // labAdditionally
             // 
-            this.labAdditionally.AutoSize = true;
-            this.labAdditionally.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labAdditionally.Location = new System.Drawing.Point(27, 1569);
+            resources.ApplyResources(this.labAdditionally, "labAdditionally");
             this.labAdditionally.Name = "labAdditionally";
-            this.labAdditionally.Size = new System.Drawing.Size(123, 21);
-            this.labAdditionally.TabIndex = 261;
-            this.labAdditionally.Text = "Дополнительно";
             // 
             // butAdditionally
             // 
-            this.butAdditionally.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.butAdditionally.Location = new System.Drawing.Point(1103, 1561);
+            resources.ApplyResources(this.butAdditionally, "butAdditionally");
             this.butAdditionally.Name = "butAdditionally";
-            this.butAdditionally.Size = new System.Drawing.Size(156, 29);
-            this.butAdditionally.TabIndex = 260;
-            this.butAdditionally.Text = "Добавить";
             this.butAdditionally.UseVisualStyleBackColor = true;
             this.butAdditionally.Click += new System.EventHandler(this.butAdditionally_Click);
             // 
             // comAdditionally
             // 
-            this.comAdditionally.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            resources.ApplyResources(this.comAdditionally, "comAdditionally");
             this.comAdditionally.FormattingEnabled = true;
-            this.comAdditionally.Location = new System.Drawing.Point(244, 1561);
             this.comAdditionally.Name = "comAdditionally";
-            this.comAdditionally.Size = new System.Drawing.Size(853, 29);
-            this.comAdditionally.TabIndex = 259;
             // 
             // labLymphNode1
             // 
-            this.labLymphNode1.AutoSize = true;
-            this.labLymphNode1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labLymphNode1.Location = new System.Drawing.Point(27, 1529);
+            resources.ApplyResources(this.labLymphNode1, "labLymphNode1");
             this.labLymphNode1.Name = "labLymphNode1";
-            this.labLymphNode1.Size = new System.Drawing.Size(95, 21);
-            this.labLymphNode1.TabIndex = 258;
-            this.labLymphNode1.Text = "Лимфоузлы";
             // 
             // butLymphNode1
             // 
-            this.butLymphNode1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.butLymphNode1.Location = new System.Drawing.Point(1103, 1526);
+            resources.ApplyResources(this.butLymphNode1, "butLymphNode1");
             this.butLymphNode1.Name = "butLymphNode1";
-            this.butLymphNode1.Size = new System.Drawing.Size(156, 29);
-            this.butLymphNode1.TabIndex = 257;
-            this.butLymphNode1.Text = "Добавить";
             this.butLymphNode1.UseVisualStyleBackColor = true;
             this.butLymphNode1.Click += new System.EventHandler(this.butLymphNode1_Click);
             // 
             // comLymphNode1
             // 
-            this.comLymphNode1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            resources.ApplyResources(this.comLymphNode1, "comLymphNode1");
             this.comLymphNode1.FormattingEnabled = true;
-            this.comLymphNode1.Location = new System.Drawing.Point(244, 1526);
             this.comLymphNode1.Name = "comLymphNode1";
-            this.comLymphNode1.Size = new System.Drawing.Size(853, 29);
-            this.comLymphNode1.TabIndex = 256;
             // 
             // labSpleen4
             // 
-            this.labSpleen4.AutoSize = true;
-            this.labSpleen4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labSpleen4.Location = new System.Drawing.Point(27, 1460);
+            resources.ApplyResources(this.labSpleen4, "labSpleen4");
             this.labSpleen4.Name = "labSpleen4";
-            this.labSpleen4.Size = new System.Drawing.Size(99, 21);
-            this.labSpleen4.TabIndex = 255;
-            this.labSpleen4.Text = "Эхогенность";
             // 
             // butSpleen4
             // 
-            this.butSpleen4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.butSpleen4.Location = new System.Drawing.Point(1103, 1457);
+            resources.ApplyResources(this.butSpleen4, "butSpleen4");
             this.butSpleen4.Name = "butSpleen4";
-            this.butSpleen4.Size = new System.Drawing.Size(156, 29);
-            this.butSpleen4.TabIndex = 254;
-            this.butSpleen4.Text = "Добавить";
             this.butSpleen4.UseVisualStyleBackColor = true;
             this.butSpleen4.Click += new System.EventHandler(this.butSpleen4_Click);
             // 
             // comSpleen4
             // 
-            this.comSpleen4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            resources.ApplyResources(this.comSpleen4, "comSpleen4");
             this.comSpleen4.FormattingEnabled = true;
-            this.comSpleen4.Location = new System.Drawing.Point(244, 1457);
             this.comSpleen4.Name = "comSpleen4";
-            this.comSpleen4.Size = new System.Drawing.Size(853, 29);
-            this.comSpleen4.TabIndex = 253;
             // 
             // labSpleen3
             // 
-            this.labSpleen3.AutoSize = true;
-            this.labSpleen3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labSpleen3.Location = new System.Drawing.Point(27, 1425);
+            resources.ApplyResources(this.labSpleen3, "labSpleen3");
             this.labSpleen3.Name = "labSpleen3";
-            this.labSpleen3.Size = new System.Drawing.Size(107, 21);
-            this.labSpleen3.TabIndex = 252;
-            this.labSpleen3.Text = "Эхоструктура";
             // 
             // butSpleen3
             // 
-            this.butSpleen3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.butSpleen3.Location = new System.Drawing.Point(1103, 1422);
+            resources.ApplyResources(this.butSpleen3, "butSpleen3");
             this.butSpleen3.Name = "butSpleen3";
-            this.butSpleen3.Size = new System.Drawing.Size(156, 29);
-            this.butSpleen3.TabIndex = 251;
-            this.butSpleen3.Text = "Добавить";
             this.butSpleen3.UseVisualStyleBackColor = true;
             this.butSpleen3.Click += new System.EventHandler(this.butSpleen3_Click);
             // 
             // comSpleen3
             // 
-            this.comSpleen3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            resources.ApplyResources(this.comSpleen3, "comSpleen3");
             this.comSpleen3.FormattingEnabled = true;
-            this.comSpleen3.Location = new System.Drawing.Point(244, 1422);
             this.comSpleen3.Name = "comSpleen3";
-            this.comSpleen3.Size = new System.Drawing.Size(853, 29);
-            this.comSpleen3.TabIndex = 250;
             // 
             // labSpleen2
             // 
-            this.labSpleen2.AutoSize = true;
-            this.labSpleen2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labSpleen2.Location = new System.Drawing.Point(27, 1390);
+            resources.ApplyResources(this.labSpleen2, "labSpleen2");
             this.labSpleen2.Name = "labSpleen2";
-            this.labSpleen2.Size = new System.Drawing.Size(73, 21);
-            this.labSpleen2.TabIndex = 249;
-            this.labSpleen2.Text = "Размеры";
             // 
             // butSpleen2
             // 
-            this.butSpleen2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.butSpleen2.Location = new System.Drawing.Point(1103, 1387);
+            resources.ApplyResources(this.butSpleen2, "butSpleen2");
             this.butSpleen2.Name = "butSpleen2";
-            this.butSpleen2.Size = new System.Drawing.Size(156, 29);
-            this.butSpleen2.TabIndex = 248;
-            this.butSpleen2.Text = "Добавить";
             this.butSpleen2.UseVisualStyleBackColor = true;
             this.butSpleen2.Click += new System.EventHandler(this.butSpleen2_Click);
             // 
             // comSpleen2
             // 
-            this.comSpleen2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            resources.ApplyResources(this.comSpleen2, "comSpleen2");
             this.comSpleen2.FormattingEnabled = true;
-            this.comSpleen2.Location = new System.Drawing.Point(244, 1387);
             this.comSpleen2.Name = "comSpleen2";
-            this.comSpleen2.Size = new System.Drawing.Size(853, 29);
-            this.comSpleen2.TabIndex = 247;
             // 
             // labSpleen1
             // 
-            this.labSpleen1.AutoSize = true;
-            this.labSpleen1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labSpleen1.Location = new System.Drawing.Point(27, 1355);
+            resources.ApplyResources(this.labSpleen1, "labSpleen1");
             this.labSpleen1.Name = "labSpleen1";
-            this.labSpleen1.Size = new System.Drawing.Size(72, 21);
-            this.labSpleen1.TabIndex = 246;
-            this.labSpleen1.Text = "Контуры";
             // 
             // butSpleen1
             // 
-            this.butSpleen1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.butSpleen1.Location = new System.Drawing.Point(1103, 1352);
+            resources.ApplyResources(this.butSpleen1, "butSpleen1");
             this.butSpleen1.Name = "butSpleen1";
-            this.butSpleen1.Size = new System.Drawing.Size(156, 29);
-            this.butSpleen1.TabIndex = 245;
-            this.butSpleen1.Text = "Добавить";
             this.butSpleen1.UseVisualStyleBackColor = true;
             this.butSpleen1.Click += new System.EventHandler(this.butSpleen1_Click);
             // 
             // comSpleen1
             // 
-            this.comSpleen1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            resources.ApplyResources(this.comSpleen1, "comSpleen1");
             this.comSpleen1.FormattingEnabled = true;
-            this.comSpleen1.Location = new System.Drawing.Point(244, 1352);
             this.comSpleen1.Name = "comSpleen1";
-            this.comSpleen1.Size = new System.Drawing.Size(853, 29);
-            this.comSpleen1.TabIndex = 244;
             // 
             // labPancreas6
             // 
-            this.labPancreas6.AutoSize = true;
-            this.labPancreas6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labPancreas6.Location = new System.Drawing.Point(27, 1285);
+            resources.ApplyResources(this.labPancreas6, "labPancreas6");
             this.labPancreas6.Name = "labPancreas6";
-            this.labPancreas6.Size = new System.Drawing.Size(148, 21);
-            this.labPancreas6.TabIndex = 243;
-            this.labPancreas6.Text = "Селезеночная вена";
             // 
             // butPancreas6
             // 
-            this.butPancreas6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.butPancreas6.Location = new System.Drawing.Point(1103, 1277);
+            resources.ApplyResources(this.butPancreas6, "butPancreas6");
             this.butPancreas6.Name = "butPancreas6";
-            this.butPancreas6.Size = new System.Drawing.Size(156, 29);
-            this.butPancreas6.TabIndex = 242;
-            this.butPancreas6.Text = "Добавить";
             this.butPancreas6.UseVisualStyleBackColor = true;
             this.butPancreas6.Click += new System.EventHandler(this.butPancreas6_Click);
             // 
             // comPancreas6
             // 
-            this.comPancreas6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            resources.ApplyResources(this.comPancreas6, "comPancreas6");
             this.comPancreas6.FormattingEnabled = true;
-            this.comPancreas6.Location = new System.Drawing.Point(244, 1277);
             this.comPancreas6.Name = "comPancreas6";
-            this.comPancreas6.Size = new System.Drawing.Size(853, 29);
-            this.comPancreas6.TabIndex = 241;
             // 
             // labPancreas5
             // 
-            this.labPancreas5.AutoSize = true;
-            this.labPancreas5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labPancreas5.Location = new System.Drawing.Point(27, 1245);
+            resources.ApplyResources(this.labPancreas5, "labPancreas5");
             this.labPancreas5.Name = "labPancreas5";
-            this.labPancreas5.Size = new System.Drawing.Size(184, 21);
-            this.labPancreas5.TabIndex = 240;
-            this.labPancreas5.Text = "Объемные образования";
             // 
             // butPancreas5
             // 
-            this.butPancreas5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.butPancreas5.Location = new System.Drawing.Point(1103, 1242);
+            resources.ApplyResources(this.butPancreas5, "butPancreas5");
             this.butPancreas5.Name = "butPancreas5";
-            this.butPancreas5.Size = new System.Drawing.Size(156, 29);
-            this.butPancreas5.TabIndex = 239;
-            this.butPancreas5.Text = "Добавить";
             this.butPancreas5.UseVisualStyleBackColor = true;
             this.butPancreas5.Click += new System.EventHandler(this.butPancreas5_Click);
             // 
             // comPancreas5
             // 
-            this.comPancreas5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            resources.ApplyResources(this.comPancreas5, "comPancreas5");
             this.comPancreas5.FormattingEnabled = true;
-            this.comPancreas5.Location = new System.Drawing.Point(244, 1242);
             this.comPancreas5.Name = "comPancreas5";
-            this.comPancreas5.Size = new System.Drawing.Size(853, 29);
-            this.comPancreas5.TabIndex = 238;
             // 
             // labPancreas4
             // 
-            this.labPancreas4.AutoSize = true;
-            this.labPancreas4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labPancreas4.Location = new System.Drawing.Point(27, 1210);
+            resources.ApplyResources(this.labPancreas4, "labPancreas4");
             this.labPancreas4.Name = "labPancreas4";
-            this.labPancreas4.Size = new System.Drawing.Size(99, 21);
-            this.labPancreas4.TabIndex = 237;
-            this.labPancreas4.Text = "Эхогенность";
             // 
             // butPancreas4
             // 
-            this.butPancreas4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.butPancreas4.Location = new System.Drawing.Point(1103, 1207);
+            resources.ApplyResources(this.butPancreas4, "butPancreas4");
             this.butPancreas4.Name = "butPancreas4";
-            this.butPancreas4.Size = new System.Drawing.Size(156, 29);
-            this.butPancreas4.TabIndex = 236;
-            this.butPancreas4.Text = "Добавить";
             this.butPancreas4.UseVisualStyleBackColor = true;
             this.butPancreas4.Click += new System.EventHandler(this.butPancreas4_Click);
             // 
             // comPancreas4
             // 
-            this.comPancreas4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            resources.ApplyResources(this.comPancreas4, "comPancreas4");
             this.comPancreas4.FormattingEnabled = true;
-            this.comPancreas4.Location = new System.Drawing.Point(244, 1207);
             this.comPancreas4.Name = "comPancreas4";
-            this.comPancreas4.Size = new System.Drawing.Size(853, 29);
-            this.comPancreas4.TabIndex = 235;
             // 
             // labPancreas3
             // 
-            this.labPancreas3.AutoSize = true;
-            this.labPancreas3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labPancreas3.Location = new System.Drawing.Point(27, 1175);
+            resources.ApplyResources(this.labPancreas3, "labPancreas3");
             this.labPancreas3.Name = "labPancreas3";
-            this.labPancreas3.Size = new System.Drawing.Size(107, 21);
-            this.labPancreas3.TabIndex = 234;
-            this.labPancreas3.Text = "Эхоструктура";
             // 
             // butPancreas3
             // 
-            this.butPancreas3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.butPancreas3.Location = new System.Drawing.Point(1103, 1172);
+            resources.ApplyResources(this.butPancreas3, "butPancreas3");
             this.butPancreas3.Name = "butPancreas3";
-            this.butPancreas3.Size = new System.Drawing.Size(156, 29);
-            this.butPancreas3.TabIndex = 233;
-            this.butPancreas3.Text = "Добавить";
             this.butPancreas3.UseVisualStyleBackColor = true;
             this.butPancreas3.Click += new System.EventHandler(this.butPancreas3_Click);
             // 
             // comPancreas3
             // 
-            this.comPancreas3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            resources.ApplyResources(this.comPancreas3, "comPancreas3");
             this.comPancreas3.FormattingEnabled = true;
-            this.comPancreas3.Location = new System.Drawing.Point(244, 1172);
             this.comPancreas3.Name = "comPancreas3";
-            this.comPancreas3.Size = new System.Drawing.Size(853, 29);
-            this.comPancreas3.TabIndex = 232;
             // 
             // labPancreas2
             // 
-            this.labPancreas2.AutoSize = true;
-            this.labPancreas2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labPancreas2.Location = new System.Drawing.Point(27, 1140);
+            resources.ApplyResources(this.labPancreas2, "labPancreas2");
             this.labPancreas2.Name = "labPancreas2";
-            this.labPancreas2.Size = new System.Drawing.Size(73, 21);
-            this.labPancreas2.TabIndex = 231;
-            this.labPancreas2.Text = "Размеры";
-            // 
-            // butPancreas2
-            // 
-            this.butPancreas2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.butPancreas2.Location = new System.Drawing.Point(1103, 1137);
-            this.butPancreas2.Name = "butPancreas2";
-            this.butPancreas2.Size = new System.Drawing.Size(156, 29);
-            this.butPancreas2.TabIndex = 230;
-            this.butPancreas2.Text = "Добавить";
-            this.butPancreas2.UseVisualStyleBackColor = true;
-            this.butPancreas2.Click += new System.EventHandler(this.butPancreas2_Click);
-            // 
-            // comPancreas2
-            // 
-            this.comPancreas2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.comPancreas2.FormattingEnabled = true;
-            this.comPancreas2.Location = new System.Drawing.Point(244, 1137);
-            this.comPancreas2.Name = "comPancreas2";
-            this.comPancreas2.Size = new System.Drawing.Size(853, 29);
-            this.comPancreas2.TabIndex = 229;
             // 
             // labPancreas1
             // 
-            this.labPancreas1.AutoSize = true;
-            this.labPancreas1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labPancreas1.Location = new System.Drawing.Point(27, 1105);
+            resources.ApplyResources(this.labPancreas1, "labPancreas1");
             this.labPancreas1.Name = "labPancreas1";
-            this.labPancreas1.Size = new System.Drawing.Size(72, 21);
-            this.labPancreas1.TabIndex = 228;
-            this.labPancreas1.Text = "Контуры";
             // 
             // butPancreas1
             // 
-            this.butPancreas1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.butPancreas1.Location = new System.Drawing.Point(1103, 1102);
+            resources.ApplyResources(this.butPancreas1, "butPancreas1");
             this.butPancreas1.Name = "butPancreas1";
-            this.butPancreas1.Size = new System.Drawing.Size(156, 29);
-            this.butPancreas1.TabIndex = 227;
-            this.butPancreas1.Text = "Добавить";
             this.butPancreas1.UseVisualStyleBackColor = true;
             this.butPancreas1.Click += new System.EventHandler(this.butPancreas1_Click);
             // 
             // comPancreas1
             // 
-            this.comPancreas1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            resources.ApplyResources(this.comPancreas1, "comPancreas1");
             this.comPancreas1.FormattingEnabled = true;
-            this.comPancreas1.Location = new System.Drawing.Point(244, 1102);
             this.comPancreas1.Name = "comPancreas1";
-            this.comPancreas1.Size = new System.Drawing.Size(853, 29);
-            this.comPancreas1.TabIndex = 226;
             // 
             // labGallbladder6
             // 
-            this.labGallbladder6.AutoSize = true;
-            this.labGallbladder6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labGallbladder6.Location = new System.Drawing.Point(27, 1038);
+            resources.ApplyResources(this.labGallbladder6, "labGallbladder6");
             this.labGallbladder6.Name = "labGallbladder6";
-            this.labGallbladder6.Size = new System.Drawing.Size(187, 21);
-            this.labGallbladder6.TabIndex = 225;
-            this.labGallbladder6.Text = "Общий желчный проток";
             // 
             // butGallbladder6
             // 
-            this.butGallbladder6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.butGallbladder6.Location = new System.Drawing.Point(1103, 1035);
+            resources.ApplyResources(this.butGallbladder6, "butGallbladder6");
             this.butGallbladder6.Name = "butGallbladder6";
-            this.butGallbladder6.Size = new System.Drawing.Size(156, 29);
-            this.butGallbladder6.TabIndex = 224;
-            this.butGallbladder6.Text = "Добавить";
             this.butGallbladder6.UseVisualStyleBackColor = true;
             this.butGallbladder6.Click += new System.EventHandler(this.butGallbladder6_Click);
             // 
             // comGallbladder6
             // 
-            this.comGallbladder6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            resources.ApplyResources(this.comGallbladder6, "comGallbladder6");
             this.comGallbladder6.FormattingEnabled = true;
-            this.comGallbladder6.Location = new System.Drawing.Point(244, 1035);
             this.comGallbladder6.Name = "comGallbladder6";
-            this.comGallbladder6.Size = new System.Drawing.Size(853, 29);
-            this.comGallbladder6.TabIndex = 223;
             // 
             // labGallbladder5
             // 
-            this.labGallbladder5.AutoSize = true;
-            this.labGallbladder5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labGallbladder5.Location = new System.Drawing.Point(27, 1003);
+            resources.ApplyResources(this.labGallbladder5, "labGallbladder5");
             this.labGallbladder5.Name = "labGallbladder5";
-            this.labGallbladder5.Size = new System.Drawing.Size(104, 21);
-            this.labGallbladder5.TabIndex = 222;
-            this.labGallbladder5.Text = "Содержимое";
             // 
             // butGallbladder5
             // 
-            this.butGallbladder5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.butGallbladder5.Location = new System.Drawing.Point(1103, 1000);
+            resources.ApplyResources(this.butGallbladder5, "butGallbladder5");
             this.butGallbladder5.Name = "butGallbladder5";
-            this.butGallbladder5.Size = new System.Drawing.Size(156, 29);
-            this.butGallbladder5.TabIndex = 221;
-            this.butGallbladder5.Text = "Добавить";
             this.butGallbladder5.UseVisualStyleBackColor = true;
             this.butGallbladder5.Click += new System.EventHandler(this.butGallbladder5_Click);
             // 
             // comGallbladder5
             // 
-            this.comGallbladder5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            resources.ApplyResources(this.comGallbladder5, "comGallbladder5");
             this.comGallbladder5.FormattingEnabled = true;
-            this.comGallbladder5.Location = new System.Drawing.Point(244, 1000);
             this.comGallbladder5.Name = "comGallbladder5";
-            this.comGallbladder5.Size = new System.Drawing.Size(853, 29);
-            this.comGallbladder5.TabIndex = 220;
             // 
             // labGallbladder4
             // 
-            this.labGallbladder4.AutoSize = true;
-            this.labGallbladder4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labGallbladder4.Location = new System.Drawing.Point(27, 968);
+            resources.ApplyResources(this.labGallbladder4, "labGallbladder4");
             this.labGallbladder4.Name = "labGallbladder4";
-            this.labGallbladder4.Size = new System.Drawing.Size(60, 21);
-            this.labGallbladder4.TabIndex = 219;
-            this.labGallbladder4.Text = "Стенка";
             // 
             // butGallbladder4
             // 
-            this.butGallbladder4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.butGallbladder4.Location = new System.Drawing.Point(1103, 965);
+            resources.ApplyResources(this.butGallbladder4, "butGallbladder4");
             this.butGallbladder4.Name = "butGallbladder4";
-            this.butGallbladder4.Size = new System.Drawing.Size(156, 29);
-            this.butGallbladder4.TabIndex = 218;
-            this.butGallbladder4.Text = "Добавить";
             this.butGallbladder4.UseVisualStyleBackColor = true;
             this.butGallbladder4.Click += new System.EventHandler(this.butGallbladder4_Click);
             // 
             // comGallbladder4
             // 
-            this.comGallbladder4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            resources.ApplyResources(this.comGallbladder4, "comGallbladder4");
             this.comGallbladder4.FormattingEnabled = true;
-            this.comGallbladder4.Location = new System.Drawing.Point(244, 965);
             this.comGallbladder4.Name = "comGallbladder4";
-            this.comGallbladder4.Size = new System.Drawing.Size(853, 29);
-            this.comGallbladder4.TabIndex = 217;
             // 
             // labGallbladder3
             // 
-            this.labGallbladder3.AutoSize = true;
-            this.labGallbladder3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labGallbladder3.Location = new System.Drawing.Point(27, 933);
+            resources.ApplyResources(this.labGallbladder3, "labGallbladder3");
             this.labGallbladder3.Name = "labGallbladder3";
-            this.labGallbladder3.Size = new System.Drawing.Size(73, 21);
-            this.labGallbladder3.TabIndex = 216;
-            this.labGallbladder3.Text = "Размеры";
-            // 
-            // butGallbladder3
-            // 
-            this.butGallbladder3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.butGallbladder3.Location = new System.Drawing.Point(1103, 930);
-            this.butGallbladder3.Name = "butGallbladder3";
-            this.butGallbladder3.Size = new System.Drawing.Size(156, 29);
-            this.butGallbladder3.TabIndex = 215;
-            this.butGallbladder3.Text = "Добавить";
-            this.butGallbladder3.UseVisualStyleBackColor = true;
-            this.butGallbladder3.Click += new System.EventHandler(this.butGallbladder3_Click);
-            // 
-            // comGallbladder3
-            // 
-            this.comGallbladder3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.comGallbladder3.FormattingEnabled = true;
-            this.comGallbladder3.Location = new System.Drawing.Point(244, 930);
-            this.comGallbladder3.Name = "comGallbladder3";
-            this.comGallbladder3.Size = new System.Drawing.Size(853, 29);
-            this.comGallbladder3.TabIndex = 214;
             // 
             // labGallbladder2
             // 
-            this.labGallbladder2.AutoSize = true;
-            this.labGallbladder2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labGallbladder2.Location = new System.Drawing.Point(27, 898);
+            resources.ApplyResources(this.labGallbladder2, "labGallbladder2");
             this.labGallbladder2.Name = "labGallbladder2";
-            this.labGallbladder2.Size = new System.Drawing.Size(59, 21);
-            this.labGallbladder2.TabIndex = 213;
-            this.labGallbladder2.Text = "Форма";
             // 
             // butGallbladder2
             // 
-            this.butGallbladder2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.butGallbladder2.Location = new System.Drawing.Point(1103, 895);
+            resources.ApplyResources(this.butGallbladder2, "butGallbladder2");
             this.butGallbladder2.Name = "butGallbladder2";
-            this.butGallbladder2.Size = new System.Drawing.Size(156, 29);
-            this.butGallbladder2.TabIndex = 212;
-            this.butGallbladder2.Text = "Добавить";
             this.butGallbladder2.UseVisualStyleBackColor = true;
             this.butGallbladder2.Click += new System.EventHandler(this.butGallbladder2_Click);
             // 
             // comGallbladder2
             // 
-            this.comGallbladder2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            resources.ApplyResources(this.comGallbladder2, "comGallbladder2");
             this.comGallbladder2.FormattingEnabled = true;
-            this.comGallbladder2.Location = new System.Drawing.Point(244, 895);
             this.comGallbladder2.Name = "comGallbladder2";
-            this.comGallbladder2.Size = new System.Drawing.Size(853, 29);
-            this.comGallbladder2.TabIndex = 211;
             // 
             // labGallbladder1
             // 
-            this.labGallbladder1.AutoSize = true;
-            this.labGallbladder1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labGallbladder1.Location = new System.Drawing.Point(27, 863);
+            resources.ApplyResources(this.labGallbladder1, "labGallbladder1");
             this.labGallbladder1.Name = "labGallbladder1";
-            this.labGallbladder1.Size = new System.Drawing.Size(115, 21);
-            this.labGallbladder1.TabIndex = 210;
-            this.labGallbladder1.Text = "Расположение";
             // 
             // butGallbladder1
             // 
-            this.butGallbladder1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.butGallbladder1.Location = new System.Drawing.Point(1103, 860);
+            resources.ApplyResources(this.butGallbladder1, "butGallbladder1");
             this.butGallbladder1.Name = "butGallbladder1";
-            this.butGallbladder1.Size = new System.Drawing.Size(156, 29);
-            this.butGallbladder1.TabIndex = 209;
-            this.butGallbladder1.Text = "Добавить";
             this.butGallbladder1.UseVisualStyleBackColor = true;
             this.butGallbladder1.Click += new System.EventHandler(this.butGallbladder1_Click);
             // 
             // comGallbladder1
             // 
-            this.comGallbladder1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            resources.ApplyResources(this.comGallbladder1, "comGallbladder1");
             this.comGallbladder1.FormattingEnabled = true;
-            this.comGallbladder1.Location = new System.Drawing.Point(244, 860);
             this.comGallbladder1.Name = "comGallbladder1";
-            this.comGallbladder1.Size = new System.Drawing.Size(853, 29);
-            this.comGallbladder1.TabIndex = 208;
             // 
             // labLiver13
             // 
-            this.labLiver13.AutoSize = true;
-            this.labLiver13.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labLiver13.Location = new System.Drawing.Point(27, 747);
+            resources.ApplyResources(this.labLiver13, "labLiver13");
             this.labLiver13.Name = "labLiver13";
-            this.labLiver13.Size = new System.Drawing.Size(194, 21);
-            this.labLiver13.TabIndex = 207;
-            this.labLiver13.Text = "Диаметр печеночных вен";
             // 
             // butLiver13
             // 
-            this.butLiver13.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.butLiver13.Location = new System.Drawing.Point(1103, 744);
+            resources.ApplyResources(this.butLiver13, "butLiver13");
             this.butLiver13.Name = "butLiver13";
-            this.butLiver13.Size = new System.Drawing.Size(156, 29);
-            this.butLiver13.TabIndex = 206;
-            this.butLiver13.Text = "Добавить";
             this.butLiver13.UseVisualStyleBackColor = true;
             this.butLiver13.Click += new System.EventHandler(this.butLiver13_Click);
             // 
             // comLiver13
             // 
-            this.comLiver13.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            resources.ApplyResources(this.comLiver13, "comLiver13");
             this.comLiver13.FormattingEnabled = true;
-            this.comLiver13.Location = new System.Drawing.Point(244, 747);
             this.comLiver13.Name = "comLiver13";
-            this.comLiver13.Size = new System.Drawing.Size(853, 29);
-            this.comLiver13.TabIndex = 205;
             // 
             // labLiver12
             // 
-            this.labLiver12.AutoSize = true;
-            this.labLiver12.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labLiver12.Location = new System.Drawing.Point(27, 712);
+            resources.ApplyResources(this.labLiver12, "labLiver12");
             this.labLiver12.Name = "labLiver12";
-            this.labLiver12.Size = new System.Drawing.Size(198, 21);
-            this.labLiver12.TabIndex = 204;
-            this.labLiver12.Text = "Просвет портальной вены";
             // 
             // butLiver12
             // 
-            this.butLiver12.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.butLiver12.Location = new System.Drawing.Point(1103, 709);
+            resources.ApplyResources(this.butLiver12, "butLiver12");
             this.butLiver12.Name = "butLiver12";
-            this.butLiver12.Size = new System.Drawing.Size(156, 29);
-            this.butLiver12.TabIndex = 203;
-            this.butLiver12.Text = "Добавить";
             this.butLiver12.UseVisualStyleBackColor = true;
             this.butLiver12.Click += new System.EventHandler(this.butLiver12_Click);
             // 
             // comLiver12
             // 
-            this.comLiver12.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            resources.ApplyResources(this.comLiver12, "comLiver12");
             this.comLiver12.FormattingEnabled = true;
-            this.comLiver12.Location = new System.Drawing.Point(244, 709);
             this.comLiver12.Name = "comLiver12";
-            this.comLiver12.Size = new System.Drawing.Size(853, 29);
-            this.comLiver12.TabIndex = 202;
             // 
             // labLiver11
             // 
-            this.labLiver11.AutoSize = true;
-            this.labLiver11.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labLiver11.Location = new System.Drawing.Point(27, 677);
+            resources.ApplyResources(this.labLiver11, "labLiver11");
             this.labLiver11.Name = "labLiver11";
-            this.labLiver11.Size = new System.Drawing.Size(159, 21);
-            this.labLiver11.TabIndex = 201;
-            this.labLiver11.Text = "Сосудистый рисунок";
             // 
             // butLiver11
             // 
-            this.butLiver11.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.butLiver11.Location = new System.Drawing.Point(1103, 674);
+            resources.ApplyResources(this.butLiver11, "butLiver11");
             this.butLiver11.Name = "butLiver11";
-            this.butLiver11.Size = new System.Drawing.Size(156, 29);
-            this.butLiver11.TabIndex = 200;
-            this.butLiver11.Text = "Добавить";
             this.butLiver11.UseVisualStyleBackColor = true;
             this.butLiver11.Click += new System.EventHandler(this.butLiver11_Click);
             // 
             // comLiver11
             // 
-            this.comLiver11.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            resources.ApplyResources(this.comLiver11, "comLiver11");
             this.comLiver11.FormattingEnabled = true;
-            this.comLiver11.Location = new System.Drawing.Point(244, 674);
             this.comLiver11.Name = "comLiver11";
-            this.comLiver11.Size = new System.Drawing.Size(853, 29);
-            this.comLiver11.TabIndex = 199;
             // 
             // labLiver10
             // 
-            this.labLiver10.AutoSize = true;
-            this.labLiver10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labLiver10.Location = new System.Drawing.Point(27, 642);
+            resources.ApplyResources(this.labLiver10, "labLiver10");
             this.labLiver10.Name = "labLiver10";
-            this.labLiver10.Size = new System.Drawing.Size(264, 21);
-            this.labLiver10.TabIndex = 198;
-            this.labLiver10.Text = "Просвет общего желчного протока";
             // 
             // butLiver10
             // 
-            this.butLiver10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.butLiver10.Location = new System.Drawing.Point(1103, 639);
+            resources.ApplyResources(this.butLiver10, "butLiver10");
             this.butLiver10.Name = "butLiver10";
-            this.butLiver10.Size = new System.Drawing.Size(156, 29);
-            this.butLiver10.TabIndex = 197;
-            this.butLiver10.Text = "Добавить";
             this.butLiver10.UseVisualStyleBackColor = true;
             this.butLiver10.Click += new System.EventHandler(this.butLiver10_Click);
             // 
             // comLiver10
             // 
-            this.comLiver10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            resources.ApplyResources(this.comLiver10, "comLiver10");
             this.comLiver10.FormattingEnabled = true;
-            this.comLiver10.Location = new System.Drawing.Point(297, 639);
             this.comLiver10.Name = "comLiver10";
-            this.comLiver10.Size = new System.Drawing.Size(800, 29);
-            this.comLiver10.TabIndex = 196;
             // 
             // labLiver9
             // 
-            this.labLiver9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labLiver9.Location = new System.Drawing.Point(27, 604);
+            resources.ApplyResources(this.labLiver9, "labLiver9");
             this.labLiver9.Name = "labLiver9";
-            this.labLiver9.Size = new System.Drawing.Size(289, 35);
-            this.labLiver9.TabIndex = 195;
-            this.labLiver9.Text = "Внутрипеченочные желчные протоки";
             // 
             // butLiver9
             // 
-            this.butLiver9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.butLiver9.Location = new System.Drawing.Point(1103, 604);
+            resources.ApplyResources(this.butLiver9, "butLiver9");
             this.butLiver9.Name = "butLiver9";
-            this.butLiver9.Size = new System.Drawing.Size(156, 29);
-            this.butLiver9.TabIndex = 194;
-            this.butLiver9.Text = "Добавить";
             this.butLiver9.UseVisualStyleBackColor = true;
             this.butLiver9.Click += new System.EventHandler(this.butLiver9_Click);
             // 
             // comLiver9
             // 
-            this.comLiver9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            resources.ApplyResources(this.comLiver9, "comLiver9");
             this.comLiver9.FormattingEnabled = true;
-            this.comLiver9.Location = new System.Drawing.Point(322, 604);
             this.comLiver9.Name = "comLiver9";
-            this.comLiver9.Size = new System.Drawing.Size(775, 29);
-            this.comLiver9.TabIndex = 193;
             // 
             // labLiver8
             // 
-            this.labLiver8.AutoSize = true;
-            this.labLiver8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labLiver8.Location = new System.Drawing.Point(27, 572);
+            resources.ApplyResources(this.labLiver8, "labLiver8");
             this.labLiver8.Name = "labLiver8";
-            this.labLiver8.Size = new System.Drawing.Size(156, 21);
-            this.labLiver8.TabIndex = 192;
-            this.labLiver8.Text = "Звукопроводимость";
             // 
             // butLiver8
             // 
-            this.butLiver8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.butLiver8.Location = new System.Drawing.Point(1103, 569);
+            resources.ApplyResources(this.butLiver8, "butLiver8");
             this.butLiver8.Name = "butLiver8";
-            this.butLiver8.Size = new System.Drawing.Size(156, 29);
-            this.butLiver8.TabIndex = 191;
-            this.butLiver8.Text = "Добавить";
             this.butLiver8.UseVisualStyleBackColor = true;
             this.butLiver8.Click += new System.EventHandler(this.butLiver8_Click);
             // 
             // comLiver8
             // 
-            this.comLiver8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            resources.ApplyResources(this.comLiver8, "comLiver8");
             this.comLiver8.FormattingEnabled = true;
-            this.comLiver8.Location = new System.Drawing.Point(244, 569);
             this.comLiver8.Name = "comLiver8";
-            this.comLiver8.Size = new System.Drawing.Size(853, 29);
-            this.comLiver8.TabIndex = 190;
             // 
             // labLiver7
             // 
-            this.labLiver7.AutoSize = true;
-            this.labLiver7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labLiver7.Location = new System.Drawing.Point(27, 537);
+            resources.ApplyResources(this.labLiver7, "labLiver7");
             this.labLiver7.Name = "labLiver7";
-            this.labLiver7.Size = new System.Drawing.Size(99, 21);
-            this.labLiver7.TabIndex = 189;
-            this.labLiver7.Text = "Эхогенность";
             // 
             // butLiver7
             // 
-            this.butLiver7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.butLiver7.Location = new System.Drawing.Point(1103, 534);
+            resources.ApplyResources(this.butLiver7, "butLiver7");
             this.butLiver7.Name = "butLiver7";
-            this.butLiver7.Size = new System.Drawing.Size(156, 29);
-            this.butLiver7.TabIndex = 188;
-            this.butLiver7.Text = "Добавить";
             this.butLiver7.UseVisualStyleBackColor = true;
             this.butLiver7.Click += new System.EventHandler(this.butLiver7_Click);
             // 
             // comLiver7
             // 
-            this.comLiver7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            resources.ApplyResources(this.comLiver7, "comLiver7");
             this.comLiver7.FormattingEnabled = true;
-            this.comLiver7.Location = new System.Drawing.Point(244, 534);
             this.comLiver7.Name = "comLiver7";
-            this.comLiver7.Size = new System.Drawing.Size(853, 29);
-            this.comLiver7.TabIndex = 187;
             // 
             // labLiver6
             // 
-            this.labLiver6.AutoSize = true;
-            this.labLiver6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labLiver6.Location = new System.Drawing.Point(27, 502);
+            resources.ApplyResources(this.labLiver6, "labLiver6");
             this.labLiver6.Name = "labLiver6";
-            this.labLiver6.Size = new System.Drawing.Size(184, 21);
-            this.labLiver6.TabIndex = 186;
-            this.labLiver6.Text = "Объемные образования";
             // 
             // butLiver6
             // 
-            this.butLiver6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.butLiver6.Location = new System.Drawing.Point(1103, 499);
+            resources.ApplyResources(this.butLiver6, "butLiver6");
             this.butLiver6.Name = "butLiver6";
-            this.butLiver6.Size = new System.Drawing.Size(156, 29);
-            this.butLiver6.TabIndex = 185;
-            this.butLiver6.Text = "Добавить";
             this.butLiver6.UseVisualStyleBackColor = true;
             this.butLiver6.Click += new System.EventHandler(this.butLiver6_Click);
             // 
             // comLiver6
             // 
-            this.comLiver6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            resources.ApplyResources(this.comLiver6, "comLiver6");
             this.comLiver6.FormattingEnabled = true;
-            this.comLiver6.Location = new System.Drawing.Point(244, 499);
             this.comLiver6.Name = "comLiver6";
-            this.comLiver6.Size = new System.Drawing.Size(853, 29);
-            this.comLiver6.TabIndex = 184;
             // 
             // labLiver5
             // 
-            this.labLiver5.AutoSize = true;
-            this.labLiver5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labLiver5.Location = new System.Drawing.Point(27, 467);
+            resources.ApplyResources(this.labLiver5, "labLiver5");
             this.labLiver5.Name = "labLiver5";
-            this.labLiver5.Size = new System.Drawing.Size(107, 21);
-            this.labLiver5.TabIndex = 181;
-            this.labLiver5.Text = "Эхоструктура";
             // 
             // butLiver5
             // 
-            this.butLiver5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.butLiver5.Location = new System.Drawing.Point(1103, 464);
+            resources.ApplyResources(this.butLiver5, "butLiver5");
             this.butLiver5.Name = "butLiver5";
-            this.butLiver5.Size = new System.Drawing.Size(156, 29);
-            this.butLiver5.TabIndex = 180;
-            this.butLiver5.Text = "Добавить";
             this.butLiver5.UseVisualStyleBackColor = true;
             this.butLiver5.Click += new System.EventHandler(this.butLiver5_Click);
             // 
             // comLiver5
             // 
-            this.comLiver5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            resources.ApplyResources(this.comLiver5, "comLiver5");
             this.comLiver5.FormattingEnabled = true;
-            this.comLiver5.Location = new System.Drawing.Point(244, 464);
             this.comLiver5.Name = "comLiver5";
-            this.comLiver5.Size = new System.Drawing.Size(853, 29);
-            this.comLiver5.TabIndex = 179;
             // 
             // labLiver4
             // 
-            this.labLiver4.AutoSize = true;
-            this.labLiver4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labLiver4.Location = new System.Drawing.Point(27, 365);
+            resources.ApplyResources(this.labLiver4, "labLiver4");
             this.labLiver4.Name = "labLiver4";
-            this.labLiver4.Size = new System.Drawing.Size(73, 21);
-            this.labLiver4.TabIndex = 178;
-            this.labLiver4.Text = "Размеры";
-            // 
-            // butLiver4
-            // 
-            this.butLiver4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.butLiver4.Location = new System.Drawing.Point(1103, 362);
-            this.butLiver4.Name = "butLiver4";
-            this.butLiver4.Size = new System.Drawing.Size(156, 29);
-            this.butLiver4.TabIndex = 177;
-            this.butLiver4.Text = "Добавить";
-            this.butLiver4.UseVisualStyleBackColor = true;
-            this.butLiver4.Click += new System.EventHandler(this.butLiver4_Click);
-            // 
-            // comLiver4
-            // 
-            this.comLiver4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.comLiver4.FormattingEnabled = true;
-            this.comLiver4.Location = new System.Drawing.Point(244, 362);
-            this.comLiver4.Name = "comLiver4";
-            this.comLiver4.Size = new System.Drawing.Size(853, 29);
-            this.comLiver4.TabIndex = 176;
             // 
             // labLiver3
             // 
-            this.labLiver3.AutoSize = true;
-            this.labLiver3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labLiver3.Location = new System.Drawing.Point(27, 330);
+            resources.ApplyResources(this.labLiver3, "labLiver3");
             this.labLiver3.Name = "labLiver3";
-            this.labLiver3.Size = new System.Drawing.Size(59, 21);
-            this.labLiver3.TabIndex = 175;
-            this.labLiver3.Text = "Форма";
             // 
             // butLiver3
             // 
-            this.butLiver3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.butLiver3.Location = new System.Drawing.Point(1103, 327);
+            resources.ApplyResources(this.butLiver3, "butLiver3");
             this.butLiver3.Name = "butLiver3";
-            this.butLiver3.Size = new System.Drawing.Size(156, 29);
-            this.butLiver3.TabIndex = 174;
-            this.butLiver3.Text = "Добавить";
             this.butLiver3.UseVisualStyleBackColor = true;
             this.butLiver3.Click += new System.EventHandler(this.butLiver3_Click);
             // 
             // comLiver3
             // 
-            this.comLiver3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            resources.ApplyResources(this.comLiver3, "comLiver3");
             this.comLiver3.FormattingEnabled = true;
-            this.comLiver3.Location = new System.Drawing.Point(244, 327);
             this.comLiver3.Name = "comLiver3";
-            this.comLiver3.Size = new System.Drawing.Size(853, 29);
-            this.comLiver3.TabIndex = 173;
             // 
             // labLiver2
             // 
-            this.labLiver2.AutoSize = true;
-            this.labLiver2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labLiver2.Location = new System.Drawing.Point(27, 296);
+            resources.ApplyResources(this.labLiver2, "labLiver2");
             this.labLiver2.Name = "labLiver2";
-            this.labLiver2.Size = new System.Drawing.Size(93, 21);
-            this.labLiver2.TabIndex = 172;
-            this.labLiver2.Text = "Положение";
             // 
             // butLiver2
             // 
-            this.butLiver2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.butLiver2.Location = new System.Drawing.Point(1103, 292);
+            resources.ApplyResources(this.butLiver2, "butLiver2");
             this.butLiver2.Name = "butLiver2";
-            this.butLiver2.Size = new System.Drawing.Size(156, 29);
-            this.butLiver2.TabIndex = 171;
-            this.butLiver2.Text = "Добавить";
             this.butLiver2.UseVisualStyleBackColor = true;
             this.butLiver2.Click += new System.EventHandler(this.butLiver2_Click);
             // 
             // comLiver2
             // 
-            this.comLiver2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            resources.ApplyResources(this.comLiver2, "comLiver2");
             this.comLiver2.FormattingEnabled = true;
-            this.comLiver2.Location = new System.Drawing.Point(244, 292);
             this.comLiver2.Name = "comLiver2";
-            this.comLiver2.Size = new System.Drawing.Size(853, 29);
-            this.comLiver2.TabIndex = 170;
             // 
             // labLiver1
             // 
-            this.labLiver1.AutoSize = true;
-            this.labLiver1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labLiver1.Location = new System.Drawing.Point(27, 250);
+            resources.ApplyResources(this.labLiver1, "labLiver1");
             this.labLiver1.Name = "labLiver1";
-            this.labLiver1.Size = new System.Drawing.Size(72, 21);
-            this.labLiver1.TabIndex = 169;
-            this.labLiver1.Text = "Контуры";
             // 
             // butLiver1
             // 
-            this.butLiver1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.butLiver1.Location = new System.Drawing.Point(1103, 245);
+            resources.ApplyResources(this.butLiver1, "butLiver1");
             this.butLiver1.Name = "butLiver1";
-            this.butLiver1.Size = new System.Drawing.Size(156, 30);
-            this.butLiver1.TabIndex = 168;
-            this.butLiver1.Text = "Добавить";
             this.butLiver1.UseVisualStyleBackColor = true;
             this.butLiver1.Click += new System.EventHandler(this.butLiver1_Click);
             // 
             // comLiver1
             // 
             this.comLiver1.BackColor = System.Drawing.SystemColors.Window;
-            this.comLiver1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            resources.ApplyResources(this.comLiver1, "comLiver1");
             this.comLiver1.FormattingEnabled = true;
-            this.comLiver1.Location = new System.Drawing.Point(244, 247);
             this.comLiver1.Name = "comLiver1";
-            this.comLiver1.Size = new System.Drawing.Size(853, 29);
-            this.comLiver1.TabIndex = 167;
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
+            // 
+            // label3
+            // 
+            resources.ApplyResources(this.label3, "label3");
+            this.label3.Name = "label3";
+            // 
+            // label4
+            // 
+            resources.ApplyResources(this.label4, "label4");
+            this.label4.Name = "label4";
+            // 
+            // textBox2
+            // 
+            resources.ApplyResources(this.textBox2, "textBox2");
+            this.textBox2.Name = "textBox2";
+            // 
+            // textBox3
+            // 
+            resources.ApplyResources(this.textBox3, "textBox3");
+            this.textBox3.Name = "textBox3";
+            // 
+            // textBox4
+            // 
+            resources.ApplyResources(this.textBox4, "textBox4");
+            this.textBox4.Name = "textBox4";
+            // 
+            // label5
+            // 
+            resources.ApplyResources(this.label5, "label5");
+            this.label5.Name = "label5";
+            // 
+            // button1
+            // 
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.BackColor = System.Drawing.SystemColors.Window;
+            resources.ApplyResources(this.comboBox1, "comboBox1");
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Name = "comboBox1";
+            // 
+            // Additionally
+            // 
+            resources.ApplyResources(this.Additionally, "Additionally");
+            this.Additionally.Name = "Additionally";
+            // 
+            // Conclusion
+            // 
+            resources.ApplyResources(this.Conclusion, "Conclusion");
+            this.Conclusion.Name = "Conclusion";
+            // 
+            // textBox5
+            // 
+            resources.ApplyResources(this.textBox5, "textBox5");
+            this.textBox5.Name = "textBox5";
+            // 
+            // textBox6
+            // 
+            resources.ApplyResources(this.textBox6, "textBox6");
+            this.textBox6.Name = "textBox6";
+            // 
+            // textBox7
+            // 
+            resources.ApplyResources(this.textBox7, "textBox7");
+            this.textBox7.Name = "textBox7";
+            // 
+            // label6
+            // 
+            resources.ApplyResources(this.label6, "label6");
+            this.label6.Name = "label6";
+            // 
+            // label7
+            // 
+            resources.ApplyResources(this.label7, "label7");
+            this.label7.Name = "label7";
+            // 
+            // label8
+            // 
+            resources.ApplyResources(this.label8, "label8");
+            this.label8.Name = "label8";
+            // 
+            // label9
+            // 
+            resources.ApplyResources(this.label9, "label9");
+            this.label9.Name = "label9";
+            // 
+            // textBox8
+            // 
+            resources.ApplyResources(this.textBox8, "textBox8");
+            this.textBox8.Name = "textBox8";
+            // 
+            // label10
+            // 
+            resources.ApplyResources(this.label10, "label10");
+            this.label10.Name = "label10";
+            // 
+            // checkBox1
+            // 
+            resources.ApplyResources(this.checkBox1, "checkBox1");
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            resources.ApplyResources(this.checkBox2, "checkBox2");
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.UseVisualStyleBackColor = true;
             // 
             // Abdominal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1233, 754);
+            this.Controls.Add(this.checkBox2);
+            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.Conclusion);
+            this.Controls.Add(this.Additionally);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.butSave);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label31);
@@ -1339,8 +992,6 @@ namespace WindowsFormsApp1.Forms
             this.Controls.Add(this.butPancreas3);
             this.Controls.Add(this.comPancreas3);
             this.Controls.Add(this.labPancreas2);
-            this.Controls.Add(this.butPancreas2);
-            this.Controls.Add(this.comPancreas2);
             this.Controls.Add(this.labPancreas1);
             this.Controls.Add(this.butPancreas1);
             this.Controls.Add(this.comPancreas1);
@@ -1354,8 +1005,6 @@ namespace WindowsFormsApp1.Forms
             this.Controls.Add(this.butGallbladder4);
             this.Controls.Add(this.comGallbladder4);
             this.Controls.Add(this.labGallbladder3);
-            this.Controls.Add(this.butGallbladder3);
-            this.Controls.Add(this.comGallbladder3);
             this.Controls.Add(this.labGallbladder2);
             this.Controls.Add(this.butGallbladder2);
             this.Controls.Add(this.comGallbladder2);
@@ -1390,8 +1039,6 @@ namespace WindowsFormsApp1.Forms
             this.Controls.Add(this.butLiver5);
             this.Controls.Add(this.comLiver5);
             this.Controls.Add(this.labLiver4);
-            this.Controls.Add(this.butLiver4);
-            this.Controls.Add(this.comLiver4);
             this.Controls.Add(this.labLiver3);
             this.Controls.Add(this.butLiver3);
             this.Controls.Add(this.comLiver3);
@@ -1402,7 +1049,6 @@ namespace WindowsFormsApp1.Forms
             this.Controls.Add(this.butLiver1);
             this.Controls.Add(this.comLiver1);
             this.Name = "Abdominal";
-            this.Text = "Abdominal";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1462,8 +1108,6 @@ namespace WindowsFormsApp1.Forms
         private System.Windows.Forms.Button butPancreas3;
         private System.Windows.Forms.ComboBox comPancreas3;
         private System.Windows.Forms.Label labPancreas2;
-        private System.Windows.Forms.Button butPancreas2;
-        private System.Windows.Forms.ComboBox comPancreas2;
         private System.Windows.Forms.Label labPancreas1;
         private System.Windows.Forms.Button butPancreas1;
         private System.Windows.Forms.ComboBox comPancreas1;
@@ -1477,8 +1121,6 @@ namespace WindowsFormsApp1.Forms
         private System.Windows.Forms.Button butGallbladder4;
         private System.Windows.Forms.ComboBox comGallbladder4;
         private System.Windows.Forms.Label labGallbladder3;
-        private System.Windows.Forms.Button butGallbladder3;
-        private System.Windows.Forms.ComboBox comGallbladder3;
         private System.Windows.Forms.Label labGallbladder2;
         private System.Windows.Forms.Button butGallbladder2;
         private System.Windows.Forms.ComboBox comGallbladder2;
@@ -1513,8 +1155,6 @@ namespace WindowsFormsApp1.Forms
         private System.Windows.Forms.Button butLiver5;
         private System.Windows.Forms.ComboBox comLiver5;
         private System.Windows.Forms.Label labLiver4;
-        private System.Windows.Forms.Button butLiver4;
-        private System.Windows.Forms.ComboBox comLiver4;
         private System.Windows.Forms.Label labLiver3;
         private System.Windows.Forms.Button butLiver3;
         private System.Windows.Forms.ComboBox comLiver3;
@@ -1529,5 +1169,28 @@ namespace WindowsFormsApp1.Forms
         private System.Windows.Forms.ComboBox comLiver1;
         private System.Windows.Forms.Button ButtonSave;
         private System.Windows.Forms.Label Gallbladder;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label Additionally;
+        private System.Windows.Forms.Label Conclusion;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox checkBox2;
     }
 }
