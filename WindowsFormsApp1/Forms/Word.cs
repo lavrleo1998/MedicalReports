@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ODF;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,6 +14,11 @@ namespace WindowsFormsApp1
         public Word()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Class1.SaveODF();
         }
     }
 }

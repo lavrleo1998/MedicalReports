@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ODF\ODF.csproj" />
     <ProjectReference Include="..\Services\Services.csproj" />
   </ItemGroup>
 
