@@ -18,7 +18,6 @@ namespace Services
         //    this.ParamProvider = ParamProvider;
         //    this.OrganService = OrganService;
         //    this.TemplateService = TemplateService;
-
         //}
 
         private readonly IParamProvider ParamProvider;

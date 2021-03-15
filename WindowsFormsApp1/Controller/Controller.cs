@@ -24,15 +24,17 @@ namespace WindowsFormsApp1
         }
 
 
-        public static List<Label> LabelList(string organName, int myLocationX, int myLocationY)
+        public static (List<Label>,int) LabelList(string organName, int myLocationX, int myLocationY)
         {
             var paramList = ParamContr.GetParamsByOrgan(organName);
             var labelList = new List<Label>();
             foreach (var item in paramList)
             {
-                labelList.Add(Controller.NewLabel(myLocationX, myLocationY+=25, item.Name));
+                labelList.Add(Controller.NewLabel(myLocationX, myLocationY += 25, item.Name));
             }
-            return labelList;
+
+            var result = (labelList, myLocationY);
+            return result;
         }
 
         public static List<ComboBox> ComboBoxList(string organName, int myLocationX, int myLocationY)
@@ -75,7 +77,7 @@ namespace WindowsFormsApp1
         {
 
             var newButton = new Button();
-            newButton.Location = new Point(myLocationX + 10, myLocationY + 25);
+            newButton.Location = new Point(myLocationX, myLocationY);
             newButton.Enabled = true;
             newButton.Visible = true;
             newButton.Name = $"{butText}ButName";
@@ -89,11 +91,11 @@ namespace WindowsFormsApp1
         {
 
             var newComboBox = new ComboBox();
-            newComboBox.Location = new Point(myLocationX + 10, myLocationY + 25);
+            newComboBox.Location = new Point(myLocationX, myLocationY);
             newComboBox.Enabled = true;
             newComboBox.Visible = true;
             newComboBox.Name = $"{name}ComboName";
-            newComboBox.Size = new Size(75, 23);
+            newComboBox.Size = new Size(500, 23);
             return newComboBox;
         }
 

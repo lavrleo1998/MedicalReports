@@ -303,10 +303,5 @@ namespace WindowsFormsApp1.Forms
         {
             Controller.NewTempl(labConclusion, comConclusion.Text, labConclusion);
         }
-
-        private void Abdominal_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

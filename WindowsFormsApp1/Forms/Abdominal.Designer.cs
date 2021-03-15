@@ -1050,7 +1050,6 @@ namespace WindowsFormsApp1.Forms
             this.Controls.Add(this.butLiver1);
             this.Controls.Add(this.comLiver1);
             this.Name = "Abdominal";
-            this.Load += new System.EventHandler(this.Abdominal_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
