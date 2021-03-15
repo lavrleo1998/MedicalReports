@@ -35,21 +35,23 @@ namespace WindowsFormsApp1
             return labelList;
         }
 
-        public static List<ComboBox> ComboBoxList(string paramName, string organName, int myLocationX, int myLocationY)
+        public static List<ComboBox> ComboBoxList(string organName, int myLocationX, int myLocationY)
         {
-            var paramList = TemplContr.GiveMeTemplTexts(paramId);
             var comboBoxList = new List<ComboBox>();
-            foreach (var item in paramList)
+
+            var paramList = ParamContr.GetParamsByOrgan(organName);
+            
+            foreach (var param in paramList)
             {
-                var oneComboBox = Controller.NewComboBox(myLocationX, myLocationY += 25, item);
-
-                var protParmId = ParamContr.FindParamByName2(organName, paramName);
+                var protParmId = ParamContr.FindParamByName2(organName, param.Name);
                 var texts = TemplContr.GiveMeTemplTexts(protParmId);
-                oneComboBox.DataSource = texts;
-                oneComboBox.DisplayMember = "Name";
-                oneComboBox.ValueMember = "";
 
-                comboBoxList.Add(oneComboBox);
+                var newComboBox = Controller.NewComboBox(myLocationX, myLocationY += 25, param.Name);
+                newComboBox.DataSource = texts;
+                newComboBox.DisplayMember = "Name";
+                newComboBox.ValueMember = "";
+
+                comboBoxList.Add(newComboBox);
             }
             return comboBoxList;
         }
@@ -83,14 +85,14 @@ namespace WindowsFormsApp1
             return newButton;
         }
 
-        public static ComboBox NewComboBox(int myLocationX, int myLocationY, string butText)
+        public static ComboBox NewComboBox(int myLocationX, int myLocationY, string name)
         {
 
             var newComboBox = new ComboBox();
             newComboBox.Location = new Point(myLocationX + 10, myLocationY + 25);
             newComboBox.Enabled = true;
             newComboBox.Visible = true;
-            newComboBox.Name = $"{butText}ButName";
+            newComboBox.Name = $"{name}ComboName";
             newComboBox.Size = new Size(75, 23);
             return newComboBox;
         }

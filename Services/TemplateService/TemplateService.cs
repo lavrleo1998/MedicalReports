@@ -9,13 +9,34 @@ namespace Services
 {
     public class TemplateService : ITemplateService
     {
+        //private readonly ITemplateProvider TemplateProvider;
+        //private readonly IParamService ParamService;
+        //public TemplateService(ITemplateProvider TemplateProvider, IParamService ParamService)
+        //{
+        //    this.TemplateProvider = TemplateProvider;
+        //    this.ParamService = ParamService;
+        //}
+
+
+
         private readonly ITemplateProvider TemplateProvider;
-        private readonly IParamService ParamService;
-        public TemplateService(ITemplateProvider TemplateProvider, IParamService ParamService)
+        public TemplateService(ITemplateProvider templateProvider)
         {
-            this.TemplateProvider = TemplateProvider;
-            this.ParamService = ParamService;
+            TemplateProvider = templateProvider;
         }
+        /// <summary>
+        /// Глобальные переменные
+        /// </summary>
+        private static readonly ServiceProvider scope = Installer.Init();
+        private static readonly IParamService ParamService = scope.GetRequiredService<IParamService>();
+
+
+
+
+
+
+
+
 
         /// <summary>
         /// Функция создания нового шаблона.
@@ -77,7 +98,7 @@ namespace Services
                 .GetAll()
                 .Where(x => x.Id == TemplateId)
                 .FirstOrDefault();
-                //?? throw new Exception("Шаблон не найдет");
+            //?? throw new Exception("Шаблон не найдет");
             return template;
         }
 
@@ -90,7 +111,7 @@ namespace Services
         public List<Template> GetAll(long paramId)
         {
             List<Template> templates = ParamService.GetWhisTemplate(paramId);
-                //?? throw new Exception("Шаблон не найдет");
+            //?? throw new Exception("Шаблон не найдет");
             return templates;
         }
 

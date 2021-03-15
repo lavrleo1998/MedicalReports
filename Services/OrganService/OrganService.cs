@@ -10,13 +10,28 @@ namespace Services
 {
     class OrganService : IOrganService
     {
-        private readonly IOrganProvider OrganProvider;
-        private readonly IParamService ParamService;
-        public OrganService(IOrganProvider OrganProvider, IParamService ParamService)
+        //private readonly IOrganProvider OrganProvider;
+        //private readonly IParamService ParamService;
+        //public OrganService(IOrganProvider OrganProvider, IParamService ParamService)
+        //{
+        //    this.OrganProvider = OrganProvider;
+        //    this.ParamService = ParamService;
+        //}
+
+
+
+        private IOrganProvider OrganProvider;
+        public OrganService(IOrganProvider organProvider)
         {
-            this.OrganProvider = OrganProvider;
-            this.ParamService = ParamService;
+               this.OrganProvider = organProvider;
         }
+        private static readonly ServiceProvider scope = Installer.Init();
+        private static readonly IParamService ParamService = scope.GetRequiredService<IParamService>();
+
+
+
+
+
 
         public void Create(string name)
         {

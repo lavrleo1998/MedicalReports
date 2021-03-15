@@ -10,16 +10,26 @@ namespace Services
 {
     class ParamService : IParamService
     {
+        //private readonly IParamProvider ParamProvider;
+        //private readonly ITemplateService TemplateService;
+        //private readonly IOrganService OrganService;
+        //public ParamService(IParamProvider ParamProvider, IOrganService OrganService, ITemplateService TemplateService)
+        //{
+        //    this.ParamProvider = ParamProvider;
+        //    this.OrganService = OrganService;
+        //    this.TemplateService = TemplateService;
+
+        //}
+
         private readonly IParamProvider ParamProvider;
-        private readonly ITemplateService TemplateService;
-        private readonly IOrganService OrganService;
-        public ParamService(IParamProvider ParamProvider, IOrganService OrganService, ITemplateService TemplateService)
+        public ParamService(IParamProvider ParamProvider)
         {
             this.ParamProvider = ParamProvider;
-            this.OrganService = OrganService;
-            this.TemplateService = TemplateService;
-
         }
+        private static readonly ServiceProvider scope = Installer.Init();
+        private static readonly ITemplateService TemplateService = scope.GetRequiredService<ITemplateService>();
+        private static readonly IOrganService OrganService = scope.GetRequiredService<IOrganService>();
+
 
 
         /// <summary>
