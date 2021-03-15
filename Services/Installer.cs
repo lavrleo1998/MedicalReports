@@ -20,13 +20,12 @@ namespace Services
         }
 
 
-        //вариант для asp.net
-        public static void AddBuisnessServices(this IServiceCollection container)
-        {
-            container
-                .AddDbContext<AppDbContext>()
-                ;
-            ///в asp.net не нужно возвращать контейнер(((
-        }
+        ////вариант для asp.net в asp.net не нужно возвращать контейнер
+        //public static void AddBuisnessServices(this IServiceCollection container)
+        //{
+        //    container
+        //        .AddDbContext<AppDbContext>()
+        //        ;
+        //}
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ODF;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -25,6 +26,15 @@ namespace WindowsFormsApp1.Forms
         private void butSave_Click(object sender, EventArgs e)
         {
             string TestText = "";
+            
+            var PT = new List<string>();
+            var organ = Liver.Text;
+            PT.Add($"{labLiver1.Text}: {comLiver1.Text}");
+            PT.Add($"{labLiver2.Text}: {comLiver2.Text}");
+            PT.Add($"{labLiver3.Text}: {comLiver3.Text}");
+            PT.Add($"{labLiver5.Text}: {comLiver5.Text}");
+            PT.Add($"{labLiver6.Text}: {comLiver6.Text}");
+            Class1.SaveODF(organ, PT);
 
             TestText += $"{Surname.Text}: {SurnameValue.Text}\n";
             TestText += $"{NameL.Text}: {NameValue.Text}\n";
@@ -294,6 +304,9 @@ namespace WindowsFormsApp1.Forms
             Controller.NewTempl(labConclusion, comConclusion.Text, labConclusion);
         }
 
-        
+        private void Abdominal_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

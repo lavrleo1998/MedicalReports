@@ -10,8 +10,27 @@ namespace WindowsFormsApp1.Forms
 {
     public partial class Bladder : Form
     {
+        private int myLocationX = 10;
+        private int myLocationY = 10;
         public Bladder(string surname, string name, string patronym, string birthday, string gender)
         {
+            
+            
+            
+            //var newButton = Controller.NewButton(100, 100, "SDBvljsdnl");
+            //newButton.Click += new System.EventHandler(this.button_Click);
+            //this.Controls.Add(newButton);
+            //this.Controls.Add(Controller.NewLabel(100, 100, "SDBvljsdnl"));
+
+            foreach (var item in Controller.LabelList("Печень", myLocationX, myLocationY))
+            {
+                this.Controls.Add(item);
+            }
+            foreach (var item in Controller.ComboBoxList("Печень", myLocationX, myLocationY))
+            {
+                this.Controls.Add(item);
+            }
+
             InitializeComponent();
             /*
             this.Text = surname + " " + name + " " + patronym;
@@ -23,24 +42,10 @@ namespace WindowsFormsApp1.Forms
            */
 
         }
-
-        public void NewButton()
+        private void button_Click(object sender, EventArgs e)
         {
-            var newButton = new Button();
-            newButton.Location = new Point(100, 100);
-            newButton.Enabled = true;
-            newButton.Visible = true;
-            newButton.Name = "butsdfg1";
-            newButton.Size = new Size(75, 23);
-            newButton.TabIndex = 45;
-            newButton.Text = "bugdfgdhn1";
-            newButton.UseVisualStyleBackColor = true;
-            this.Controls.Add(newButton);
+
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            NewButton();
-        }
     }
 }

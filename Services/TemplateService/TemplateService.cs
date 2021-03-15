@@ -10,16 +10,12 @@ namespace Services
     public class TemplateService : ITemplateService
     {
         private readonly ITemplateProvider TemplateProvider;
-        public TemplateService(ITemplateProvider templateProvider)
+        private readonly IParamService ParamService;
+        public TemplateService(ITemplateProvider TemplateProvider, IParamService ParamService)
         {
-            TemplateProvider = templateProvider;
+            this.TemplateProvider = TemplateProvider;
+            this.ParamService = ParamService;
         }
-        /// <summary>
-        /// Глобальные переменные
-        /// </summary>
-        private static readonly ServiceProvider scope = Installer.Init();
-        private static readonly IParamService ParamService = scope.GetRequiredService<IParamService>();
-
 
         /// <summary>
         /// Функция создания нового шаблона.

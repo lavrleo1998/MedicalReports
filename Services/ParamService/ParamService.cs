@@ -11,16 +11,16 @@ namespace Services
     class ParamService : IParamService
     {
         private readonly IParamProvider ParamProvider;
-        public ParamService(IParamProvider paramProvider)
+        private readonly ITemplateService TemplateService;
+        private readonly IOrganService OrganService;
+        public ParamService(IParamProvider ParamProvider, IOrganService OrganService, ITemplateService TemplateService)
         {
-            ParamProvider = paramProvider;
+            this.ParamProvider = ParamProvider;
+            this.OrganService = OrganService;
+            this.TemplateService = TemplateService;
+
         }
-        /// <summary>
-        /// Глобальные переменные
-        /// </summary>
-        private static readonly ServiceProvider scope = Installer.Init();
-        private static readonly ITemplateService TemplateService = scope.GetRequiredService<ITemplateService>();
-        private static readonly IOrganService OrganService = scope.GetRequiredService<IOrganService>();
+
 
         /// <summary>
         /// Функция создания нового параметра. Требует на вход имя параметра.
@@ -56,7 +56,10 @@ namespace Services
             ParamProvider.SaveChanges();
         }
 
-
+        /// <summary>
+        /// Удаляет все параметры одного органа
+        /// </summary>
+        /// <param name="organId"></param>
         public void RemoveAll(long organId)
         {
             List<Param> paramS = OrganService.GetWhisParams(organId)
@@ -97,6 +100,21 @@ namespace Services
                 .FirstOrDefault()
                 ?? throw new Exception("Параметр не найдет");
             return param;
+        }
+
+        /// <summary>
+        /// Возвращает все параметры одного органа по номеру Органа
+        /// </summary>
+        /// <param name="organId"></param>
+        /// <returns></returns>
+        public List<Param> GetAllByOrgan(long organId)
+        {
+            var paramList = ParamProvider
+                .GetAll()
+                .Where(x => x.OrganId == organId)
+                .Select(x => x).ToList()
+                ?? throw new Exception("Параметр не найдет");
+            return paramList;
         }
 
         /// <summary>

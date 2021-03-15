@@ -8,6 +8,7 @@ namespace Services
         void Create(string name);
         Param GetById(long paramId);
         Param GetByNameAndOrganId(string name, long organId);
+        List<Param> GetAllByOrgan(long organId);
         List<Template> GetWhisTemplate(long paramId);
         void Remove(long paramId);
         void RemoveAll(long organIdd);

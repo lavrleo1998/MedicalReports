@@ -165,9 +165,10 @@ namespace WindowsFormsApp1.Forms
             // 
             // butSave
             // 
+            this.butSave.BackColor = System.Drawing.Color.GreenYellow;
             resources.ApplyResources(this.butSave, "butSave");
             this.butSave.Name = "butSave";
-            this.butSave.UseVisualStyleBackColor = true;
+            this.butSave.UseVisualStyleBackColor = false;
             this.butSave.Click += new System.EventHandler(this.butSave_Click);
             // 
             // textBox1
@@ -1049,6 +1050,7 @@ namespace WindowsFormsApp1.Forms
             this.Controls.Add(this.butLiver1);
             this.Controls.Add(this.comLiver1);
             this.Name = "Abdominal";
+            this.Load += new System.EventHandler(this.Abdominal_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

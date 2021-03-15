@@ -11,15 +11,12 @@ namespace Services
     class OrganService : IOrganService
     {
         private readonly IOrganProvider OrganProvider;
-        public OrganService(IOrganProvider organProvider)
+        private readonly IParamService ParamService;
+        public OrganService(IOrganProvider OrganProvider, IParamService ParamService)
         {
-            OrganProvider = organProvider;
+            this.OrganProvider = OrganProvider;
+            this.ParamService = ParamService;
         }
-        /// <summary>
-        /// Глобальные переменные
-        /// </summary>
-        private static readonly ServiceProvider scope = Installer.Init();
-        private static readonly IParamService paramService = scope.GetRequiredService<IParamService>();
 
         public void Create(string name)
         {
@@ -38,7 +35,7 @@ namespace Services
                 .Where(x => x.Id == organId)
                 .FirstOrDefault()
                 ?? throw new Exception("Орган не найден");
-            paramService.RemoveAll(organId);
+            ParamService.RemoveAll(organId);
             OrganProvider.Remove(organ);
             OrganProvider.SaveChanges();
         }

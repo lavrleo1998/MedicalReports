@@ -18,7 +18,14 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Class1.SaveODF();
+            var d = new List<string>();
+            d.Add("Параметр" + ": " +"Шаблон");
+            d.Add("Параметр2" + ": " + "Шаблон");
+            d.Add("Параметр3" + ": " + "Шаблон");
+            d.Add("Параметр4" + ": " + "Шаблон");
+            d.Add("Параметр5" + ": " + "Шаблон");
+            d.Add("Параметр6" + ": " + "Шаблон");
+            Class1.SaveODF("Орган",d);
         }
     }
 }

@@ -66,7 +66,7 @@
     <value>0, 2032</value>
   </data>
   <data name="butSave.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>1384, 50</value>
+    <value>1333, 50</value>
   </data>
   <assembly alias="System.Private.CoreLib" name="System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" />
   <data name="butSave.TabIndex" type="System.Int32, System.Private.CoreLib">
@@ -3650,7 +3650,7 @@
     <value>True</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>1401, 711</value>
+    <value>1350, 711</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Abdominal</value>

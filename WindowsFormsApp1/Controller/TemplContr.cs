@@ -11,7 +11,6 @@ namespace WindowsFormsApp1
         private static readonly ServiceProvider scope = Installer.Init();
         private static readonly ITemplateService templateService = scope.GetRequiredService<ITemplateService>();
 
-        
         public static void Add(string text, long protParmId)
         {
              templateService.Create(text, protParmId);
