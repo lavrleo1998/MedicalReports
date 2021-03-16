@@ -3,5 +3,7 @@
 namespace Repository
 {
     public interface IOrganProvider : IRepository<Organ>
-    { }
+    {
+        
+    }
 }

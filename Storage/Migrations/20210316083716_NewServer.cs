@@ -2,7 +2,7 @@
 
 namespace Storage.Migrations
 {
-    public partial class sojfnsfkl : Migration
+    public partial class NewServer : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

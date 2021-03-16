@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace Domain
 {
-    public class MedicalRecord
+    public class MedicalRecord : PersistentObject
     {
 
         public virtual ICollection<Exam> Exams { get; set; }
