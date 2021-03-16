@@ -39,7 +39,8 @@ namespace Services
         {
             var param = new Param
             {
-                Name = name
+                Name = name,
+                IsDeleted = false
             };
             ParamProvider.Create(param);
             ParamProvider.SaveChanges();

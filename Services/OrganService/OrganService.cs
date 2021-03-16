@@ -20,14 +20,14 @@ namespace Services
 
 
 
-        private IOrganProvider OrganProvider;
+        private readonly IOrganProvider OrganProvider;
         public OrganService(IOrganProvider organProvider)
         {
                this.OrganProvider = organProvider;
         }
         private static readonly ServiceProvider scope = Installer.Init();
         private static readonly IParamService ParamService = scope.GetRequiredService<IParamService>();
-
+        private static readonly IExamService ExamService = scope.GetRequiredService<IExamService>();
 
 
 
@@ -37,7 +37,8 @@ namespace Services
         {
             var organ = new Organ
             {
-                Name = name
+                Name = name,
+                IsDeleted = false
             };
             OrganProvider.Create(organ);
             OrganProvider.SaveChanges();
@@ -52,6 +53,17 @@ namespace Services
                 ?? throw new Exception("Орган не найден");
             ParamService.RemoveAll(organId);
             OrganProvider.Remove(organ);
+            OrganProvider.SaveChanges();
+        }
+
+        public void RemoveAll(long examId)
+        {
+            List<Organ> organs = ExamService.GetOrgans(examId)
+                ?? throw new Exception("Исследование с органами не найдено");
+            foreach (var organ in organs)
+            {
+                this.Remove(organ.Id);
+            }
             OrganProvider.SaveChanges();
         }
 
@@ -73,6 +85,16 @@ namespace Services
                 .FirstOrDefault()
                 ?? throw new Exception("Орган не найден");
             return organ;
+        }
+
+        public List<Organ> GetAllByExam(long examId)
+        {
+            var organList = OrganProvider
+                .GetAll()
+                .Where(x => x.ExamId == examId)
+                .Select(x => x).ToList()
+                ?? throw new Exception("Параметр не найдет");
+            return organList;
         }
 
         public List<Param> GetWhisParams(long organId)

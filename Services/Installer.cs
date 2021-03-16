@@ -15,7 +15,9 @@ namespace Services
                 .AddScoped<ITemplateService, TemplateService>()
                 .AddScoped<ITemplateProvider, TemplateProvider>()
                 .AddScoped<IOrganService, OrganService>()
-                .AddScoped<IOrganProvider, OrganProvider>();
+                .AddScoped<IOrganProvider, OrganProvider>()
+                .AddScoped<IExamProvider, ExamProvider>()
+                .AddScoped<IExamService, ExamService>();
             return serviceConllection.BuildServiceProvider();
         }
 

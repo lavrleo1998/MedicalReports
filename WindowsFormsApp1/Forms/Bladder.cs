@@ -32,19 +32,25 @@ namespace WindowsFormsApp1.Forms
         private void akjdslkn()
         {
 
-            var tuple = Controller.LabelList("Печень", myLocationX, myLocationY);
 
-            foreach (var item in tuple.Item1)
+            foreach (var organ in Controller.OrgansList(1))
             {
-                this.Controls.Add(item);
+                var tuple = Controller.LabelList(organ.Name, myLocationX, myLocationY);
 
-            }
-            foreach (var item in Controller.ComboBoxList("Печень", myLocationX + 250, myLocationY))
-            {
-                this.Controls.Add(item);
+                foreach (var item in tuple.Item1)
+                {
+                    this.Controls.Add(item);
+
+                }
+                foreach (var item in Controller.ComboBoxList(organ.Name, myLocationX + 250, myLocationY))
+                {
+                    this.Controls.Add(item);
+                }
+
+                myLocationY = tuple.Item2 + 40;
             }
 
-            myLocationY = tuple.Item2 + 40;
+            
         }
 
 

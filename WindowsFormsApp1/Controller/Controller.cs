@@ -1,4 +1,6 @@
 ﻿using Domain;
+using Microsoft.Extensions.DependencyInjection;
+using Services;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
@@ -7,6 +9,8 @@ namespace WindowsFormsApp1
 {
     public static class Controller
     {
+        private static readonly ServiceProvider scope = Installer.Init();
+        private static readonly IOrganService OrganService = scope.GetRequiredService<IOrganService>();
 
         public static void FillIn(Label organName, Label param, ComboBox templ)
         {
@@ -22,6 +26,15 @@ namespace WindowsFormsApp1
             var protParmId = ParamContr.FindParamByName(organName, label);
             TemplContr.Add(text, protParmId);
         }
+
+
+
+        public static List<Organ> OrgansList(int examId)
+        {
+            var organList = OrganService.GetAllByExam(examId);
+            return organList;
+        }
+
 
 
         public static (List<Label>,int) LabelList(string organName, int myLocationX, int myLocationY)
@@ -48,7 +61,7 @@ namespace WindowsFormsApp1
                 var protParmId = ParamContr.FindParamByName2(organName, param.Name);
                 var texts = TemplContr.GiveMeTemplTexts(protParmId);
 
-                var newComboBox = Controller.NewComboBox(myLocationX, myLocationY += 25, param.Name);
+                var newComboBox = NewComboBox(myLocationX, myLocationY += 25, param.Name);
                 newComboBox.DataSource = texts;
                 newComboBox.DisplayMember = "Name";
                 newComboBox.ValueMember = "";
@@ -62,40 +75,46 @@ namespace WindowsFormsApp1
 
         public static Label NewLabel(int myLocationX, int myLocationY, string labText)
         {
-            var newLabel = new Label();
-            newLabel.Location = new Point(myLocationX, myLocationY);
-            newLabel.Enabled = true;
-            newLabel.Visible = true;
-            newLabel.Name = $"{labText}LabName";
-            newLabel.AutoSize = true;
-            //newLabel.Size = new Size(75, 23);
-            newLabel.Text = labText;
+            var newLabel = new Label
+            {
+                Location = new Point(myLocationX, myLocationY),
+                Enabled = true,
+                Visible = true,
+                Name = $"{labText}LabName",
+                AutoSize = true,
+                //newLabel.Size = new Size(75, 23);
+                Text = labText
+            };
             return newLabel;
         }
 
         public static Button NewButton(int myLocationX, int myLocationY, string butText)
         {
 
-            var newButton = new Button();
-            newButton.Location = new Point(myLocationX, myLocationY);
-            newButton.Enabled = true;
-            newButton.Visible = true;
-            newButton.Name = $"{butText}ButName";
-            newButton.Size = new Size(75, 23);
-            newButton.Text = butText;
-            newButton.UseVisualStyleBackColor = true;
+            var newButton = new Button
+            {
+                Location = new Point(myLocationX, myLocationY),
+                Enabled = true,
+                Visible = true,
+                Name = $"{butText}ButName",
+                Size = new Size(75, 23),
+                Text = butText,
+                UseVisualStyleBackColor = true
+            };
             return newButton;
         }
 
         public static ComboBox NewComboBox(int myLocationX, int myLocationY, string name)
         {
 
-            var newComboBox = new ComboBox();
-            newComboBox.Location = new Point(myLocationX, myLocationY);
-            newComboBox.Enabled = true;
-            newComboBox.Visible = true;
-            newComboBox.Name = $"{name}ComboName";
-            newComboBox.Size = new Size(500, 23);
+            var newComboBox = new ComboBox
+            {
+                Location = new Point(myLocationX, myLocationY),
+                Enabled = true,
+                Visible = true,
+                Name = $"{name}ComboName",
+                Size = new Size(500, 23)
+            };
             return newComboBox;
         }
 
