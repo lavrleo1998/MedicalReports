@@ -10,6 +10,8 @@ namespace Domain
     public class Organ : PersistentObject
     {
         public string Name { get; set; }
+        public long ExamId { get; set; }
+        public Exam Exam { get; set; }
         public virtual ICollection<Param> Params { get; set; }
         public Organ()
         {
